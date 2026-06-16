@@ -126,7 +126,16 @@ async function fetchMarketQuote(symbol, reportDate) {
   try {
     const chartQuote = await fetchYahooChart(symbol, reportDate);
     const pageQuote = await fetchYahooQuotePage(symbol);
-    const merged = mergeQuoteData(chartQuote, pageQuote);
+    let merged = mergeQuoteData(chartQuote, pageQuote);
+    if (!merged.marketCap && /^\d{6}\.KS$/i.test(symbol)) {
+      try {
+        const naverQuote = await fetchNaverKoreaQuote(symbol);
+        merged = mergeQuoteData(merged, naverQuote);
+      } catch (naverError) {
+        merged.source_attempts = [...(merged.source_attempts || []), `naver_stock: ${naverError.message}`];
+        merged.warnings = [...(merged.warnings || []), `Naver stock fallback failed: ${naverError.message}`];
+      }
+    }
     merged.source_attempts = [...attempts, ...(merged.source_attempts || [])];
     return merged;
   } catch (error) {
@@ -139,6 +148,30 @@ async function fetchMarketQuote(symbol, reportDate) {
   } catch (error) {
     throw new Error([...attempts, `stooq_fallback: ${error.message}`].join('; '));
   }
+}
+
+async function fetchNaverKoreaQuote(symbol) {
+  const code = String(symbol || '').match(/^(\d{6})\.KS$/i)?.[1];
+  if (!code) return { source_attempts: ['naver_stock: unsupported symbol'], warnings: [] };
+  const url = `https://m.stock.naver.com/api/stock/${code}/integration`;
+  const response = await fetch(url, {
+    headers: {
+      'user-agent': 'Mozilla/5.0 PortMgmt/0.1',
+      'accept': 'application/json,text/plain,*/*',
+    },
+  });
+  if (!response.ok) return { source: 'naver_stock', source_attempts: [`naver_stock: HTTP ${response.status}`], warnings: [`Naver stock HTTP ${response.status}`] };
+  const payload = await response.json();
+  const totalInfos = Array.isArray(payload.totalInfos) ? payload.totalInfos : [];
+  const marketValueText = totalInfos.find((item) => item.code === 'marketValue' || item.key === '시총')?.value || null;
+  const marketCap = parseKoreanMarketCap(marketValueText);
+  return {
+    marketCap,
+    marketCapDisplay: marketCap ? `${formatMarketCap(marketCap)} KRW` : null,
+    source: 'naver_stock',
+    source_attempts: ['naver_stock: ok'],
+    warnings: marketCap ? [] : ['marketCap missing from Naver stock endpoint'],
+  };
 }
 
 async function fetchEastmoneyQuote(symbol, reportDate) {
@@ -354,7 +387,7 @@ function mergeQuoteData(chartQuote, pageQuote) {
     marketCapDisplay: pageQuote.marketCapDisplay ?? chartQuote.marketCapDisplay,
     peTrailing: pageQuote.peTrailing ?? chartQuote.peTrailing,
     beta: pageQuote.beta ?? chartQuote.beta,
-    source: [chartQuote.source, 'yahoo_quote_page'].filter(Boolean).join('+'),
+    source: [chartQuote.source, pageQuote.source || 'yahoo_quote_page'].filter(Boolean).join('+'),
     source_attempts: [...(chartQuote.source_attempts || []), ...(pageQuote.source_attempts || [])],
     warnings: [...(chartQuote.warnings || []), ...(pageQuote.warnings || [])],
   };
@@ -481,6 +514,21 @@ function parseMarketCap(value) {
   const unit = (match[2] || '').toUpperCase();
   const factor = unit === 'T' ? 1e12 : unit === 'B' ? 1e9 : unit === 'M' ? 1e6 : unit === 'K' ? 1e3 : 1;
   return Math.round(Number(match[1]) * factor);
+}
+
+function parseKoreanMarketCap(value) {
+  const clean = String(value || '').replace(/,/g, '').trim();
+  if (!clean) return null;
+  let total = 0;
+  const trillion = clean.match(/(-?\d+(?:\.\d+)?)\s*조/);
+  const hundredMillion = clean.match(/(-?\d+(?:\.\d+)?)\s*억/);
+  const tenThousand = clean.match(/(-?\d+(?:\.\d+)?)\s*만/);
+  if (trillion) total += Number(trillion[1]) * 1e12;
+  if (hundredMillion) total += Number(hundredMillion[1]) * 1e8;
+  if (tenThousand && !hundredMillion && !trillion) total += Number(tenThousand[1]) * 1e4;
+  if (total) return Math.round(total);
+  const numeric = Number(clean);
+  return Number.isFinite(numeric) ? numeric : null;
 }
 
 function firstTradingIndexOfYear(dates, reportDate) {

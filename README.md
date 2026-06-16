@@ -256,15 +256,18 @@ npm run build-site
    - `REPORT_TZ`：默认 `Asia/Shanghai`。
    - `REPORT_HOUR`：默认 `8`，可用逗号设置多个本地小时，例如 `8,21`。
    - `REPORT_DAYS`：默认 `*`，可设为 `1-5` 只跑工作日。
-4. 手动触发 `Portfolio Management Report` workflow，首次成功后会创建 `gh-pages` 分支。
-5. 在 Settings -> Pages 中选择 `Deploy from a branch`，分支选 `gh-pages`，目录选 `/ (root)`。
-6. 访问：
+4. 如需 DailyBrief 风格静态加密，在 Actions Secrets 中设置 `PORTMGMT_PASSWORD`；可选 Variable `PORTMGMT_REMEMBER_DAYS` 默认 `45`。
+5. 手动触发 `Portfolio Management Report` workflow，首次成功后会创建 `gh-pages` 分支。
+6. 在 Settings -> Pages 中选择 `Deploy from a branch`，分支选 `gh-pages`，目录选 `/ (root)`。
+7. 访问：
 
 ```text
 https://<username>.github.io/<repo>/
 ```
 
 workflow 参照 DailyBrief 的发布方式：cron 每小时多次触发，但先由 gate 任务按 `REPORT_TZ` / `REPORT_HOUR` / `REPORT_DAYS` 判断是否真正运行；手动触发和 push 到 `main` 会跳过 gate 并立即生成。构建会先从 `gh-pages` 恢复旧的 `portfolio_reports` 历史目录，再运行公开数据更新、行情刷新、渲染、质量校验，最后把整个 `portfolio_reports` 发布到 `gh-pages`。
+
+`PORTMGMT_PASSWORD` 开启后，发布前会把 `index.html`、`archive.html` 和每日归档 HTML 用 AES-GCM 包成静态解锁页，并写入 `robots.txt` 禁止索引。密码只在浏览器本地用于解密，不会发送到服务器；这是轻量访问门，不替代真正的服务端认证。
 
 GitHub runner 无法访问本机 Obsidian vault，因此 CI 中会把 Obsidian 扫描降级为 not_available；页面仍会使用仓库内的 profile、supplemental、公开 enrichment、行情缓存和财务/估值/Capex 数据生成。外部 API key 应放 GitHub Actions Secrets，非秘密配置放 Variables。
 

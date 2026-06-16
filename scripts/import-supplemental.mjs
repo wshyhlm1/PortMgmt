@@ -15,6 +15,7 @@ import {
 } from './shared.mjs';
 
 const FILES = [
+  ['structured', 'portmgmt_structured_data.json'],
   ['ai_models', 'ai_models.json'],
   ['us_tech_capex', 'us_tech_capex.json'],
   ['china_tech_capex', 'china_tech_capex.json'],
@@ -38,15 +39,22 @@ async function main() {
 
   const inputs = [];
   const missingInputs = [];
+  let hasStructuredInput = false;
   for (const [kind, fileName] of FILES) {
-    const file = await findInput(fileName, env);
+    const repoOnly = hasStructuredInput && kind !== 'structured';
+    const file = await findInput(fileName, env, { repoOnly });
     if (!file) {
       missingInputs.push(fileName);
       continue;
     }
     const payload = await readJson(file, []);
-    inputs.push({ kind, file, rows: rowsFromPayload(payload, kind) });
+    const rows = rowsFromPayload(payload, kind);
+    inputs.push({ kind, file, rows });
+    if (kind === 'structured' && rows.length) hasStructuredInput = true;
   }
+  const missingSupplementalInputs = hasStructuredInput
+    ? missingInputs.filter((file) => file === 'portmgmt_structured_data.json')
+    : missingInputs;
 
   const facts = dedupeBy(
     inputs
@@ -78,7 +86,7 @@ async function main() {
       source_file: relativeOrAbsolute(input.file),
       rows: input.rows.length,
     })),
-    missing_inputs: missingInputs,
+    missing_inputs: missingSupplementalInputs,
   };
 
   await ensureDir(PATHS.data);
@@ -88,7 +96,7 @@ async function main() {
   await writeJson(path.join(PATHS.data, 'company_gaps.json'), { meta, gaps });
 
   console.log(`Imported supplemental data: ${facts.length} facts, ${supplementalModels.length} model rows, ${supplementalCapex.length} capex rows.`);
-  if (missingInputs.length) console.warn(`Missing supplemental file(s): ${missingInputs.join(', ')}`);
+  if (missingSupplementalInputs.length) console.warn(`Missing supplemental file(s): ${missingSupplementalInputs.join(', ')}`);
 }
 
 async function loadLocalEnv() {
@@ -108,12 +116,12 @@ async function loadLocalEnv() {
   }
 }
 
-async function findInput(fileName, env = {}) {
+async function findInput(fileName, env = {}, options = {}) {
   const supplementalDir = process.env.PORTMGMT_SUPPLEMENTAL_DIR || env.PORTMGMT_SUPPLEMENTAL_DIR || '';
   const candidates = [
     path.join(PATHS.data, 'supplemental', fileName),
-    supplementalDir ? path.join(supplementalDir, fileName) : null,
-    path.join(PATHS.data, fileName),
+    options.repoOnly ? null : (supplementalDir ? path.join(supplementalDir, fileName) : null),
+    options.repoOnly ? null : path.join(PATHS.data, fileName),
   ].filter(Boolean);
   for (const candidate of candidates) {
     if (await pathExists(candidate)) return candidate;

@@ -31,14 +31,17 @@ portfolio_reports/<YYYY-MM-DD>/<YYYY-MM-DD>.md
    - Variables: `REPORT_TZ=Asia/Shanghai`
    - Variables: `REPORT_HOUR=8` 或 `8,21`
    - Variables: `REPORT_DAYS=*` 或 `1-5`
-4. Actions 中手动触发 `Portfolio Management Report`，首次成功后会创建 `gh-pages` 分支。
-5. Settings -> Pages -> Source 选择 `Deploy from a branch`。
-6. Branch 选择 `gh-pages`，目录选择 `/ (root)`。
-7. 访问 `https://<username>.github.io/<repo>/`。
+4. 如需静态密码门，Secrets 设置 `PORTMGMT_PASSWORD`；可选 Variables 设置 `PORTMGMT_REMEMBER_DAYS=45`。
+5. Actions 中手动触发 `Portfolio Management Report`，首次成功后会创建 `gh-pages` 分支。
+6. Settings -> Pages -> Source 选择 `Deploy from a branch`。
+7. Branch 选择 `gh-pages`，目录选择 `/ (root)`。
+8. 访问 `https://<username>.github.io/<repo>/`。
 
 外部 API key 放 GitHub Actions Secrets。非秘密配置，如 `REPORT_TZ`，放 GitHub Actions Variables。
 
 workflow 会先从 `gh-pages` 恢复历史 `portfolio_reports`，再跑公开数据 enrichment、财务历史、行情、渲染和 `validate-report`。发布目录只包含 `portfolio_reports/`，不会发布 `.env.local`、`uploads/` 或完整 `data/`。
+
+设置 `PORTMGMT_PASSWORD` 后，workflow 会在质量校验通过后加密所有发布 HTML，并写入 `robots.txt` 禁止索引。访问者输入共享密码后在浏览器本地解密，密码不会发送到 GitHub Pages。
 
 ## 自托管 nginx
 

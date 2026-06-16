@@ -47,7 +47,15 @@ export async function normalizeFinancialHistory() {
     source_note: 'Parsed from initial profile Markdown tables; merged into verified only when period, metric, display, unit and source_file are clear.',
     rows: profileRows,
   });
+  const supplementalRows = await supplementalFinancialRows(sourceRegistry.companies || []);
+  await writeJson(path.join(outputRoot, 'candidates', 'from_supplemental.json'), {
+    generated_at: new Date().toISOString(),
+    type: 'financial_history_supplemental_candidates',
+    source_note: 'Parsed from data/supplemental/portmgmt_structured_data.json financial_history and segment rows; merged only when metric, period, unit and source title are clear.',
+    rows: supplementalRows,
+  });
   rows.push(...profileRows);
+  rows.push(...supplementalRows);
   rows.push(...computedRows(rows));
   const deduped = dedupeRows(rows)
     .filter((row) => row.display && row.display !== '—' && row.source_title && row.source_url);
@@ -85,6 +93,130 @@ export async function normalizeFinancialHistory() {
   await writeJson(path.join(outputRoot, 'rejected', 'financial_history.json'), { rows: rejected });
   console.log(`Normalized financial history rows: ${deduped.length}; coverage tickers: ${coverage.length}.`);
   return payload;
+}
+
+async function supplementalFinancialRows(registryCompanies = []) {
+  const file = path.join(PATHS.data, 'supplemental', 'portmgmt_structured_data.json');
+  const payload = await readJson(file, []);
+  const sourceFile = relativeToRoot(file);
+  const rows = Array.isArray(payload) ? payload : payload?.rows || [];
+  const registryByKey = new Map(registryCompanies.map((item) => [tickerKey(item.ticker), item]));
+  return dedupeRows(rows
+    .filter((row) => row?.category === 'financial_history' || row?.category === 'segment')
+    .map((row) => supplementalFinancialRow(row, sourceFile, registryByKey))
+    .filter(Boolean));
+}
+
+function supplementalFinancialRow(row = {}, sourceFile, registryByKey) {
+  const metric = supplementalMetricKey(row.field);
+  const metricDef = METRICS.find((item) => item.key === metric);
+  if (!metricDef) return null;
+  const parsed = parseSupplementalFinancialValue(row.value, metricDef);
+  if (!parsed) return null;
+  const period = supplementalPeriod(row.period);
+  if (!period) return null;
+  const ticker = canonicalFinancialTicker(row.ticker, row.company, registryByKey);
+  const company = registryByKey.get(tickerKey(ticker))?.company || row.company || ticker;
+  const value = metric === 'capex' ? Math.abs(parsed.value) : parsed.value;
+  const display = metric === 'capex'
+    ? displayFor(metricDef, value, parsed.unit)
+    : displayFor(metricDef, value, parsed.unit);
+  if (!display || isDisplayMismatch(metricDef, display)) return null;
+  return {
+    ticker,
+    company,
+    metric,
+    metric_label: metricDef.label,
+    period: period.date,
+    period_label: period.label,
+    period_type: period.type,
+    fiscal_year: period.year,
+    fiscal_quarter: period.type === 'quarter' ? period.label : null,
+    value,
+    unit: parsed.unit,
+    display,
+    source_title: row.source_title || 'PortMgmt supplemental structured data',
+    source_url: row.source_url || sourceFile,
+    source_file: sourceFile,
+    source_metric_label: row.field || null,
+    source_raw_value: row.value ?? null,
+    source_unit_scale: null,
+    source_unit_hint: parsed.unit,
+    source_number: parsed.number,
+    as_of: new Date().toISOString().slice(0, 10),
+    confidence: String(row.confidence || 'medium').toLowerCase(),
+    source_form: 'supplemental_structured',
+    notes: row.notes || null,
+  };
+}
+
+function supplementalMetricKey(field = '') {
+  const text = compactWhitespace(field);
+  if (/Gross Profit/i.test(text)) return null;
+  if (/Revenue/i.test(text)) return 'revenue';
+  if (/Gross Margin/i.test(text)) return 'gross_margin';
+  if (/Operating Profit|Operating Income/i.test(text)) return 'operating_income';
+  if (/Operating Margin/i.test(text)) return 'operating_margin';
+  if (/Net Income/i.test(text)) return 'net_income';
+  if (/EPS/i.test(text)) return 'diluted_eps';
+  if (/Operating Cash Flow|OCF/i.test(text)) return 'operating_cash_flow';
+  if (/Free Cash Flow|FCF/i.test(text)) return 'free_cash_flow';
+  if (/Capex|Capital Expenditure/i.test(text)) return 'capex';
+  if (/Net Cash|Net Debt/i.test(text)) return 'net_cash_or_debt';
+  if (/Debt/i.test(text)) return 'debt';
+  if (/Cash/i.test(text)) return 'cash';
+  return null;
+}
+
+function parseSupplementalFinancialValue(raw = '', metricDef = {}) {
+  const text = compactWhitespace(raw);
+  const number = firstNumber(text);
+  if (!Number.isFinite(number)) return null;
+  if (metricDef.type === 'percent') return { number, value: number, unit: 'percent' };
+  const unit = supplementalUnit(text, metricDef);
+  if (!unit) return null;
+  return { number, value: number, unit };
+}
+
+function supplementalUnit(text = '', metricDef = {}) {
+  if (metricDef.type === 'per_share') {
+    if (/KRW|₩/i.test(text)) return 'KRW/share';
+    if (/TWD|NTD|NT\$/i.test(text)) return 'TWD/share';
+    if (/CNY|RMB|人民币|¥/i.test(text)) return 'CNY/share';
+    if (/EUR|€/i.test(text)) return 'EUR/share';
+    if (/USD|US\$|\$/i.test(text)) return 'USD/share';
+  }
+  if (/KRW|₩/i.test(text)) return 'KRW';
+  if (/TWD|NTD|NT\$/i.test(text)) return 'TWD';
+  if (/CNY|RMB|人民币|¥/i.test(text)) return 'CNY';
+  if (/EUR|€/i.test(text)) return 'EUR';
+  if (/USD|US\$|\$/i.test(text)) return 'USD';
+  if (metricDef.type === 'percent') return 'percent';
+  return null;
+}
+
+function supplementalPeriod(raw = '') {
+  const text = String(raw || '');
+  const quarter = text.match(/(?:FY)?(20\d{2})\s*Q([1-4])|Q([1-4])\s*(?:FY)?(20\d{2})/i);
+  if (quarter) {
+    const year = quarter[1] || quarter[4];
+    const q = quarter[2] || quarter[3];
+    const monthDay = { 1: '03-31', 2: '06-30', 3: '09-30', 4: '12-31' }[q];
+    return { type: 'quarter', year, label: `FY${year}Q${q}`, date: `${year}-${monthDay}` };
+  }
+  const year = text.match(/FY\s*(20\d{2})|^(20\d{2})$/i)?.[1] || text.match(/FY\s*(20\d{2})|^(20\d{2})$/i)?.[2] || text.match(/20\d{2}/)?.[0];
+  if (!year) return null;
+  return { type: 'annual', year, label: `FY${year}`, date: `${year}-12-31` };
+}
+
+function canonicalFinancialTicker(raw = '', company = '', registryByKey = new Map()) {
+  const text = String(raw || '').trim();
+  const upper = text.toUpperCase();
+  if (upper === '005930.KS' || /SAMSUNG/i.test(`${raw} ${company}`)) return 'Samsung';
+  if (upper === 'SKM' || upper === 'SKM.N' || /SK TELECOM/i.test(`${raw} ${company}`)) return 'SKM.N';
+  const direct = registryByKey.get(tickerKey(text));
+  if (direct) return direct.ticker;
+  return text;
 }
 
 async function profileFinancialRows(registryCompanies = []) {
@@ -484,6 +616,7 @@ function coverageRows(companies = [], rows = []) {
 
 function sourceFamily(row = {}) {
   if (/profile/i.test(row.source_form || row.source_title || row.source_file || '')) return 'profile_candidate';
+  if (/supplemental|database|Alpha派/i.test(`${row.source_form || ''} ${row.source_title || ''} ${row.source_file || ''}`)) return 'supplemental_database';
   if (/SEC|companyfacts|10-K|10-Q|20-F|6-K/i.test(`${row.source_title || ''} ${row.source_form || ''}`)) return 'SEC';
   if (/IR|annual report|investor/i.test(row.source_title || '')) return 'IR';
   return null;

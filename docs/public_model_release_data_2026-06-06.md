@@ -40,7 +40,7 @@
 
 | 日期 | 厂商 | 模型 | 类型 | API定价 | 数据状态 |
 |---|---|---|---|---|---|
-| 2026-05-31 | Alibaba/通义千问 | Qwen3.7-Plus | 推理模型 | 输入 ¥2 / 1M tokens；输出 ¥8 / 1M tokens；截至 2026-06-06 | verified |
+| 2026-05-31 | Alibaba/通义千问 | Qwen3.7-Plus | 推理模型 | 输入 ¥2 / 1M tokens；输出 ¥8 / 1M tokens；截至 2026-06-15 | verified |
 | 2026-05 | Anthropic | Claude Opus 4.8 | 旗舰模型 | 输入 $5.00 / 1M tokens；缓存 $0.50 / 1M tokens；输出 $25.00 / 1M tokens；截至 2026-06-06 | date_estimated |
 | 2026-04-23 | OpenAI | GPT-5.5 / GPT-5.5 Pro | 旗舰模型 | 输入 $5.00 / 1M tokens；缓存 $0.50 / 1M tokens；输出 $30.00 / 1M tokens；截至 2026-06-06 | verified |
 | 2026-02 | Anthropic | Claude Sonnet 4.6 | 推理模型 | 输入 $3.00 / 1M tokens；缓存 $0.30 / 1M tokens；输出 $15.00 / 1M tokens；截至 2026-06-06 | date_estimated |
