@@ -44,7 +44,8 @@ async function main() {
       missingInputs.push(fileName);
       continue;
     }
-    inputs.push({ kind, file, rows: await readJson(file, []) });
+    const payload = await readJson(file, []);
+    inputs.push({ kind, file, rows: rowsFromPayload(payload, kind) });
   }
 
   const facts = dedupeBy(
@@ -118,6 +119,14 @@ async function findInput(fileName, env = {}) {
     if (await pathExists(candidate)) return candidate;
   }
   return null;
+}
+
+function rowsFromPayload(payload, kind) {
+  if (Array.isArray(payload)) return payload;
+  if (Array.isArray(payload?.rows)) return payload.rows;
+  if (kind === 'ai_models' && Array.isArray(payload?.ai_models)) return [];
+  if (Array.isArray(payload?.ai_capex)) return [];
+  return [];
 }
 
 function normalizeFact(row, input) {
