@@ -1,0 +1,367 @@
+export const MODEL_REPORT_DATE = '2026-06-06';
+
+export const MODEL_OFFICIAL_SOURCES = [
+  { provider: 'OpenAI', title: 'OpenAI API Pricing', url: 'https://openai.com/api/pricing/', kind: 'official_pricing' },
+  { provider: 'OpenAI', title: 'GPT-5.5 model docs', url: 'https://developers.openai.com/api/docs/models/gpt-5.5', kind: 'official_docs' },
+  { provider: 'OpenAI', title: 'Introducing GPT-5.5', url: 'https://openai.com/index/introducing-gpt-5-5/', kind: 'official_announcement' },
+  { provider: 'Anthropic', title: 'Claude models overview', url: 'https://platform.claude.com/docs/en/about-claude/models/overview', kind: 'official_docs' },
+  { provider: 'Anthropic', title: 'Claude pricing', url: 'https://platform.claude.com/docs/en/about-claude/pricing', kind: 'official_pricing' },
+  { provider: 'Anthropic', title: 'Claude Opus 4.8 changes', url: 'https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8', kind: 'official_changelog' },
+  { provider: 'Google', title: 'Gemini API pricing', url: 'https://ai.google.dev/gemini-api/docs/pricing', kind: 'official_pricing' },
+  { provider: 'Google', title: 'Gemini API changelog', url: 'https://ai.google.dev/gemini-api/docs/changelog', kind: 'official_changelog' },
+  { provider: 'Google', title: 'Gemini 3 Flash blog', url: 'https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/', kind: 'official_blog' },
+  { provider: 'xAI', title: 'Grok 4.3 docs', url: 'https://docs.x.ai/developers/models/grok-4.3', kind: 'official_docs' },
+  { provider: 'Alibaba/通义千问', title: 'DashScope Qwen API docs', url: 'https://help.aliyun.com/zh/model-studio/qwen-api-via-dashscope', kind: 'official_docs' },
+  { provider: 'Alibaba/通义千问', title: 'DashScope model pricing', url: 'https://help.aliyun.com/zh/model-studio/model-pricing', kind: 'official_pricing' },
+  { provider: 'DeepSeek', title: 'DeepSeek API docs', url: 'https://api-docs.deepseek.com/', kind: 'official_docs' },
+  { provider: 'DeepSeek', title: 'DeepSeek pricing details', url: 'https://api-docs.deepseek.com/quick_start/pricing-details-usd/', kind: 'official_pricing' },
+  { provider: 'Moonshot', title: 'Kimi API platform', url: 'https://platform.moonshot.cn/', kind: 'official_docs' },
+  { provider: 'Moonshot', title: 'Kimi model list', url: 'https://platform.kimi.ai/docs/models', kind: 'official_docs' },
+  { provider: 'Moonshot', title: 'Kimi API pricing help', url: 'https://www.kimi.com/help/kimi-api/api-pricing', kind: 'official_pricing' },
+  { provider: 'Moonshot', title: 'Kimi API newsletter', url: 'https://platform.moonshot.ai/blog/posts/Kimi_API_Newsletter', kind: 'official_newsletter' },
+];
+
+export const MODEL_VERIFIED_SEEDS = [
+  {
+    provider: 'OpenAI',
+    model: 'GPT-5.5',
+    release_date: '2026-04-23',
+    date_confidence: 'exact',
+    context_window: null,
+    modalities: ['text', 'image'],
+    key_capabilities: '面向复杂真实工作、agentic coding 与专业知识任务的旗舰模型；API 于 2026-04-24 可用。',
+    api_pricing: usdPricing('5.00', '0.50', '30.00', 'https://openai.com/api/pricing/'),
+    status: 'active',
+    next_model_info: 'GPT-5.5 Pro 同步面向复杂知识工作，继续观察官方模型文档。',
+    source_title: 'OpenAI GPT-5.5 docs and pricing',
+    source_url: 'https://developers.openai.com/api/docs/models/gpt-5.5',
+    confidence: 'high',
+  },
+  {
+    provider: 'Anthropic',
+    model: 'Claude Opus 4.8',
+    release_date: '2026-05',
+    date_confidence: 'month',
+    context_window: '1M tokens',
+    modalities: ['text', 'image'],
+    key_capabilities: 'Anthropic 最强复杂推理与 agentic coding 模型，max output 128k。',
+    api_pricing: usdPricing('5.00', '0.50', '25.00', 'https://platform.claude.com/docs/en/about-claude/pricing'),
+    status: 'active',
+    next_model_info: '需继续解析官方 changelog 以确认精确发布日期。',
+    source_title: 'Claude Opus 4.8 changes',
+    source_url: 'https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8',
+    confidence: 'medium',
+  },
+  {
+    provider: 'Anthropic',
+    model: 'Claude Sonnet 4.6',
+    release_date: '2026-02',
+    date_confidence: 'month',
+    context_window: '1M tokens',
+    modalities: ['text', 'image'],
+    key_capabilities: '速度与智能平衡模型，max output 64k，适合长文本、代码与代理任务。',
+    api_pricing: usdPricing('3.00', '0.30', '15.00', 'https://platform.claude.com/docs/en/about-claude/pricing'),
+    status: 'active',
+    next_model_info: '需继续解析官方 release metadata 以确认精确日期。',
+    source_title: 'Claude models overview and pricing',
+    source_url: 'https://platform.claude.com/docs/en/about-claude/models/overview',
+    confidence: 'medium',
+  },
+  {
+    provider: 'Anthropic',
+    model: 'Claude Haiku 4.5',
+    release_date: '2025-10-01',
+    date_confidence: 'exact',
+    context_window: '200K tokens',
+    modalities: ['text', 'image'],
+    key_capabilities: '低成本近前沿模型，API ID claude-haiku-4-5-20251001，max output 64k。',
+    api_pricing: usdPricing('1.00', '0.10', '5.00', 'https://platform.claude.com/docs/en/about-claude/pricing'),
+    status: 'active',
+    next_model_info: null,
+    source_title: 'Claude models overview and pricing',
+    source_url: 'https://platform.claude.com/docs/en/about-claude/models/overview',
+    confidence: 'high',
+  },
+  {
+    provider: 'Google',
+    model: 'Gemini 3 Flash Preview',
+    release_date: '2026-01',
+    date_confidence: 'month',
+    context_window: null,
+    modalities: ['text', 'image', 'audio', 'video'],
+    key_capabilities: '速度型 frontier intelligence，支持 search and grounding。',
+    api_pricing: usdPricing('0.50', '0.05', '3.00', 'https://ai.google.dev/gemini-api/docs/pricing'),
+    status: 'preview',
+    next_model_info: '需用 Gemini changelog 或 blog published date 确认精确日期。',
+    source_title: 'Gemini API pricing and changelog',
+    source_url: 'https://ai.google.dev/gemini-api/docs/pricing',
+    confidence: 'medium',
+  },
+  {
+    provider: 'xAI',
+    model: 'Grok 4.3',
+    release_date: null,
+    date_confidence: 'estimated',
+    date_label: '2026 年，待官方确认月份',
+    context_window: null,
+    modalities: ['text'],
+    key_capabilities: '支持 configurable reasoning：none、low、medium、high。',
+    api_pricing: usdPricing('1.25', '0.20', '2.50', 'https://docs.x.ai/developers/models/grok-4.3'),
+    status: 'candidate_only',
+    next_model_info: '缺官方发布日期，暂不进入主表 verified 渲染。',
+    source_title: 'Grok 4.3 docs',
+    source_url: 'https://docs.x.ai/developers/models/grok-4.3',
+    confidence: 'medium',
+  },
+  {
+    provider: 'Moonshot',
+    model: 'Kimi K2 Thinking / K2 Thinking Turbo',
+    release_date: '2025-11-08',
+    date_confidence: 'exact',
+    context_window: null,
+    modalities: ['text'],
+    key_capabilities: '面向复杂推理、多步骤指令和 Agent 任务的 K2 Thinking 系列。',
+    api_pricing: unparsedCnyPricing('https://platform.moonshot.ai/blog/posts/Kimi_API_Newsletter'),
+    status: 'active',
+    next_model_info: 'K2.5/K2.6 已有价格与上下文字段，但缺官方发布日期。',
+    source_title: 'Kimi API Newsletter',
+    source_url: 'https://platform.moonshot.ai/blog/posts/Kimi_API_Newsletter',
+    confidence: 'high',
+  },
+  {
+    provider: 'Moonshot',
+    model: 'Kimi K2.6',
+    release_date: null,
+    date_confidence: 'estimated',
+    date_label: '2026 年，待官方确认月份',
+    context_window: '256K tokens',
+    modalities: ['text', 'image'],
+    key_capabilities: '最新智能模型，强调长程代码编写与 Agent 自主执行增强。',
+    api_pricing: cnyPricing('6.50', '1.10', '27.00', 'https://www.kimi.com/help/kimi-api/api-pricing'),
+    status: 'candidate_only',
+    next_model_info: '缺官方发布日期，进入 candidate 不进入主表。',
+    source_title: 'Kimi API pricing help',
+    source_url: 'https://www.kimi.com/help/kimi-api/api-pricing',
+    confidence: 'medium',
+  },
+  {
+    provider: 'Moonshot',
+    model: 'Kimi K2.5',
+    release_date: null,
+    date_confidence: 'estimated',
+    date_label: '2026 年，待官方确认月份',
+    context_window: '256K tokens',
+    modalities: ['text', 'image'],
+    key_capabilities: '支持视觉与文本输入、思考/非思考模式、对话与 Agent 任务。',
+    api_pricing: cnyPricing('4.00', '0.70', '21.00', 'https://www.kimi.com/help/kimi-api/api-pricing'),
+    status: 'candidate_only',
+    next_model_info: '缺官方发布日期，进入 candidate 不进入主表。',
+    source_title: 'Kimi model list and pricing help',
+    source_url: 'https://platform.kimi.ai/docs/models',
+    confidence: 'medium',
+  },
+  {
+    provider: 'DeepSeek',
+    model: 'DeepSeek V3/R1/V3.2 recent key models',
+    release_date: null,
+    date_confidence: 'estimated',
+    date_label: '2025-2026，待官方确认具体发布日期',
+    context_window: null,
+    modalities: ['text'],
+    key_capabilities: '官方 pricing table 可解析 context length、cache hit/miss 与 output price。',
+    api_pricing: unparsedUsdPricing('https://api-docs.deepseek.com/quick_start/pricing-details-usd/'),
+    status: 'candidate_only',
+    next_model_info: '缺 exact/month 日期，暂不进入主表 verified 渲染。',
+    source_title: 'DeepSeek pricing details',
+    source_url: 'https://api-docs.deepseek.com/quick_start/pricing-details-usd/',
+    confidence: 'medium',
+  },
+];
+
+export const MODEL_TIMELINE_SEEDS = [
+  timelineRow({
+    date: '2025-10-01',
+    provider: 'Anthropic',
+    model: 'Claude Haiku 4.5',
+    type: '速度模型',
+    summary: '低成本近前沿模型，200K context，适合高吞吐任务。',
+    pricing: usdPricing('1.00', '0.10', '5.00', 'https://platform.claude.com/docs/en/about-claude/pricing'),
+    confidence: 'high',
+    dateConfidence: 'exact',
+    sourceTitle: 'Claude models overview',
+    sourceUrl: 'https://platform.claude.com/docs/en/about-claude/models/overview',
+  }),
+  timelineRow({
+    date: '2025-11-08',
+    provider: 'Moonshot',
+    model: 'Kimi K2 Thinking / Turbo',
+    type: '推理模型',
+    summary: '面向复杂推理、多步骤指令和 Agent 任务。',
+    pricing: unparsedCnyPricing('https://platform.moonshot.ai/blog/posts/Kimi_API_Newsletter'),
+    confidence: 'high',
+    dateConfidence: 'exact',
+    sourceTitle: 'Kimi API Newsletter',
+    sourceUrl: 'https://platform.moonshot.ai/blog/posts/Kimi_API_Newsletter',
+  }),
+  timelineRow({
+    dateLabel: '约 2026-01',
+    provider: 'Google',
+    model: 'Gemini 3 Flash Preview',
+    type: '速度模型',
+    summary: 'frontier intelligence + search/grounding；标准文本输入与图像/视频输入同价。',
+    pricing: usdPricing('0.50', '0.05', '3.00', 'https://ai.google.dev/gemini-api/docs/pricing'),
+    confidence: 'medium',
+    dateConfidence: 'month',
+    sourceTitle: 'Gemini API pricing and changelog',
+    sourceUrl: 'https://ai.google.dev/gemini-api/docs/pricing',
+  }),
+  timelineRow({
+    dateLabel: '2026-02',
+    provider: 'Anthropic',
+    model: 'Claude Sonnet 4.6',
+    type: '推理模型',
+    summary: '速度与智能平衡，1M context，max output 64k。',
+    pricing: usdPricing('3.00', '0.30', '15.00', 'https://platform.claude.com/docs/en/about-claude/pricing'),
+    confidence: 'medium',
+    dateConfidence: 'month',
+    sourceTitle: 'Claude models overview and pricing',
+    sourceUrl: 'https://platform.claude.com/docs/en/about-claude/models/overview',
+  }),
+  timelineRow({
+    date: '2026-04-23',
+    provider: 'OpenAI',
+    model: 'GPT-5.5 / GPT-5.5 Pro',
+    type: '旗舰模型',
+    summary: '面向复杂真实工作、agentic coding 与 professional work；API 4/24 可用。',
+    pricing: usdPricing('5.00', '0.50', '30.00', 'https://openai.com/api/pricing/'),
+    confidence: 'high',
+    dateConfidence: 'exact',
+    sourceTitle: 'Introducing GPT-5.5',
+    sourceUrl: 'https://openai.com/index/introducing-gpt-5-5/',
+  }),
+  timelineRow({
+    dateLabel: '2026-05',
+    provider: 'Anthropic',
+    model: 'Claude Opus 4.8',
+    type: '旗舰模型',
+    summary: '复杂推理与 agentic coding 模型，1M context，max output 128k。',
+    pricing: usdPricing('5.00', '0.50', '25.00', 'https://platform.claude.com/docs/en/about-claude/pricing'),
+    confidence: 'medium',
+    dateConfidence: 'month',
+    sourceTitle: 'Claude Opus 4.8 changes',
+    sourceUrl: 'https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8',
+  }),
+  timelineRow({
+    date: '2026-05-31',
+    provider: 'Alibaba/通义千问',
+    model: 'Qwen3.7-Plus',
+    type: '推理模型',
+    summary: 'Qwen3 系列近期开源与 API 迭代，定价需由 DashScope pricing 表解析。',
+    pricing: unparsedCnyPricing('https://help.aliyun.com/zh/model-studio/model-pricing'),
+    confidence: 'medium',
+    dateConfidence: 'exact',
+    sourceTitle: 'DashScope model pricing',
+    sourceUrl: 'https://help.aliyun.com/zh/model-studio/model-pricing',
+  }),
+];
+
+export const MODEL_TIMELINE_CANDIDATES = [
+  candidateFromSeed('xAI', 'Grok 4.3', '缺 official exact/month 发布日期；保留在 candidate，等待 xAI release note 或 docs metadata。'),
+  candidateFromSeed('Moonshot', 'Kimi K2.6', '价格和上下文来自官方帮助页，但缺 official exact/month 发布日期。'),
+  candidateFromSeed('Moonshot', 'Kimi K2.5', '价格和上下文来自官方帮助页，但缺 official exact/month 发布日期。'),
+  candidateFromSeed('DeepSeek', 'DeepSeek V3/R1/V3.2 recent key models', 'pricing table 可解析，但缺 recent model exact/month 发布时间。'),
+];
+
+export const MODEL_TIMELINE_REJECTED = [
+  {
+    provider: 'xAI',
+    model: 'Grok 4.3',
+    reason: 'year_only_date',
+    next_action: '解析 xAI docs metadata 或 official release note 后再进入 timeline 主轴。',
+  },
+  {
+    provider: 'DeepSeek',
+    model: 'DeepSeek V3/R1/V3.2 recent key models',
+    reason: 'missing_official_release_date',
+    next_action: '从 DeepSeek docs/news 抽取 exact/month 日期后重新校验。',
+  },
+];
+
+function usdPricing(input, cached, output, pricingUrl) {
+  return {
+    input_per_1m: input,
+    cached_input_per_1m: cached,
+    output_per_1m: output,
+    currency: 'USD',
+    pricing_url: pricingUrl,
+    as_of: MODEL_REPORT_DATE,
+  };
+}
+
+function cnyPricing(input, cached, output, pricingUrl) {
+  return {
+    input_per_1m: input,
+    cached_input_per_1m: cached,
+    output_per_1m: output,
+    currency: 'CNY',
+    pricing_url: pricingUrl,
+    as_of: MODEL_REPORT_DATE,
+  };
+}
+
+function unparsedUsdPricing(pricingUrl) {
+  return {
+    input_per_1m: null,
+    cached_input_per_1m: null,
+    output_per_1m: null,
+    currency: 'USD',
+    pricing_url: pricingUrl,
+    pricing_status: 'official_page_found_unparsed',
+    as_of: MODEL_REPORT_DATE,
+  };
+}
+
+function unparsedCnyPricing(pricingUrl) {
+  return {
+    input_per_1m: null,
+    cached_input_per_1m: null,
+    output_per_1m: null,
+    currency: 'CNY',
+    pricing_url: pricingUrl,
+    pricing_status: 'official_page_found_unparsed',
+    as_of: MODEL_REPORT_DATE,
+  };
+}
+
+function timelineRow({ date = null, dateLabel = null, provider, model, type, summary, pricing, confidence, dateConfidence, sourceTitle, sourceUrl }) {
+  return {
+    date,
+    date_label: dateLabel,
+    provider,
+    model,
+    release_type: type,
+    type,
+    summary,
+    api_pricing: pricing,
+    confidence,
+    date_confidence: dateConfidence,
+    data_status: timelineStatus({ pricing, dateConfidence }),
+    source_title: sourceTitle,
+    source_url: sourceUrl,
+  };
+}
+
+function timelineStatus({ pricing, dateConfidence }) {
+  if (!pricing?.input_per_1m || !pricing?.output_per_1m) return 'source_unparsed';
+  if (dateConfidence !== 'exact') return 'date_estimated';
+  return 'verified';
+}
+
+function candidateFromSeed(provider, model, reason) {
+  const seed = MODEL_VERIFIED_SEEDS.find((row) => row.provider === provider && row.model === model);
+  return {
+    ...seed,
+    reason,
+    target: 'model_release_timeline',
+  };
+}

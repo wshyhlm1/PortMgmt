@@ -1,0 +1,847 @@
+{
+  "report_date": "2026-06-06",
+  "rows": [
+    {
+      "ticker": "ASML.O",
+      "field": "Forward PE",
+      "value": "43.5x",
+      "period": "FY2026E (CY2026-12-31)",
+      "source_title": "TickerSpark / MarketBeat consensus",
+      "source_url": "https://tickerspark.ai/research/asml",
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "ASML.O",
+      "field": "EV/EBITDA",
+      "value": "43.6x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "ASML.O",
+      "field": "FCF Yield",
+      "value": "1.59%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "ASML.O",
+      "field": "FY2026E EPS",
+      "value": "$32.49 (Alpha派 avg, 23 analysts) / $36.90 (Yahoo/MarketBeat consensus)",
+      "period": "FY2026 (CY2026-12-31)",
+      "source_title": "Alpha派全球数据库 / MarketBeat",
+      "source_url": "https://www.marketbeat.com/instant-alerts/fy2026-earnings-estimate-for-asml-issued-by-erste-group-bank-2026-05-08/",
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "ASML.O",
+      "field": "FY2027E EPS",
+      "value": "$42.96 (consensus avg, 22 analysts); Morgan Stanley FY2027 EPS €46.71 vs consensus €41.99",
+      "period": "FY2027 (CY2027-12-31)",
+      "source_title": "Alpha派全球数据库 / Morgan Stanley",
+      "source_url": "https://in.investing.com/news/stock-market-news/morgan-stanley-boosts-asml-target-cites-confidence-in-euv-shipment-outlook-5438601",
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "ASX",
+      "field": "Forward PE",
+      "value": "36.4x",
+      "period": "FY2026E (CY2026)",
+      "source_title": "MarketBeat",
+      "source_url": "https://www.marketbeat.com/stocks/NYSE/ASX/",
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "ASX",
+      "field": "FY2026E EPS",
+      "value": "$1.08 (2 analysts)",
+      "period": "FY2026 (CY2026)",
+      "source_title": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/ASX/analysis/",
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ASX",
+      "field": "FY2027E EPS",
+      "value": "$1.59 (2 analysts)",
+      "period": "FY2027 (CY2027)",
+      "source_title": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/ASX/analysis/",
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "AVGO.O",
+      "field": "Forward PE",
+      "value": "34.5x",
+      "period": "FY2026E (ending Nov 2026)",
+      "source_title": "基于Alpha派一致预期EPS $11.43计算 (Price $394.18 / EPS $11.43)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "AVGO.O",
+      "field": "EV/EBITDA",
+      "value": "44.8x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "AVGO.O",
+      "field": "FCF Yield",
+      "value": "1.79%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "AVGO.O",
+      "field": "FY2026E EPS",
+      "value": "$11.43 (consensus avg, 27 analysts)",
+      "period": "FY2026 (ending Nov 2026)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "AVGO.O",
+      "field": "FY2027E EPS",
+      "value": "$18.99 (consensus avg, 26 analysts)",
+      "period": "FY2027 (ending Nov 2027)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "BABA.N",
+      "field": "Forward PE",
+      "value": "约10-12x（注：BABA财年截至3月，FY2027E即CY2026对应EPS ¥45.00/ADR）",
+      "period": "FY2027E (ending Mar 2027) ≈ CY2026",
+      "source_title": "基于Alpha派一致预期计算，EPS口径为RMB/ADR",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BABA.N",
+      "field": "FY2026E EPS",
+      "value": "¥45.00/ADR (consensus avg, 19 analysts; 对应BABA FY2027 ending Mar 2027 ≈ CY2026)",
+      "period": "BABA FY2027 (ending Mar 2027)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "BABA.N",
+      "field": "FY2027E EPS",
+      "value": "¥61.65/ADR (consensus avg, 17 analysts; 对应BABA FY2028 ending Mar 2028 ≈ CY2027)",
+      "period": "BABA FY2028 (ending Mar 2028)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "BB.N",
+      "field": "Forward PE",
+      "value": "52.7x",
+      "period": "FY2027E (ending Feb 2027)",
+      "source_title": "基于Alpha派一致预期EPS $0.179计算 (Price $9.42 / EPS $0.179)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BB.N",
+      "field": "EV/EBITDA",
+      "value": "69.2x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "BB.N",
+      "field": "FCF Yield",
+      "value": "0.81%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "BB.N",
+      "field": "FY2026E EPS",
+      "value": "$0.14 (consensus avg, 4 analysts; BB FY2026 ending Feb 2026)",
+      "period": "BB FY2026 (ending Feb 2026)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BB.N",
+      "field": "FY2027E EPS",
+      "value": "$0.18 (consensus avg, 4 analysts; BB FY2027 ending Feb 2027)",
+      "period": "BB FY2027 (ending Feb 2027)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CIEN.N",
+      "field": "Forward PE",
+      "value": "83.7x",
+      "period": "FY2026E (ending Nov 2026)",
+      "source_title": "基于Alpha派一致预期EPS $6.17计算 (Price $516.24 / EPS $6.17)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "CIEN.N",
+      "field": "EV/EBITDA",
+      "value": "104.8x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "CIEN.N",
+      "field": "FCF Yield",
+      "value": "1.21%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "CIEN.N",
+      "field": "FY2026E EPS",
+      "value": "$6.17 (consensus avg, 10 analysts)",
+      "period": "FY2026 (ending Nov 2026)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "CIEN.N",
+      "field": "FY2027E EPS",
+      "value": "$8.81 (consensus avg, 11 analysts)",
+      "period": "FY2027 (ending Nov 2027)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GFS.O",
+      "field": "Forward PE",
+      "value": "41.2x",
+      "period": "FY2026E (CY2026-12-31)",
+      "source_title": "基于Alpha派一致预期EPS $1.89计算 (Price $77.96 / EPS $1.89)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GFS.O",
+      "field": "EV/EBITDA",
+      "value": "19.1x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GFS.O",
+      "field": "FCF Yield",
+      "value": "2.59%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GFS.O",
+      "field": "FY2026E EPS",
+      "value": "$1.89 (consensus avg, 13 analysts)",
+      "period": "FY2026 (CY2026-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GFS.O",
+      "field": "FY2027E EPS",
+      "value": "$2.47 (consensus avg, 12 analysts)",
+      "period": "FY2027 (CY2027-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GOOGL.O",
+      "field": "Forward PE",
+      "value": "25.9x",
+      "period": "FY2026E (CY2026-12-31)",
+      "source_title": "基于Yahoo Finance一致预期EPS $14.24计算 (Price $369.12 / EPS $14.24)",
+      "source_url": "https://finance.yahoo.com/quote/GOOG/analysis/",
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GOOGL.O",
+      "field": "EV/EBITDA",
+      "value": "20.6x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GOOGL.O",
+      "field": "FCF Yield",
+      "value": "1.45%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GOOGL.O",
+      "field": "FY2026E EPS",
+      "value": "$14.24 (consensus avg, 46 analysts)",
+      "period": "FY2026 (CY2026-12-31)",
+      "source_title": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/quote/GOOG/analysis/",
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "GOOGL.O",
+      "field": "FY2027E EPS",
+      "value": "$14.49 (Yahoo, 50 analysts) / $14.69 (Alpha派, 41 analysts)",
+      "period": "FY2027 (CY2027-12-31)",
+      "source_title": "Yahoo Finance / Alpha派全球数据库",
+      "source_url": "https://finance.yahoo.com/quote/GOOG/analysis/",
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "IBM.N",
+      "field": "Forward PE",
+      "value": "约21.3x（基于FY2027E EPS $13.39）",
+      "period": "FY2027E (CY2027-12-31)",
+      "source_title": "基于Alpha派一致预期EPS计算 (Price $284.76 / EPS $13.39)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "IBM.N",
+      "field": "EV/EBITDA",
+      "value": "20.1x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "IBM.N",
+      "field": "FCF Yield",
+      "value": "4.89%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "IBM.N",
+      "field": "FY2027E EPS",
+      "value": "$13.39 (consensus avg, 12 analysts)",
+      "period": "FY2027 (CY2027-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "IFX.DF",
+      "field": "Forward PE",
+      "value": "44.2x",
+      "period": "FY2026E (ending Sep 2026)",
+      "source_title": "基于Alpha派一致预期EPS €1.75计算 (Price €77.3 / EPS €1.75)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "IFX.DF",
+      "field": "EV/EBITDA",
+      "value": "27.9x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "IFX.DF",
+      "field": "FCF Yield",
+      "value": "1.15%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "IFX.DF",
+      "field": "FY2026E EPS",
+      "value": "€1.75 (consensus avg, 16 analysts)",
+      "period": "FY2026 (ending Sep 2026)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "IFX.DF",
+      "field": "FY2027E EPS",
+      "value": "€2.59 (consensus avg, 19 analysts)",
+      "period": "FY2027 (ending Sep 2027)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NBIS.O",
+      "field": "Forward PE",
+      "value": "N/A（预期亏损，FY2026E EPS -$2.11）",
+      "period": "FY2026E (CY2026-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NBIS.O",
+      "field": "EV/EBITDA",
+      "value": "N/A（EBITDA为负，TTM EV/EBITDA -1039.7x无意义）",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NBIS.O",
+      "field": "FCF Yield",
+      "value": "-4.52%（FCF为负）",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NBIS.O",
+      "field": "FY2026E EPS",
+      "value": "-$2.11 (consensus avg, 5 analysts; 预期亏损)",
+      "period": "FY2026 (CY2026-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NBIS.O",
+      "field": "FY2027E EPS",
+      "value": "-$1.34 (consensus avg, 5 analysts; 预期亏损但亏损收窄)",
+      "period": "FY2027 (CY2027-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NOK.N",
+      "field": "Forward PE",
+      "value": "43.6x",
+      "period": "FY2026E (CY2026-12-31)",
+      "source_title": "基于Alpha派一致预期EPS $0.341计算 (Price $14.88 / EPS $0.341)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NOK.N",
+      "field": "EV/EBITDA",
+      "value": "34.5x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NOK.N",
+      "field": "FCF Yield",
+      "value": "1.88%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NOK.N",
+      "field": "FY2026E EPS",
+      "value": "$0.341 (consensus avg, 7 analysts)",
+      "period": "FY2026 (CY2026-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "NOK.N",
+      "field": "FY2027E EPS",
+      "value": "$0.402 (consensus avg, 6 analysts)",
+      "period": "FY2027 (CY2027-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "QCOM.O",
+      "field": "Forward PE",
+      "value": "20.8x",
+      "period": "FY2026E (ending Sep 2026)",
+      "source_title": "基于Alpha派一致预期EPS $10.73计算 (Price $223.09 / EPS $10.73)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "QCOM.O",
+      "field": "EV/EBITDA",
+      "value": "17.8x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "QCOM.O",
+      "field": "FCF Yield",
+      "value": "5.49%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "QCOM.O",
+      "field": "FY2026E EPS",
+      "value": "$10.73 (consensus avg, 20 analysts)",
+      "period": "FY2026 (ending Sep 2026)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "QCOM.O",
+      "field": "FY2027E EPS",
+      "value": "$10.54 (consensus avg, 21 analysts)",
+      "period": "FY2027 (ending Sep 2027)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "005930.KS",
+      "field": "Forward PE",
+      "value": "约8-10x（미래에셋证券12M forward PER 5.7x基于较低价位；Simply Wall St显示当前PE 21.8x）",
+      "period": "FY2026E (CY2026)",
+      "source_title": "Simply Wall St / 미래에셋증권",
+      "source_url": "https://simplywall.st/stocks/kr/tech/kose-a005930/samsung-electronics-shares/valuation",
+      "as_of": "2026-06-05",
+      "confidence": "medium"
+    },
+    {
+      "ticker": "005930.KS",
+      "field": "EV/EBITDA",
+      "value": "15.4x (TTM); 미래에셋12M forward EV/EBITDA 7.0x",
+      "period": "TTM / Forward",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM / 미래에셋증권",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "005930.KS",
+      "field": "FCF Yield",
+      "value": "2.52%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "SKM.N",
+      "field": "EV/EBITDA",
+      "value": "7.2x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "SKM.N",
+      "field": "FCF Yield",
+      "value": "7.48%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "TSM.N",
+      "field": "Forward PE",
+      "value": "27.0x",
+      "period": "FY2026E (CY2026-12-31)",
+      "source_title": "基于Alpha派一致预期EPS $15.69计算 (Price $423.51 / EPS $15.69)",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "TSM.N",
+      "field": "EV/EBITDA",
+      "value": "20.3x",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "TSM.N",
+      "field": "FCF Yield",
+      "value": "1.66%",
+      "period": "TTM",
+      "source_title": "Alpha派全球数据库 Key Metrics TTM",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "TSM.N",
+      "field": "FY2026E EPS",
+      "value": "$15.69 (consensus avg, 9 analysts)",
+      "period": "FY2026 (CY2026-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "ticker": "TSM.N",
+      "field": "FY2027E EPS",
+      "value": "$19.70 (consensus avg, 9 analysts)",
+      "period": "FY2027 (CY2027-12-31)",
+      "source_title": "Alpha派全球数据库 Financial Estimates",
+      "source_url": null,
+      "as_of": "2026-06-05",
+      "confidence": "high"
+    }
+  ],
+  "rejected": [
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "ASX",
+        "field": "EV/EBITDA",
+        "value": "缺失 — 全球数据库无ASX TTM key metrics数据",
+        "period": "N/A",
+        "source_title": "",
+        "source_url": "",
+        "as_of": "2026-06-06",
+        "confidence": "low"
+      },
+      "reason": "source_missing"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "ASX",
+        "field": "FCF Yield",
+        "value": "缺失 — 全球数据库无ASX TTM key metrics数据",
+        "period": "N/A",
+        "source_title": "",
+        "source_url": "",
+        "as_of": "2026-06-06",
+        "confidence": "low"
+      },
+      "reason": "source_missing"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "BABA.N",
+        "field": "EV/EBITDA",
+        "value": "FY2027E EBITDA avg ¥198.9B（需结合EV单独计算）",
+        "period": "FY2027E (ending Mar 2027)",
+        "source_title": "Alpha派全球数据库 Financial Estimates",
+        "source_url": "",
+        "as_of": "2026-06-05",
+        "confidence": "medium"
+      },
+      "reason": "value_missing_unit_or_multiple"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "BABA.N",
+        "field": "FCF Yield",
+        "value": "缺失 — 全球数据库未返回BABA TTM key metrics",
+        "period": "N/A",
+        "source_title": "",
+        "source_url": "",
+        "as_of": "2026-06-06",
+        "confidence": "low"
+      },
+      "reason": "source_missing"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "IBM.N",
+        "field": "FY2026E EPS",
+        "value": "缺失 — Alpha派全球数据库未返回IBM FY2026预期（Earnings Yield TTM 4.02%暗示trailing PE约24.9x）",
+        "period": "FY2026 (CY2026-12-31)",
+        "source_title": "",
+        "source_url": "",
+        "as_of": "2026-06-06",
+        "confidence": "low"
+      },
+      "reason": "source_missing"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "005930.KS",
+        "field": "FY2026E EPS",
+        "value": "缺失 — Alpha派全球数据库仅返回FY2029/2030预期（₩57,399/₩61,183）；Q1 2026净利润₩47.2T暗示年化EPS约₩35,000-40,000",
+        "period": "FY2026 (CY2026-12-31)",
+        "source_title": "Deep Research Global",
+        "source_url": "https://deepresearchglobal.substack.com/p/samsung-electronics-fundamental-analysis-report",
+        "as_of": "2026-06-06",
+        "confidence": "low"
+      },
+      "reason": "low_confidence"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "005930.KS",
+        "field": "FY2027E EPS",
+        "value": "缺失 — Alpha派全球数据库仅返回FY2029/2030预期",
+        "period": "FY2027 (CY2027-12-31)",
+        "source_title": "",
+        "source_url": "",
+        "as_of": "2026-06-06",
+        "confidence": "low"
+      },
+      "reason": "source_missing"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "SKM.N",
+        "field": "Forward PE",
+        "value": "约30x（基于₩316,000股价 / FY2026E EPS ₩10,585；仅1位分析师覆盖）",
+        "period": "FY2026E (CY2026-12-31)",
+        "source_title": "Alpha派全球数据库 Financial Estimates",
+        "source_url": "",
+        "as_of": "2026-06-05",
+        "confidence": "low"
+      },
+      "reason": "low_confidence"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "SKM.N",
+        "field": "FY2026E EPS",
+        "value": "₩10,585 (仅1位分析师覆盖，置信度低)",
+        "period": "FY2026 (CY2026-12-31)",
+        "source_title": "Alpha派全球数据库 Financial Estimates",
+        "source_url": "",
+        "as_of": "2026-06-05",
+        "confidence": "low"
+      },
+      "reason": "low_confidence"
+    },
+    {
+      "file": "llm_candidates/valuation/manual_docx_2026-06-06.json",
+      "row": {
+        "ticker": "SKM.N",
+        "field": "FY2027E EPS",
+        "value": "₩11,594 (仅1位分析师覆盖，置信度低)",
+        "period": "FY2027 (CY2027-12-31)",
+        "source_title": "Alpha派全球数据库 Financial Estimates",
+        "source_url": "",
+        "as_of": "2026-06-05",
+        "confidence": "low"
+      },
+      "reason": "low_confidence"
+    }
+  ]
+}

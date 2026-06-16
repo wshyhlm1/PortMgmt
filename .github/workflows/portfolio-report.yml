@@ -1,0 +1,232 @@
+name: Portfolio Management Report
+
+# Generate a fresh portfolio report and publish portfolio_reports/ to GitHub Pages.
+#
+# One-time setup:
+#   1. Push this project to GitHub.
+#   2. Settings -> Actions -> General -> Workflow permissions:
+#      "Read and write permissions".
+#   3. Run this workflow once from Actions to create the gh-pages branch.
+#   4. Settings -> Pages -> Build and deployment -> Source:
+#      "Deploy from a branch" -> gh-pages / root.
+#   5. Open https://<username>.github.io/<repo>/
+#
+# Schedule mechanics mirror DailyBrief: cron fires several times per hour, then
+# a gate job checks REPORT_TZ / REPORT_HOUR / REPORT_DAYS and skips unless the
+# configured local-time window matches. Manual dispatch and pushes bypass gate.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/portfolio-report.yml"
+      - "data/**"
+      - "docs/**"
+      - "initial/**"
+      - "package-lock.json"
+      - "package.json"
+      - "portfolio.config.json"
+      - "scripts/**"
+      - "uploads/**"
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portmgmt-pages
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    name: Time gate
+    runs-on: ubuntu-latest
+    outputs:
+      should-run: ${{ steps.check.outputs.should-run }}
+    steps:
+      - name: Check schedule
+        id: check
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_TZ: ${{ vars.REPORT_TZ }}
+          REPORT_HOUR: ${{ vars.REPORT_HOUR }}
+          REPORT_DAYS: ${{ vars.REPORT_DAYS }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$EVENT_NAME" = "push" ]; then
+            echo "Manual/push trigger - bypassing time gate"
+            echo "should-run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          TZ_VAL="${REPORT_TZ:-Asia/Shanghai}"
+          HOURS_VAL="${REPORT_HOUR:-8}"
+          DAYS_VAL="${REPORT_DAYS:-*}"
+
+          NOW_HOUR=$(TZ="$TZ_VAL" date +%-H)
+          NOW_DOW=$(TZ="$TZ_VAL" date +%w)
+          NOW_PRINT=$(TZ="$TZ_VAL" date '+%Y-%m-%d %H:%M %Z')
+
+          declare -a HLIST=()
+          IFS=',' read -ra HRAW <<< "$HOURS_VAL"
+          for h in "${HRAW[@]}"; do
+            h_trim="${h// /}"
+            [ -z "$h_trim" ] && continue
+            if [ "$h_trim" = "*" ]; then
+              for i in $(seq 0 23); do HLIST+=("$i"); done
+              continue
+            fi
+            if ! [[ "$h_trim" =~ ^[0-9]{1,2}$ ]]; then
+              echo "Ignoring invalid REPORT_HOUR token: '$h_trim'"
+              continue
+            fi
+            h_num=$((10#$h_trim))
+            if [ "$h_num" -lt 0 ] || [ "$h_num" -gt 23 ]; then
+              echo "Ignoring out-of-range REPORT_HOUR token: '$h_trim'"
+              continue
+            fi
+            HLIST+=("$h_num")
+          done
+          if [ "${#HLIST[@]}" -eq 0 ]; then
+            HLIST=(8)
+          fi
+          HLIST_PRINT=$(IFS=,; echo "${HLIST[*]}")
+
+          echo "Now in $TZ_VAL: $NOW_PRINT (hour=$NOW_HOUR, dow=$NOW_DOW)"
+          echo "Configured REPORT_HOUR='$HOURS_VAL' (normalized: $HLIST_PRINT), REPORT_DAYS='$DAYS_VAL'"
+
+          hour_match=false
+          for h in "${HLIST[@]}"; do
+            if [ "$NOW_HOUR" -eq "$h" ]; then
+              hour_match=true
+              break
+            fi
+          done
+
+          day_match=false
+          if [ "$DAYS_VAL" = "*" ]; then
+            day_match=true
+          else
+            IFS=',' read -ra DLIST <<< "$DAYS_VAL"
+            for d in "${DLIST[@]}"; do
+              d_trim="${d// /}"
+              if [[ "$d_trim" =~ ^[0-6]-[0-6]$ ]]; then
+                start="${d_trim%-*}"
+                end="${d_trim#*-}"
+                if [ "$NOW_DOW" -ge "$start" ] && [ "$NOW_DOW" -le "$end" ]; then
+                  day_match=true
+                  break
+                fi
+              elif [[ "$d_trim" =~ ^[0-6]$ ]]; then
+                if [ "$NOW_DOW" = "$d_trim" ]; then
+                  day_match=true
+                  break
+                fi
+              else
+                echo "Ignoring invalid REPORT_DAYS token: '$d_trim'"
+              fi
+            done
+          fi
+
+          TODAY=$(TZ="$TZ_VAL" date +%Y-%m-%d)
+          CHECK_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/${TODAY}/${TODAY}.html?ref=gh-pages"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "$CHECK_URL" || echo "000")
+          report_exists=false
+          if [ "$HTTP_CODE" = "200" ]; then
+            report_exists=true
+          fi
+          echo "Today's report ($TODAY) exists on gh-pages: $report_exists (HTTP $HTTP_CODE)"
+
+          catchup_match=false
+          if [ "$day_match" = "true" ] && [ "$hour_match" = "false" ]; then
+            earliest_hour=99
+            for h in "${HLIST[@]}"; do
+              if [ "$h" -lt "$earliest_hour" ]; then
+                earliest_hour=$h
+              fi
+            done
+            if [ "$NOW_HOUR" -gt "$earliest_hour" ] && [ "$report_exists" = "false" ]; then
+              echo "Catchup: today's report missing from gh-pages - recovering"
+              catchup_match=true
+            fi
+          fi
+
+          if [ "$hour_match" = "true" ] && [ "$day_match" = "true" ] && [ "$report_exists" = "false" ]; then
+            echo "Match + missing report - proceeding to build"
+            echo "should-run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$catchup_match" = "true" ]; then
+            echo "Catchup - proceeding to build"
+            echo "should-run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Skipping (hour=$hour_match day=$day_match exists=$report_exists catchup=$catchup_match)"
+            echo "should-run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  build:
+    name: Build and publish
+    needs: gate
+    if: needs.gate.outputs.should-run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      WEB_MODE: "true"
+      REPORT_TZ: ${{ vars.REPORT_TZ || 'Asia/Shanghai' }}
+      LLM_ENABLED: "false"
+      OBSIDIAN_VAULT_PATH: "/tmp/portmgmt-no-obsidian-vault"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore existing reports from gh-pages
+        shell: bash
+        run: |
+          mkdir -p portfolio_reports
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch origin gh-pages --depth=1
+            git --work-tree=portfolio_reports checkout origin/gh-pages -- . || true
+            rm -f portfolio_reports/index.html portfolio_reports/archive.html
+            echo "Restored $(find portfolio_reports -maxdepth 1 -type d -name '20*' | wc -l) prior report dirs"
+          else
+            echo "gh-pages does not exist yet - first run"
+          fi
+
+      - name: Refresh public data
+        run: |
+          npm run enrich:models
+          npm run models:timeline
+          npm run enrich:financials
+          npm run enrich:valuation
+          npm run enrich:capex
+          npm run enrich:validate
+          npm run financials:fetch
+          npm run financials:validate
+
+      - name: Build report
+        run: npm run build
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./portfolio_reports
+          publish_branch: gh-pages
+          keep_files: false
+          commit_message: "portmgmt: report for ${{ github.run_id }}"

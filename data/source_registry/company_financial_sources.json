@@ -1,0 +1,209 @@
+{
+  "generated_at": "2026-06-06T00:00:00.000Z",
+  "source_note": "Official/public source registry for financial history. LLM output may only enter data/llm_candidates and cannot directly write verified financials.",
+  "companies": [
+    {
+      "ticker": "ASML.O",
+      "company": "ASML Holding N.V.",
+      "status": "holding",
+      "preferred_currency": "EUR",
+      "primary_sources": [
+        { "title": "ASML annual reports", "url": "https://www.asml.com/en/investors/annual-reports", "type": "annual_report" },
+        { "title": "SEC companyfacts CIK0000937966", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000937966.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts_plus_ir_pdf",
+      "next_action": "继续解析 annual report PDF 中 segment 与季度口径。"
+    },
+    {
+      "ticker": "ASX",
+      "company": "ASE Technology Holding Co., Ltd.",
+      "status": "holding",
+      "preferred_currency": "TWD",
+      "primary_sources": [
+        { "title": "ASE investor relations", "url": "https://ir.aseglobal.com/", "type": "ir" },
+        { "title": "SEC 20-F filings", "url": "https://www.sec.gov/edgar/browse/?CIK=1122411", "type": "sec_filings" }
+      ],
+      "adapter": "sec_companyfacts_plus_ir",
+      "next_action": "ASX：SEC 20-F / 公司 IR / ASE annual report；确认 TWD/USD 披露口径。"
+    },
+    {
+      "ticker": "AVGO.O",
+      "company": "Broadcom Inc.",
+      "status": "holding",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "Broadcom IR financial reports", "url": "https://investors.broadcom.com/financial-information/sec-filings", "type": "ir_sec" },
+        { "title": "SEC companyfacts CIK0001730168", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts",
+      "next_action": "补充 FY2026 最近季度与 segment 信息。"
+    },
+    {
+      "ticker": "BABA.N",
+      "company": "Alibaba Group Holding Limited",
+      "status": "holding",
+      "preferred_currency": "CNY",
+      "primary_sources": [
+        { "title": "Alibaba investor relations", "url": "https://www.alibabagroup.com/en-US/ir-financial-reports-quarterly-results", "type": "ir" },
+        { "title": "SEC companyfacts CIK0001577552", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001577552.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts_plus_ir",
+      "next_action": "补 FY2025 年报人民币口径与最近季度。"
+    },
+    {
+      "ticker": "BB.N",
+      "company": "BlackBerry Limited",
+      "status": "holding",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "BlackBerry investor relations", "url": "https://investors.blackberry.com/", "type": "ir" },
+        { "title": "SEC companyfacts CIK0001070235", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001070235.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts_plus_sedar",
+      "next_action": "确认主要 filing 来源并补软件 ARR/IoT segment。"
+    },
+    {
+      "ticker": "CIEN.N",
+      "company": "Ciena Corporation",
+      "status": "holding",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "Ciena annual reports", "url": "https://investor.ciena.com/financials/annual-reports/default.aspx", "type": "ir" },
+        { "title": "SEC companyfacts CIK0000936395", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000936395.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts",
+      "next_action": "补最近两个季度与 backlog/segment。"
+    },
+    {
+      "ticker": "GFS.O",
+      "company": "GLOBALFOUNDRIES Inc.",
+      "status": "holding",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "SEC companyfacts CIK0001709048", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001709048.json", "type": "sec_companyfacts" },
+        { "title": "GlobalFoundries investor relations", "url": "https://investors.gf.com/financials/sec-filings/default.aspx", "type": "ir_sec" }
+      ],
+      "adapter": "sec_companyfacts_plus_6k",
+      "next_action": "补 2025 interim 6-K 的现金流与 Capex。"
+    },
+    {
+      "ticker": "GOOGL.O",
+      "company": "Alphabet Inc.",
+      "status": "holding",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "Alphabet investor relations", "url": "https://abc.xyz/investor/", "type": "ir" },
+        { "title": "SEC companyfacts CIK0001652044", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts",
+      "next_action": "补 cloud/other bets segment 与最近季度。"
+    },
+    {
+      "ticker": "IBM.N",
+      "company": "International Business Machines Corporation",
+      "status": "holding",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "IBM annual reports", "url": "https://www.ibm.com/investor/financials/annual-reports", "type": "annual_report" },
+        { "title": "SEC companyfacts CIK0000051143", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000051143.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts",
+      "next_action": "补 consulting/software segment 与最近季度。"
+    },
+    {
+      "ticker": "IFX.DF",
+      "company": "Infineon Technologies AG",
+      "status": "holding",
+      "preferred_currency": "EUR",
+      "primary_sources": [
+        { "title": "Infineon annual reports", "url": "https://www.infineon.com/cms/en/about-infineon/investor/reports-and-presentations/", "type": "annual_report" }
+      ],
+      "adapter": "company_ir_pdf",
+      "next_action": "IFX：Infineon annual report / quarterly report；接入 IR PDF 解析，补 IFRS 年度与季度。"
+    },
+    {
+      "ticker": "NBIS.O",
+      "company": "Nebius Group N.V.",
+      "status": "holding",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "Nebius investor relations", "url": "https://ir.nebius.com/", "type": "ir" },
+        { "title": "SEC companyfacts CIK0001513845", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001513845.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts_plus_ir",
+      "next_action": "补 20-F 与最近季度经营指标。"
+    },
+    {
+      "ticker": "NOK.N",
+      "company": "Nokia Oyj",
+      "status": "holding",
+      "preferred_currency": "EUR",
+      "primary_sources": [
+        { "title": "Nokia annual reports", "url": "https://www.nokia.com/about-us/investors/reports-filings/", "type": "annual_report" },
+        { "title": "SEC companyfacts CIK0000924613", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000924613.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts_plus_ir_pdf",
+      "next_action": "NOK：Nokia annual report / quarterly report；补净销售、FCF 与 segment。"
+    },
+    {
+      "ticker": "QCOM.O",
+      "company": "Qualcomm Incorporated",
+      "status": "holding",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "Qualcomm investor relations", "url": "https://investor.qualcomm.com/financial-information/sec-filings", "type": "ir_sec" },
+        { "title": "SEC companyfacts CIK0000804328", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000804328.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts",
+      "next_action": "补最近季度和 handset/auto/IoT segment。"
+    },
+    {
+      "ticker": "Samsung",
+      "company": "Samsung Electronics Co., Ltd.",
+      "status": "holding",
+      "preferred_currency": "KRW",
+      "primary_sources": [
+        { "title": "Samsung Electronics IR", "url": "https://www.samsung.com/global/ir/financial-information/audited-financial-statements/", "type": "ir" },
+        { "title": "Korea DART", "url": "https://dart.fss.or.kr/", "type": "dart" }
+      ],
+      "adapter": "korea_dart_plus_ir",
+      "next_action": "Samsung：DART / Samsung IR audited financial statements；接入 DART/IR PDF，补 2025/2026 财报。"
+    },
+    {
+      "ticker": "SKM.N",
+      "company": "SK Telecom Co., Ltd.",
+      "status": "holding",
+      "preferred_currency": "KRW",
+      "primary_sources": [
+        { "title": "SK Telecom investor relations", "url": "https://www.sktelecom.com/en/investor-relations/annual-reports", "type": "ir" },
+        { "title": "Korea DART", "url": "https://dart.fss.or.kr/", "type": "dart" }
+      ],
+      "adapter": "sec_20f_plus_korea_dart",
+      "next_action": "SKM：SEC 20-F / DART / SK Telecom annual report；补年度与季度。"
+    },
+    {
+      "ticker": "TSM.N",
+      "company": "Taiwan Semiconductor Manufacturing Company Limited",
+      "status": "holding",
+      "preferred_currency": "TWD",
+      "primary_sources": [
+        { "title": "TSMC annual reports", "url": "https://investor.tsmc.com/english/annual-reports", "type": "annual_report" },
+        { "title": "SEC companyfacts CIK0001046179", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001046179.json", "type": "sec_companyfacts" }
+      ],
+      "adapter": "sec_companyfacts_plus_taiwan_mops",
+      "next_action": "TSM：MOPS / TSMC annual report / earnings release；确认 TWD 披露口径。"
+    },
+    {
+      "ticker": "AAOI",
+      "company": "Applied Optoelectronics, Inc.",
+      "status": "watchlist_candidate",
+      "preferred_currency": "USD",
+      "primary_sources": [
+        { "title": "AAOI investor relations", "url": "https://investors.ao-inc.com/financial-information/overview", "type": "ir" },
+        { "title": "SEC filings", "url": "https://www.sec.gov/edgar/browse/?CIK=1158114", "type": "sec_filings" }
+      ],
+      "adapter": "sec_companyfacts_watchlist_candidate",
+      "next_action": "保持 watching/pending，仅进入候选数据，不进入组合财务主表。"
+    }
+  ]
+}

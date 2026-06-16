@@ -1,0 +1,282 @@
+{
+  "portfolio_name": "美股科技持仓组合",
+  "report_timezone": "Asia/Shanghai",
+  "benchmark_tickers": [
+    "QQQ"
+  ],
+  "mag7_tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "TSLA"
+  ],
+  "market": {
+    "live_refresh_enabled": true,
+    "live_endpoint": "/market_live.json",
+    "fallback_endpoint": "data/market_live/latest.json",
+    "refresh_timeout_ms": 10000,
+    "benchmarks": [
+      "QQQ"
+    ],
+    "mag7": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "AMZN",
+      "META",
+      "GOOGL",
+      "TSLA"
+    ]
+  },
+  "obsidian_vault_path": null,
+  "obsidian_include_globs": [
+    "stk/**/*.md",
+    "inbox/stk/**/*.md",
+    "knowledge/qa/*stk*.md"
+  ],
+  "obsidian_exclude_globs": [
+    "**/_backup_*",
+    "**/attachments/**",
+    "stk/resources/**/*_attachments/**",
+    "stk/resources/**/*_images/**",
+    "_system/**",
+    "_claude_review_output_*/**",
+    "title-content-fix-review/**"
+  ],
+  "obsidian_max_hits": 240,
+  "web_mode": false,
+  "privacy": {
+    "publish_raw_uploads": false,
+    "redact_private_fields": true
+  },
+  "tracked": [
+    {
+      "ticker": "ASML.O",
+      "display_ticker": "ASML",
+      "yfinance_ticker": "ASML",
+      "company_name": "ASML Holding N.V.",
+      "chinese_name": "阿斯麦",
+      "status": "holding",
+      "group": "半导体设备",
+      "weight": null,
+      "order": 1,
+      "source_file": "initial/ASML_profile.md"
+    },
+    {
+      "ticker": "ASX",
+      "display_ticker": "ASX",
+      "yfinance_ticker": "ASX",
+      "company_name": "ASE Technology Holding Co., Ltd.（日月光投控）",
+      "chinese_name": "日月光半导体",
+      "status": "holding",
+      "group": "OSAT",
+      "weight": null,
+      "order": 2,
+      "source_file": "initial/ASX_profile.md"
+    },
+    {
+      "ticker": "AVGO.O",
+      "display_ticker": "AVGO",
+      "yfinance_ticker": "AVGO",
+      "company_name": "Broadcom Inc.",
+      "chinese_name": "博通",
+      "status": "holding",
+      "group": "ASIC",
+      "weight": null,
+      "order": 3,
+      "source_file": "initial/AVGO_profile.md"
+    },
+    {
+      "ticker": "BABA.N",
+      "display_ticker": "BABA",
+      "yfinance_ticker": "BABA",
+      "company_name": "Alibaba Group Holding Limited",
+      "chinese_name": null,
+      "status": "holding",
+      "group": "云厂商",
+      "weight": null,
+      "order": 4,
+      "source_file": "initial/BABA_profile.md"
+    },
+    {
+      "ticker": "BB.N",
+      "display_ticker": "BB",
+      "yfinance_ticker": "BB",
+      "company_name": "BlackBerry Limited",
+      "chinese_name": null,
+      "status": "holding",
+      "group": "软件/AI应用",
+      "weight": null,
+      "order": 5,
+      "source_file": "initial/BB_profile.md"
+    },
+    {
+      "ticker": "CIEN.N",
+      "display_ticker": "CIEN",
+      "yfinance_ticker": "CIEN",
+      "company_name": "Ciena Corporation",
+      "chinese_name": null,
+      "status": "holding",
+      "group": "通信设备",
+      "weight": null,
+      "order": 6,
+      "source_file": "initial/CIEN_profile.md"
+    },
+    {
+      "ticker": "GFS.O",
+      "display_ticker": "GFS",
+      "yfinance_ticker": "GFS",
+      "company_name": "GLOBALFOUNDRIES Inc.",
+      "chinese_name": null,
+      "status": "holding",
+      "group": "FAB",
+      "weight": null,
+      "order": 7,
+      "source_file": "initial/GFS_profile.md"
+    },
+    {
+      "ticker": "GOOGL.O",
+      "display_ticker": "GOOGL",
+      "yfinance_ticker": "GOOGL",
+      "company_name": "Alphabet Inc.",
+      "chinese_name": "谷歌",
+      "status": "holding",
+      "group": "云厂商",
+      "weight": null,
+      "order": 8,
+      "source_file": "initial/GOOGL_profile.md"
+    },
+    {
+      "ticker": "IBM.N",
+      "display_ticker": "IBM",
+      "yfinance_ticker": "IBM",
+      "company_name": "International Business Machines Corporation",
+      "chinese_name": null,
+      "status": "holding",
+      "group": "云厂商",
+      "weight": null,
+      "order": 9,
+      "source_file": "initial/IBM_profile.md"
+    },
+    {
+      "ticker": "IFX.DF",
+      "display_ticker": "IFX",
+      "yfinance_ticker": "IFX.DE",
+      "company_name": "Infineon Technologies AG",
+      "chinese_name": null,
+      "status": "holding",
+      "group": "功率/汽车半导体",
+      "weight": null,
+      "order": 10,
+      "source_file": "initial/IFX_profile.md"
+    },
+    {
+      "ticker": "NBIS.O",
+      "display_ticker": "NBIS",
+      "yfinance_ticker": "NBIS",
+      "company_name": "Nebius Group N.V.",
+      "chinese_name": null,
+      "status": "holding",
+      "group": "GPU",
+      "weight": null,
+      "order": 11,
+      "source_file": "initial/NBIS_profile.md"
+    },
+    {
+      "ticker": "NOK.N",
+      "display_ticker": "NOK",
+      "yfinance_ticker": "NOK",
+      "company_name": "Nokia Oyj",
+      "chinese_name": "诺基亚",
+      "status": "holding",
+      "group": "通信设备",
+      "weight": null,
+      "order": 12,
+      "source_file": "initial/NOK_profile.md"
+    },
+    {
+      "ticker": "QCOM.O",
+      "display_ticker": "QCOM",
+      "yfinance_ticker": "QCOM",
+      "company_name": "Qualcomm Incorporated",
+      "chinese_name": "高通",
+      "status": "holding",
+      "group": "ASIC",
+      "weight": null,
+      "order": 13,
+      "source_file": "initial/QCOM_profile.md"
+    },
+    {
+      "ticker": "Samsung",
+      "display_ticker": "Samsung",
+      "yfinance_ticker": "005930.KS",
+      "company_name": "Samsung Electronics Co., Ltd.",
+      "chinese_name": null,
+      "status": "holding",
+      "group": "FAB",
+      "weight": null,
+      "order": 14,
+      "source_file": "initial/Samsung_profile.md"
+    },
+    {
+      "ticker": "SKM.N",
+      "display_ticker": "SKM",
+      "yfinance_ticker": "SKM",
+      "company_name": "SK Telecom Co., Ltd.",
+      "chinese_name": "SK电讯",
+      "status": "holding",
+      "group": "通信设备",
+      "weight": null,
+      "order": 15,
+      "source_file": "initial/SKM_profile.md"
+    },
+    {
+      "ticker": "TSM.N",
+      "display_ticker": "TSM",
+      "yfinance_ticker": "TSM",
+      "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "chinese_name": "台积电",
+      "status": "holding",
+      "group": "FAB",
+      "weight": null,
+      "order": 16,
+      "source_file": "initial/TSM_profile.md"
+    }
+  ],
+  "manual_reminders": [],
+  "adapters": {
+    "price": {
+      "provider": null,
+      "status": "stub"
+    },
+    "news": {
+      "provider": null,
+      "status": "stub"
+    }
+  },
+  "generated_from_initial_at": "2026-06-04T12:01:23.029Z",
+  "watchlist": [
+    {
+      "ticker": "AAOI",
+      "company_name": "Applied Optoelectronics, Inc.",
+      "status": "watching",
+      "is_holding": false,
+      "priority": "medium",
+      "sector_tags": [
+        "光通信",
+        "数据中心",
+        "光模块",
+        "AI基础设施",
+        "CATV"
+      ],
+      "init_status": "pending",
+      "added_at": "2026-06-06",
+      "updated_at": "2026-06-06",
+      "profile_candidate_path": "data/watchlist_candidates/AAOI_profile_candidate.md",
+      "notes": "候选资料已补入本地档案；仍保持 pending，不进入组合收益计算。"
+    }
+  ]
+}

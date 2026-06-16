@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/portmgmt.schema.json",
+  "title": "PortMgmt Local Data Schema",
+  "type": "object",
+  "definitions": {
+    "company": {
+      "type": "object",
+      "required": [
+        "ticker",
+        "company_name",
+        "chinese_name",
+        "exchange",
+        "sub_industry",
+        "tags",
+        "status",
+        "group",
+        "core_positioning",
+        "revenue_breakdown",
+        "financials",
+        "guidance",
+        "capex_capacity",
+        "price_performance",
+        "risks",
+        "source_files",
+        "updated_at"
+      ],
+      "properties": {
+        "ticker": { "type": "string" },
+        "display_ticker": { "type": ["string", "null"] },
+        "company_name": { "type": ["string", "null"] },
+        "chinese_name": { "type": ["string", "null"] },
+        "exchange": { "type": ["string", "null"] },
+        "sub_industry": { "type": ["string", "null"] },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "status": { "enum": ["holding", "watchlist", "cleared", "paused"] },
+        "group": { "type": ["string", "null"] },
+        "core_positioning": { "type": ["string", "null"] },
+        "revenue_breakdown": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "segment": { "type": ["string", "null"] },
+              "percentage": { "type": ["string", "null"] },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "financials": {
+          "type": "object",
+          "properties": {
+            "annual": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "fiscal_year": { "type": ["string", "null"] },
+                  "revenue": { "type": ["string", "null"] },
+                  "revenue_yoy": { "type": ["string", "null"] },
+                  "gross_margin": { "type": ["string", "null"] },
+                  "operating_margin": { "type": ["string", "null"] },
+                  "net_income": { "type": ["string", "null"] },
+                  "net_margin": { "type": ["string", "null"] },
+                  "fcf": { "type": ["string", "null"] },
+                  "debt": { "type": ["string", "null"] },
+                  "net_debt": { "type": ["string", "null"] },
+                  "capex": { "type": ["string", "null"] },
+                  "source": { "type": ["string", "null"] },
+                  "confidence": { "type": ["string", "null"] }
+                }
+              }
+            },
+            "latest": { "type": "array", "items": { "type": "object" } },
+            "valuation": { "type": "array", "items": { "type": "object" } },
+            "extraction_warnings": { "type": "array", "items": { "type": "string" } },
+            "missing_info_prompt": { "type": "array", "items": { "type": "object" } }
+          }
+        },
+        "guidance": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": { "type": ["string", "null"] },
+              "period": { "type": ["string", "null"] },
+              "metric": { "type": ["string", "null"] },
+              "value": { "type": ["string", "null"] },
+              "direction": { "enum": ["up", "down", "maintained", "new", "unknown", null] },
+              "source": { "type": ["string", "null"] },
+              "confidence": { "type": ["string", "null"] },
+              "validation_status": { "type": ["string", "null"] },
+              "missing_info_prompt": { "type": ["object", "null"] }
+            }
+          }
+        },
+        "capex_capacity": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "period": { "type": ["string", "null"] },
+              "capex": { "type": ["string", "null"] },
+              "yoy": { "type": ["string", "null"] },
+              "capacity": { "type": ["string", "null"] },
+              "project": { "type": ["string", "null"] },
+              "timepoint": { "type": ["string", "null"] },
+              "source": { "type": ["string", "null"] },
+              "confidence": { "type": ["string", "null"] },
+              "validation_status": { "type": ["string", "null"] },
+              "missing_info_prompt": { "type": ["object", "null"] }
+            }
+          }
+        },
+        "capital_structure": { "type": "object" },
+        "price_performance": {
+          "type": "object",
+          "properties": {
+            "one_day": { "type": ["number", "string", "null"] },
+            "five_day": { "type": ["number", "string", "null"] },
+            "twenty_day": { "type": ["number", "string", "null"] },
+            "ytd": { "type": ["number", "string", "null"] },
+            "relative_qqq": { "type": ["number", "string", "null"] },
+            "relative_spy": { "type": ["number", "string", "null"] },
+            "status": { "type": ["string", "null"] }
+          }
+        },
+        "risks": { "type": "array", "items": { "type": "object" } },
+        "source_files": { "type": "array", "items": { "type": "string" } },
+        "sources": { "type": "array", "items": { "type": "string" } },
+        "extraction_warnings": { "type": "array", "items": { "type": "string" } },
+        "missing_info_prompt": { "type": "array", "items": { "type": "object" } },
+        "updated_at": { "type": "string" }
+      }
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "id",
+        "date",
+        "ticker",
+        "level",
+        "title",
+        "summary",
+        "impact_direction",
+        "tags",
+        "source_url",
+        "source_file",
+        "obsidian_path",
+        "bosidian_path",
+        "verification_status",
+        "created_at",
+        "updated_at"
+      ],
+      "properties": {
+        "id": { "type": "string" },
+        "date": { "type": ["string", "null"] },
+        "date_text": { "type": ["string", "null"] },
+        "ticker": { "type": "string" },
+        "level": { "enum": ["L1", "L2", "L3", "draft"] },
+        "title": { "type": "string" },
+        "summary": { "type": "string" },
+        "impact_direction": { "enum": ["positive", "negative", "neutral", "mixed", "unknown"] },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "source_url": { "type": ["string", "null"] },
+        "original_url": { "type": ["string", "null"] },
+        "source": { "type": ["string", "null"] },
+        "source_type": { "type": ["string", "null"] },
+        "source_file": { "type": ["string", "null"] },
+        "obsidian_path": { "type": ["string", "null"] },
+        "bosidian_path": { "type": ["string", "null"] },
+        "verification_status": { "type": "string" },
+        "validation_status": { "type": ["string", "null"] },
+        "why_it_matters": { "type": ["string", "null"] },
+        "next_check": { "type": ["string", "null"] },
+        "missing_info_prompt": { "type": ["object", "null"] },
+        "created_at": { "type": "string" },
+        "updated_at": { "type": "string" }
+      }
+    },
+    "reminder": {
+      "type": "object",
+      "required": ["date", "ticker", "type", "title", "priority", "source", "status"],
+      "properties": {
+        "date": { "type": ["string", "null"] },
+        "date_text": { "type": ["string", "null"] },
+        "ticker": { "type": "string" },
+        "type": {
+          "enum": ["earnings", "product_launch", "investor_day", "regulation", "conference", "capacity_update", "other"]
+        },
+        "title": { "type": "string" },
+        "priority": { "type": "string" },
+        "source": { "type": ["string", "null"] },
+        "status": { "type": "string" }
+      }
+    },
+    "ai_capex": {
+      "type": "object",
+      "required": [
+        "company",
+        "region",
+        "year",
+        "capex_guidance",
+        "yoy_growth",
+        "last_revision_date",
+        "revision_direction",
+        "supply_chain_mapping",
+        "source",
+        "confidence_level"
+      ],
+      "properties": {
+        "company": { "type": ["string", "null"] },
+        "category": { "enum": ["hyperscaler", "china", "supply_chain_mapping", null] },
+        "region": { "enum": ["US", "China", "Other", null] },
+        "capex_2025": { "type": ["string", "null"] },
+        "capex_2026": { "type": ["string", "null"] },
+        "year": { "type": ["string", "null"] },
+        "capex_guidance": { "type": ["string", "null"] },
+        "yoy_growth": { "type": ["string", "null"] },
+        "ai_related_notes": { "type": ["string", "null"] },
+        "demand_driver": { "type": ["string", "null"] },
+        "impacted_holdings": { "type": "array", "items": { "type": "string" } },
+        "mechanism": { "type": ["string", "null"] },
+        "strength": { "enum": ["high", "medium", "low", null] },
+        "evidence": { "type": ["string", "null"] },
+        "last_revision_date": { "type": ["string", "null"] },
+        "revision_direction": { "enum": ["up", "down", "unchanged", "unknown", null] },
+        "supply_chain_mapping": { "type": "array", "items": { "type": "string" } },
+        "source": { "type": ["string", "null"] },
+        "confidence_level": { "enum": ["high", "medium", "low", "unknown", "profile"] },
+        "validation_status": { "type": ["string", "null"] },
+        "missing_info_prompt": { "type": ["object", "null"] }
+      }
+    },
+    "ai_model": {
+      "type": "object",
+      "required": [
+        "provider",
+        "model_name",
+        "release_date",
+        "key_capabilities",
+        "compute_supply_chain_impact",
+        "source",
+        "confidence_level"
+      ],
+      "properties": {
+        "provider": { "type": ["string", "null"] },
+        "model_name": { "type": ["string", "null"] },
+        "release_date": { "type": ["string", "null"] },
+        "status": { "enum": ["released", "announced", "rumored", "expected", "unknown", null] },
+        "key_capabilities": { "type": ["string", "null"] },
+        "compute_supply_chain_impact": { "type": ["string", "null"] },
+        "impacted_holdings": { "type": "array", "items": { "type": "string" } },
+        "source": { "type": ["string", "null"] },
+        "confidence_level": { "enum": ["high", "medium", "low", "unknown", "profile"] },
+        "validation_status": { "type": ["string", "null"] },
+        "missing_info_prompt": { "type": ["object", "null"] }
+      }
+    }
+  }
+}
