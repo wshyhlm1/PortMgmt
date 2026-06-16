@@ -1,43 +1,144 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-portmgmt-encrypted="v1">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PortMgmt Archive</title>
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>PortMgmt · Locked</title>
   <style>
-    :root { color-scheme: light dark; --bg:#f4f6f8; --card:#fff; --text:#17202a; --muted:#667085; --border:#d9e0e6; --accent:#0f766e; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    :root { color-scheme: light dark; --bg:#f5f7f8; --card:#fff; --text:#17202a; --muted:#667085; --border:#d9e0e6; --accent:#0f766e; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     @media (prefers-color-scheme: dark) { :root { --bg:#101317; --card:#171b21; --text:#e6edf3; --muted:#a6b0bd; --border:#2d3742; --accent:#3fb7a7; } }
     * { box-sizing: border-box; }
-    body { margin:0; background:var(--bg); color:var(--text); font-size:14px; line-height:1.55; }
-    main { max-width: 920px; margin: 0 auto; padding: 28px 16px 48px; }
-    h1 { margin:0 0 4px; letter-spacing:0; }
-    a { color:var(--accent); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .muted { color:var(--muted); }
-    .card { margin-top:18px; background:var(--card); border:1px solid var(--border); border-radius:8px; overflow:hidden; }
-    table { width:100%; border-collapse:collapse; }
-    th, td { padding:11px 12px; border-bottom:1px solid var(--border); text-align:left; }
-    th { color:var(--muted); background: color-mix(in srgb, var(--card), var(--bg) 40%); font-size:12px; }
-    tr:last-child td { border-bottom:0; }
-    .pill { display:inline-flex; padding:2px 7px; border:1px solid var(--border); border-radius:999px; color:var(--muted); font-size:12px; }
-    @media (max-width: 640px) { table, thead, tbody, tr, th, td { display:block; } thead { display:none; } td { display:grid; grid-template-columns:90px minmax(0,1fr); gap:8px; border:0; } td::before { content:attr(data-label); color:var(--muted); } tr { border-bottom:1px solid var(--border); } }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; padding: 20px; background: var(--bg); color: var(--text); }
+    .card { width: min(100%, 420px); padding: 24px; border: 1px solid var(--border); border-radius: 8px; background: var(--card); box-shadow: 0 18px 44px rgba(16, 24, 40, 0.12); }
+    .eyebrow { margin: 0 0 6px; color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; }
+    h1 { margin: 0; font-size: 24px; line-height: 1.2; letter-spacing: 0; }
+    .hint { margin: 12px 0 18px; color: var(--muted); font-size: 14px; line-height: 1.6; }
+    label { display: block; margin-bottom: 6px; font-size: 14px; font-weight: 650; }
+    input[type="password"] { width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--card); color: var(--text); font: inherit; }
+    input[type="password"]:focus { outline: 2px solid color-mix(in srgb, var(--accent), transparent 72%); border-color: var(--accent); }
+    .remember { display: flex; align-items: center; gap: 8px; margin: 14px 0 16px; color: var(--muted); font-size: 13px; font-weight: 500; }
+    .remember input { width: 16px; height: 16px; }
+    button { width: 100%; border: 0; border-radius: 8px; padding: 12px 16px; background: var(--accent); color: #fff; cursor: pointer; font: inherit; font-weight: 700; }
+    button:disabled { cursor: wait; opacity: 0.7; }
+    .status { min-height: 20px; margin-top: 12px; color: var(--muted); font-size: 13px; }
+    .status.error { color: #b42318; }
+    .fine-print { margin: 14px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
   </style>
 </head>
 <body>
-  <main>
-    <h1>PortMgmt Archive</h1>
-    <div class="muted">Latest report: 2026-06-16</div>
-    <div class="card">
-      <table>
-        <thead><tr><th>Date</th><th>HTML</th><th>JSON</th><th>Markdown</th></tr></thead>
-        <tbody><tr>
-    <td data-label="Date"><a href="2026-06-16/2026-06-16.html">2026-06-16</a> <span class="pill">latest</span></td>
-    <td data-label="HTML"><a href="2026-06-16/2026-06-16.html">HTML</a></td>
-    <td data-label="JSON"><a href="2026-06-16/2026-06-16.json">JSON</a></td>
-    <td data-label="Markdown"><a href="2026-06-16/2026-06-16.md">MD</a></td>
-  </tr></tbody>
-      </table>
-    </div>
-  </main>
+  <form class="card" id="unlock-form">
+    <p class="eyebrow">PortMgmt</p>
+    <h1>输入共享密码</h1>
+    <p class="hint">这份组合管理报告已在发布前静态加密。</p>
+    <label for="password">密码</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" autofocus required>
+    <label class="remember">
+      <input id="remember" type="checkbox" checked>
+      <span>记住密码</span>
+    </label>
+    <button id="unlock-button" type="submit">打开报告</button>
+    <div class="status" id="status" aria-live="polite"></div>
+    <p class="fine-print">密码不会发送到服务器，只在浏览器本地用于解密页面。</p>
+  </form>
+  <script>
+(function () {
+  "use strict";
+  var encrypted = {"v":1,"sourcePath":"archive.html","rememberDays":45,"iterations":150000,"salt":"kHlLyxsRMgcHCsJTEL3IoA==","iv":"D4L7mAIsBruGeSNm","payload":"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"};
+  var storageKey = "portmgmt:password:v1";
+  var form = document.getElementById("unlock-form");
+  var input = document.getElementById("password");
+  var remember = document.getElementById("remember");
+  var button = document.getElementById("unlock-button");
+  var status = document.getElementById("status");
+  var decoder = new TextDecoder();
+  var encoder = new TextEncoder();
+
+  function setStatus(message, isError) {
+    status.textContent = message || "";
+    status.classList.toggle("error", Boolean(isError));
+  }
+
+  function b64ToBytes(value) {
+    var binary = atob(value);
+    var bytes = new Uint8Array(binary.length);
+    for (var i = 0; i < binary.length; i += 1) bytes[i] = binary.charCodeAt(i);
+    return bytes;
+  }
+
+  function readRememberedPassword() {
+    try {
+      var raw = localStorage.getItem(storageKey);
+      if (!raw) return "";
+      var saved = JSON.parse(raw);
+      if (!saved || !saved.password || !saved.expiresAt || saved.expiresAt <= Date.now()) {
+        localStorage.removeItem(storageKey);
+        return "";
+      }
+      return saved.password;
+    } catch (_) {
+      return "";
+    }
+  }
+
+  function rememberPassword(password) {
+    if (!remember.checked) return;
+    try {
+      localStorage.setItem(storageKey, JSON.stringify({
+        password: password,
+        expiresAt: Date.now() + encrypted.rememberDays * 24 * 60 * 60 * 1000,
+      }));
+    } catch (_) {}
+  }
+
+  async function deriveKey(password) {
+    var baseKey = await crypto.subtle.importKey("raw", encoder.encode(password), "PBKDF2", false, ["deriveKey"]);
+    return crypto.subtle.deriveKey({
+      name: "PBKDF2",
+      salt: b64ToBytes(encrypted.salt),
+      iterations: encrypted.iterations,
+      hash: "SHA-256",
+    }, baseKey, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+  }
+
+  async function decrypt(password) {
+    var key = await deriveKey(password);
+    var plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64ToBytes(encrypted.iv) }, key, b64ToBytes(encrypted.payload));
+    return decoder.decode(plain);
+  }
+
+  async function unlock(password, automatic) {
+    if (!window.crypto || !crypto.subtle) {
+      setStatus("当前浏览器不支持 Web Crypto，无法解密页面。", true);
+      return;
+    }
+    button.disabled = true;
+    setStatus(automatic ? "正在使用已保存的密码打开..." : "正在解密...", false);
+    try {
+      var html = await decrypt(password);
+      rememberPassword(password);
+      document.open();
+      document.write(html);
+      document.close();
+    } catch (_) {
+      if (automatic) {
+        try { localStorage.removeItem(storageKey); } catch (_) {}
+      }
+      button.disabled = false;
+      setStatus("密码不对，或者这份报告使用了不同的旧密码。", true);
+      input.focus();
+      input.select();
+    }
+  }
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    unlock(input.value, false);
+  });
+
+  var savedPassword = readRememberedPassword();
+  if (savedPassword) unlock(savedPassword, true);
+})();
+  </script>
 </body>
 </html>
