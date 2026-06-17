@@ -3,7 +3,7 @@
     "title": "PortMgmt / 美股科技持仓组合",
     "portfolio_name": "美股科技持仓组合",
     "report_date": "2026-06-17",
-    "updated_at": "2026-06-17T05:11:22.576Z",
+    "updated_at": "2026-06-17T14:10:07.103Z",
     "timezone": "Asia/Shanghai",
     "web_mode": true
   },
@@ -11,69 +11,69 @@
     "holding_count": 16,
     "watchlist_count": 0,
     "company_count": 16,
-    "portfolio_return_1d": -2.59,
-    "portfolio_return_5d": 2.34,
+    "portfolio_return_1d": 0.48,
+    "portfolio_return_5d": 6.12,
     "overview_rows": [
       {
         "ticker": "ASML.O",
         "stock": "ASML.O · 阿斯麦",
-        "price": 1803.89,
-        "marketCapDisplay": "695.25B",
-        "return1d": -4.69,
-        "return5d": 1.47,
-        "return20d": 22.51,
-        "returnYtd": 55.68,
-        "driver_type": "market_background",
-        "driver_label": "市场背景",
-        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
+        "price": 1890.56,
+        "marketCapDisplay": "695.251B",
+        "return1d": 4.8,
+        "return5d": 9.02,
+        "return20d": 29.54,
+        "returnYtd": 63.02,
+        "driver_type": "none",
+        "driver_label": "暂无高置信驱动",
+        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
         "driver_confidence": "medium",
-        "source_title": "market cache",
+        "source_title": "event summary",
         "source_url": null,
-        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
+        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
       },
       {
         "ticker": "ASX",
         "stock": "ASX · 日月光半导体",
-        "price": 36.84,
+        "price": 37.74,
         "marketCapDisplay": "80.825B",
-        "return1d": -4.31,
-        "return5d": 5.02,
-        "return20d": 16.4,
-        "returnYtd": 118.51,
-        "driver_type": "market_background",
-        "driver_label": "市场背景",
-        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
+        "return1d": 2.44,
+        "return5d": 10.03,
+        "return20d": 22.18,
+        "returnYtd": 123.84,
+        "driver_type": "none",
+        "driver_label": "暂无高置信驱动",
+        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
         "driver_confidence": "medium",
-        "source_title": "market cache",
+        "source_title": "event summary",
         "source_url": null,
-        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
+        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
       },
       {
         "ticker": "AVGO.O",
         "stock": "AVGO.O · 博通",
-        "price": 376.71,
-        "marketCapDisplay": "1.79T",
-        "return1d": -4.37,
-        "return5d": -3.94,
-        "return20d": -10.46,
-        "returnYtd": 8.57,
-        "driver_type": "market_background",
-        "driver_label": "市场背景",
-        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
+        "price": 391.75,
+        "marketCapDisplay": "1.869T",
+        "return1d": 3.99,
+        "return5d": 5.28,
+        "return20d": -4.7,
+        "returnYtd": 12.93,
+        "driver_type": "none",
+        "driver_label": "暂无高置信驱动",
+        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
         "driver_confidence": "medium",
-        "source_title": "market cache",
+        "source_title": "event summary",
         "source_url": null,
-        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
+        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
       },
       {
         "ticker": "BABA.N",
         "stock": "BABA.N · Alibaba Group Holding Limited",
-        "price": 110.97,
-        "marketCapDisplay": "266.232B",
-        "return1d": -0.24,
-        "return5d": -5.4,
-        "return20d": -14.33,
-        "returnYtd": -27.07,
+        "price": 109.77,
+        "marketCapDisplay": "263.233B",
+        "return1d": -2.47,
+        "return5d": -7.46,
+        "return20d": -16.87,
+        "returnYtd": -28.87,
         "driver_type": "none",
         "driver_label": "暂无高置信驱动",
         "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
@@ -85,12 +85,12 @@
       {
         "ticker": "BB.N",
         "stock": "BB.N · BlackBerry Limited",
-        "price": 9.17,
+        "price": 9.33,
         "marketCapDisplay": "5.374B",
-        "return1d": -0.76,
-        "return5d": 3.73,
-        "return20d": 43.73,
-        "returnYtd": 141.32,
+        "return1d": 1.74,
+        "return5d": 5.78,
+        "return20d": 50.24,
+        "returnYtd": 145.53,
         "driver_type": "none",
         "driver_label": "暂无高置信驱动",
         "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
@@ -102,29 +102,29 @@
       {
         "ticker": "CIEN.N",
         "stock": "CIEN.N · Ciena Corporation",
-        "price": 430.3,
+        "price": 434.62,
         "marketCapDisplay": "60.91B",
-        "return1d": -7.14,
-        "return5d": -2.06,
-        "return20d": -17.96,
-        "returnYtd": 74.88,
-        "driver_type": "market_background",
-        "driver_label": "市场背景",
-        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
+        "return1d": 1,
+        "return5d": -0.01,
+        "return20d": -19.8,
+        "returnYtd": 76.63,
+        "driver_type": "none",
+        "driver_label": "暂无高置信驱动",
+        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
         "driver_confidence": "medium",
-        "source_title": "market cache",
+        "source_title": "event summary",
         "source_url": null,
-        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
+        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
       },
       {
         "ticker": "GFS.O",
         "stock": "GFS.O · GLOBALFOUNDRIES Inc.",
-        "price": 79.92,
-        "marketCapDisplay": "43.85B",
-        "return1d": -4.83,
-        "return5d": 6.19,
-        "return20d": 17.81,
-        "returnYtd": 116.76,
+        "price": 81.26,
+        "marketCapDisplay": "46.056B",
+        "return1d": -3.24,
+        "return5d": 7.97,
+        "return20d": 19.78,
+        "returnYtd": 120.4,
         "driver_type": "market_background",
         "driver_label": "市场背景",
         "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
@@ -136,12 +136,12 @@
       {
         "ticker": "GOOGL.O",
         "stock": "GOOGL.O · 谷歌",
-        "price": 373.25,
-        "marketCapDisplay": "4.54T",
-        "return1d": 1.06,
-        "return5d": 2.47,
-        "return20d": -5.92,
-        "returnYtd": 18.6,
+        "price": 366.92,
+        "marketCapDisplay": "4.46T",
+        "return1d": -1.7,
+        "return5d": 2.96,
+        "return20d": -5.29,
+        "returnYtd": 16.58,
         "driver_type": "none",
         "driver_label": "暂无高置信驱动",
         "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
@@ -153,12 +153,12 @@
       {
         "ticker": "IBM.N",
         "stock": "IBM.N · International Business Machines Corporation",
-        "price": 270.81,
+        "price": 266.2,
         "marketCapDisplay": "254.53B",
-        "return1d": 0.78,
-        "return5d": -2.41,
-        "return20d": 21.58,
-        "returnYtd": -5.88,
+        "return1d": -1.7,
+        "return5d": -2.26,
+        "return20d": 19.73,
+        "returnYtd": -7.48,
         "driver_type": "none",
         "driver_label": "暂无高置信驱动",
         "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
@@ -170,29 +170,29 @@
       {
         "ticker": "IFX.DF",
         "stock": "IFX.DF · Infineon Technologies AG",
-        "price": 79.28,
+        "price": 76.8,
         "marketCapDisplay": "104.038B",
-        "return1d": -1.82,
-        "return5d": 4.78,
-        "return20d": 22.65,
-        "returnYtd": 108.78,
-        "driver_type": "none",
-        "driver_label": "暂无高置信驱动",
-        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
+        "return1d": -3.13,
+        "return5d": 2.26,
+        "return20d": 13.04,
+        "returnYtd": 102.25,
+        "driver_type": "market_background",
+        "driver_label": "市场背景",
+        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
         "driver_confidence": "medium",
-        "source_title": "event summary",
+        "source_title": "market cache",
         "source_url": null,
-        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
+        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
       },
       {
         "ticker": "NBIS.O",
         "stock": "NBIS.O · Nebius Group N.V.",
-        "price": 265.1,
-        "marketCapDisplay": "67.308B",
-        "return1d": 1.93,
-        "return5d": 20.43,
-        "return20d": 32.64,
-        "returnYtd": 194.72,
+        "price": 275.58,
+        "marketCapDisplay": "69.588B",
+        "return1d": 3.95,
+        "return5d": 30.18,
+        "return20d": 39.37,
+        "returnYtd": 206.37,
         "driver_type": "none",
         "driver_label": "暂无高置信驱动",
         "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
@@ -204,46 +204,46 @@
       {
         "ticker": "NOK.N",
         "stock": "NOK.N · 诺基亚",
-        "price": 13.98,
-        "marketCapDisplay": "78.044B",
-        "return1d": -5.67,
-        "return5d": 0.94,
-        "return20d": 1.75,
-        "returnYtd": 114.75,
-        "driver_type": "market_background",
-        "driver_label": "市场背景",
-        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
+        "price": 13.83,
+        "marketCapDisplay": "77.597B",
+        "return1d": -1.07,
+        "return5d": 3.21,
+        "return20d": 1.18,
+        "returnYtd": 112.45,
+        "driver_type": "none",
+        "driver_label": "暂无高置信驱动",
+        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
         "driver_confidence": "medium",
-        "source_title": "market cache",
+        "source_title": "event summary",
         "source_url": null,
-        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
+        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
       },
       {
         "ticker": "QCOM.O",
         "stock": "QCOM.O · 高通",
-        "price": 214.07,
-        "marketCapDisplay": "225.63B",
-        "return1d": -3.05,
-        "return5d": 4.21,
-        "return20d": 5.51,
-        "returnYtd": 25.01,
-        "driver_type": "market_background",
-        "driver_label": "市场背景",
-        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
+        "price": 218.09,
+        "marketCapDisplay": "230.731B",
+        "return1d": 1.88,
+        "return5d": 14.06,
+        "return20d": 11.9,
+        "returnYtd": 27.36,
+        "driver_type": "none",
+        "driver_label": "暂无高置信驱动",
+        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
         "driver_confidence": "medium",
-        "source_title": "market cache",
+        "source_title": "event summary",
         "source_url": null,
-        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
+        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
       },
       {
         "ticker": "Samsung",
         "stock": "005930.KS · 三星电子",
-        "price": 340750,
-        "marketCapDisplay": "1993.58T KRW",
-        "return1d": -0.66,
-        "return5d": 12.64,
-        "return20d": 21.26,
-        "returnYtd": 147.25,
+        "price": 346500,
+        "marketCapDisplay": "2025.74T KRW",
+        "return1d": 1.02,
+        "return5d": 14.55,
+        "return20d": 23.31,
+        "returnYtd": 151.42,
         "driver_type": "none",
         "driver_label": "暂无高置信驱动",
         "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
@@ -255,74 +255,74 @@
       {
         "ticker": "SKM.N",
         "stock": "SKM.N · SK电讯",
-        "price": 36.91,
+        "price": 36.25,
         "marketCapDisplay": "14.906B",
-        "return1d": -4.18,
-        "return5d": -10.43,
-        "return20d": -0.27,
-        "returnYtd": 79.61,
-        "driver_type": "market_background",
-        "driver_label": "市场背景",
-        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
+        "return1d": -1.79,
+        "return5d": -4.13,
+        "return20d": -2.4,
+        "returnYtd": 76.4,
+        "driver_type": "none",
+        "driver_label": "暂无高置信驱动",
+        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
         "driver_confidence": "medium",
-        "source_title": "market cache",
+        "source_title": "event summary",
         "source_url": null,
-        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
+        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
       },
       {
         "ticker": "TSM.N",
         "stock": "TSM.N · 台积电",
-        "price": 425.83,
+        "price": 434.35,
         "marketCapDisplay": "2.209T",
-        "return1d": -3.53,
-        "return5d": -0.26,
-        "return20d": 7.8,
-        "returnYtd": 33.92,
-        "driver_type": "market_background",
-        "driver_label": "市场背景",
-        "driver_summary": "06/17 随纳指和AI链回调，暂无可确认公司级负面事件。",
+        "return1d": 2,
+        "return5d": 6.51,
+        "return20d": 10.89,
+        "returnYtd": 36.6,
+        "driver_type": "none",
+        "driver_label": "暂无高置信驱动",
+        "driver_summary": "暂无可确认公司级驱动；可能受板块回调影响。",
         "driver_confidence": "medium",
-        "source_title": "market cache",
+        "source_title": "event summary",
         "source_url": null,
-        "driver": "[市场背景] 06/17 随纳指和AI链回调，暂无可确认公司级负面事件。"
+        "driver": "[暂无高置信驱动] 暂无可确认公司级驱动；可能受板块回调影响。"
       }
     ],
     "relative_rows": [
       [
         "组合平均",
-        -2.59,
-        2.34,
+        0.48,
+        6.12,
         "percent"
       ],
       [
         "QQQ",
-        -1.9,
-        3.11,
+        0.27,
+        5.5,
         "percent"
       ],
       [
         "MAG7平均",
-        0.19,
-        0.99,
+        -1.06,
+        1.91,
         "percent"
       ],
       [
         "组合 - QQQ",
-        -0.69,
-        -0.77,
+        0.21,
+        0.62,
         "points"
       ],
       [
         "组合 - MAG7",
-        -2.78,
-        1.35,
+        1.54,
+        4.21,
         "points"
       ]
     ],
     "missing_info_prompts": 56
   },
   "adapters": {
-    "updated_at": "2026-06-17T05:11:22.186Z",
+    "updated_at": "2026-06-17T14:10:06.639Z",
     "price": {
       "status": "ok",
       "provider": "eastmoney_push2+yahoo_stooq_fallback",
@@ -340,27 +340,27 @@
   },
   "market": {
     "asOf": "2026-06-17",
-    "updatedAt": "2026-06-17T05:10:44.553Z",
+    "updatedAt": "2026-06-17T14:09:41.675Z",
     "source": "eastmoney_push2+yahoo_stooq_fallback",
     "provider": "Eastmoney push2 quote/kline with Yahoo Finance and Stooq fallback",
     "benchmarks": {
       "qqq": {
         "symbol": "QQQ",
-        "price": 729.86,
-        "previousClose": 744,
+        "price": 731.83,
+        "previousClose": 729.86,
         "currency": "USD",
         "marketCap": null,
         "marketCapDisplay": null,
-        "peTrailing": 33.51,
+        "peTrailing": 33.69,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.23,
         "fiftyTwoWeekHigh": 746.16,
         "fiftyTwoWeekLow": 524.29,
-        "return1d": -1.9,
-        "return5d": 3.11,
-        "return20d": 3.4,
-        "returnYtd": 19.19,
+        "return1d": 0.27,
+        "return5d": 5.5,
+        "return20d": 4.32,
+        "returnYtd": 19.51,
         "relativeToQQQ1d": null,
         "relativeToQQQ5d": null,
         "relativeToQQQ20d": null,
@@ -369,7 +369,7 @@
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "partial",
         "source_attempts": [
-          "eastmoney_push2: 105.QQQ: fetch failed",
+          "eastmoney_push2: 105.QQQ: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -378,12 +378,12 @@
           "marketCap missing from Yahoo quote page",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z"
+        "updatedAt": "2026-06-17T14:09:41.675Z"
       },
       "mag7_average": {
-        "return1d": 0.19,
-        "return5d": 0.99,
-        "return20d": -4.37
+        "return1d": -1.06,
+        "return5d": 1.91,
+        "return20d": -4.26
       },
       "mag7_tickers": [
         "AAPL",
@@ -398,76 +398,84 @@
     "tickers": {
       "ASML": {
         "symbol": "ASML",
-        "eastmoneySecid": "105.ASML",
-        "price": 1803.89,
-        "previousClose": 1892.66,
-        "currency": null,
-        "marketCap": 695251071716.85,
-        "marketCapDisplay": "695.25B",
-        "peTrailing": 0,
+        "price": 1890.56,
+        "previousClose": 1803.89,
+        "currency": "USD",
+        "marketCap": 695251000000,
+        "marketCapDisplay": "695.251B",
+        "peTrailing": 63.29,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.4,
         "fiftyTwoWeekHigh": 1899.48,
-        "fiftyTwoWeekLow": 584.51,
-        "return1d": -4.69,
-        "return5d": 1.47,
-        "return20d": 22.51,
-        "returnYtd": 55.68,
-        "relativeToQQQ1d": -2.79,
-        "relativeToQQQ5d": -1.64,
-        "relativeToQQQ20d": 19.11,
-        "relativeToMAG71d": -4.88,
-        "relativeToMAG75d": 0.48,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 686,
+        "return1d": 4.8,
+        "return5d": 9.02,
+        "return20d": 29.54,
+        "returnYtd": 63.02,
+        "relativeToQQQ1d": 4.53,
+        "relativeToQQQ5d": 3.52,
+        "relativeToQQQ20d": 25.22,
+        "relativeToMAG71d": 5.86,
+        "relativeToMAG75d": 7.11,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.ASML: ok"
+          "eastmoney_push2: 105.ASML: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "ASML",
         "portfolioTicker": "ASML.O",
         "role": "holding"
       },
       "ASML.O": {
         "symbol": "ASML",
-        "eastmoneySecid": "105.ASML",
-        "price": 1803.89,
-        "previousClose": 1892.66,
-        "currency": null,
-        "marketCap": 695251071716.85,
-        "marketCapDisplay": "695.25B",
-        "peTrailing": 0,
+        "price": 1890.56,
+        "previousClose": 1803.89,
+        "currency": "USD",
+        "marketCap": 695251000000,
+        "marketCapDisplay": "695.251B",
+        "peTrailing": 63.29,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.4,
         "fiftyTwoWeekHigh": 1899.48,
-        "fiftyTwoWeekLow": 584.51,
-        "return1d": -4.69,
-        "return5d": 1.47,
-        "return20d": 22.51,
-        "returnYtd": 55.68,
-        "relativeToQQQ1d": -2.79,
-        "relativeToQQQ5d": -1.64,
-        "relativeToQQQ20d": 19.11,
-        "relativeToMAG71d": -4.88,
-        "relativeToMAG75d": 0.48,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 686,
+        "return1d": 4.8,
+        "return5d": 9.02,
+        "return20d": 29.54,
+        "returnYtd": 63.02,
+        "relativeToQQQ1d": 4.53,
+        "relativeToQQQ5d": 3.52,
+        "relativeToQQQ20d": 25.22,
+        "relativeToMAG71d": 5.86,
+        "relativeToMAG75d": 7.11,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.ASML: ok"
+          "eastmoney_push2: 105.ASML: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "ASML",
         "portfolioTicker": "ASML.O",
         "role": "holding"
       },
       "ASX": {
         "symbol": "ASX",
-        "price": 36.84,
-        "previousClose": 38.5,
+        "price": 37.74,
+        "previousClose": 36.84,
         "currency": "USD",
         "marketCap": 80825000000,
         "marketCapDisplay": "80.825B",
@@ -477,19 +485,19 @@
         "beta": 1.48,
         "fiftyTwoWeekHigh": 40.6,
         "fiftyTwoWeekLow": 9.5,
-        "return1d": -4.31,
-        "return5d": 5.02,
-        "return20d": 16.4,
-        "returnYtd": 118.51,
-        "relativeToQQQ1d": -2.41,
-        "relativeToQQQ5d": 1.91,
-        "relativeToQQQ20d": 13,
-        "relativeToMAG71d": -4.5,
-        "relativeToMAG75d": 4.03,
+        "return1d": 2.44,
+        "return5d": 10.03,
+        "return20d": 22.18,
+        "returnYtd": 123.84,
+        "relativeToQQQ1d": 2.17,
+        "relativeToQQQ5d": 4.53,
+        "relativeToQQQ20d": 17.86,
+        "relativeToMAG71d": 3.5,
+        "relativeToMAG75d": 8.12,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.ASX: empty realtime data",
+          "eastmoney_push2: 105.ASX: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -497,105 +505,113 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "ASX",
         "portfolioTicker": "ASX",
         "role": "holding"
       },
       "AVGO": {
         "symbol": "AVGO",
-        "eastmoneySecid": "105.AVGO",
-        "price": 376.71,
-        "previousClose": 393.94,
-        "currency": null,
-        "marketCap": 1792228036388.58,
-        "marketCapDisplay": "1.79T",
-        "peTrailing": 0,
+        "price": 391.75,
+        "previousClose": 376.71,
+        "currency": "USD",
+        "marketCap": 1869000000000,
+        "marketCapDisplay": "1.869T",
+        "peTrailing": 65.17,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.43,
         "fiftyTwoWeekHigh": 481.57,
-        "fiftyTwoWeekLow": 143.81,
-        "return1d": -4.37,
-        "return5d": -3.94,
-        "return20d": -10.46,
-        "returnYtd": 8.57,
-        "relativeToQQQ1d": -2.47,
-        "relativeToQQQ5d": -7.05,
-        "relativeToQQQ20d": -13.86,
-        "relativeToMAG71d": -4.56,
-        "relativeToMAG75d": -4.93,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 247.37,
+        "return1d": 3.99,
+        "return5d": 5.28,
+        "return20d": -4.7,
+        "returnYtd": 12.93,
+        "relativeToQQQ1d": 3.72,
+        "relativeToQQQ5d": -0.22,
+        "relativeToQQQ20d": -9.02,
+        "relativeToMAG71d": 5.05,
+        "relativeToMAG75d": 3.37,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.AVGO: ok"
+          "eastmoney_push2: 105.AVGO: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "AVGO",
         "portfolioTicker": "AVGO.O",
         "role": "holding"
       },
       "AVGO.O": {
         "symbol": "AVGO",
-        "eastmoneySecid": "105.AVGO",
-        "price": 376.71,
-        "previousClose": 393.94,
-        "currency": null,
-        "marketCap": 1792228036388.58,
-        "marketCapDisplay": "1.79T",
-        "peTrailing": 0,
+        "price": 391.75,
+        "previousClose": 376.71,
+        "currency": "USD",
+        "marketCap": 1869000000000,
+        "marketCapDisplay": "1.869T",
+        "peTrailing": 65.17,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.43,
         "fiftyTwoWeekHigh": 481.57,
-        "fiftyTwoWeekLow": 143.81,
-        "return1d": -4.37,
-        "return5d": -3.94,
-        "return20d": -10.46,
-        "returnYtd": 8.57,
-        "relativeToQQQ1d": -2.47,
-        "relativeToQQQ5d": -7.05,
-        "relativeToQQQ20d": -13.86,
-        "relativeToMAG71d": -4.56,
-        "relativeToMAG75d": -4.93,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 247.37,
+        "return1d": 3.99,
+        "return5d": 5.28,
+        "return20d": -4.7,
+        "returnYtd": 12.93,
+        "relativeToQQQ1d": 3.72,
+        "relativeToQQQ5d": -0.22,
+        "relativeToQQQ20d": -9.02,
+        "relativeToMAG71d": 5.05,
+        "relativeToMAG75d": 3.37,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.AVGO: ok"
+          "eastmoney_push2: 105.AVGO: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "AVGO",
         "portfolioTicker": "AVGO.O",
         "role": "holding"
       },
       "BABA": {
         "symbol": "BABA",
-        "price": 110.97,
-        "previousClose": 112.82,
+        "price": 109.77,
+        "previousClose": 112.55,
         "currency": "USD",
-        "marketCap": 266232000000,
-        "marketCapDisplay": "266.232B",
-        "peTrailing": 17.1,
+        "marketCap": 263233000000,
+        "marketCapDisplay": "263.233B",
+        "peTrailing": 16.91,
         "peForward": null,
         "psTrailing": null,
         "beta": 0.46,
         "fiftyTwoWeekHigh": 187.62,
         "fiftyTwoWeekLow": 102.89,
-        "return1d": -0.24,
-        "return5d": -5.4,
-        "return20d": -14.33,
-        "returnYtd": -27.07,
-        "relativeToQQQ1d": 1.66,
-        "relativeToQQQ5d": -8.51,
-        "relativeToQQQ20d": -17.73,
-        "relativeToMAG71d": -0.43,
-        "relativeToMAG75d": -6.39,
+        "return1d": -2.47,
+        "return5d": -7.46,
+        "return20d": -16.87,
+        "returnYtd": -28.87,
+        "relativeToQQQ1d": -2.74,
+        "relativeToQQQ5d": -12.96,
+        "relativeToQQQ20d": -21.19,
+        "relativeToMAG71d": -1.41,
+        "relativeToMAG75d": -9.37,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.BABA: empty realtime data",
+          "eastmoney_push2: 105.BABA: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -603,37 +619,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "BABA",
         "portfolioTicker": "BABA.N",
         "role": "holding"
       },
       "BABA.N": {
         "symbol": "BABA",
-        "price": 110.97,
-        "previousClose": 112.82,
+        "price": 109.77,
+        "previousClose": 112.55,
         "currency": "USD",
-        "marketCap": 266232000000,
-        "marketCapDisplay": "266.232B",
-        "peTrailing": 17.1,
+        "marketCap": 263233000000,
+        "marketCapDisplay": "263.233B",
+        "peTrailing": 16.91,
         "peForward": null,
         "psTrailing": null,
         "beta": 0.46,
         "fiftyTwoWeekHigh": 187.62,
         "fiftyTwoWeekLow": 102.89,
-        "return1d": -0.24,
-        "return5d": -5.4,
-        "return20d": -14.33,
-        "returnYtd": -27.07,
-        "relativeToQQQ1d": 1.66,
-        "relativeToQQQ5d": -8.51,
-        "relativeToQQQ20d": -17.73,
-        "relativeToMAG71d": -0.43,
-        "relativeToMAG75d": -6.39,
+        "return1d": -2.47,
+        "return5d": -7.46,
+        "return20d": -16.87,
+        "returnYtd": -28.87,
+        "relativeToQQQ1d": -2.74,
+        "relativeToQQQ5d": -12.96,
+        "relativeToQQQ20d": -21.19,
+        "relativeToMAG71d": -1.41,
+        "relativeToMAG75d": -9.37,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.BABA: empty realtime data",
+          "eastmoney_push2: 105.BABA: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -641,15 +657,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "BABA",
         "portfolioTicker": "BABA.N",
         "role": "holding"
       },
       "BB": {
         "symbol": "BB",
-        "price": 9.17,
-        "previousClose": 9.24,
+        "price": 9.33,
+        "previousClose": 9.17,
         "currency": "USD",
         "marketCap": 5374000000,
         "marketCapDisplay": "5.374B",
@@ -659,19 +675,19 @@
         "beta": 1.55,
         "fiftyTwoWeekHigh": 10.34,
         "fiftyTwoWeekLow": 3.15,
-        "return1d": -0.76,
-        "return5d": 3.73,
-        "return20d": 43.73,
-        "returnYtd": 141.32,
-        "relativeToQQQ1d": 1.14,
-        "relativeToQQQ5d": 0.62,
-        "relativeToQQQ20d": 40.33,
-        "relativeToMAG71d": -0.95,
-        "relativeToMAG75d": 2.74,
+        "return1d": 1.74,
+        "return5d": 5.78,
+        "return20d": 50.24,
+        "returnYtd": 145.53,
+        "relativeToQQQ1d": 1.47,
+        "relativeToQQQ5d": 0.28,
+        "relativeToQQQ20d": 45.92,
+        "relativeToMAG71d": 2.8,
+        "relativeToMAG75d": 3.87,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.BB: empty realtime data",
+          "eastmoney_push2: 105.BB: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -679,15 +695,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "BB",
         "portfolioTicker": "BB.N",
         "role": "holding"
       },
       "BB.N": {
         "symbol": "BB",
-        "price": 9.17,
-        "previousClose": 9.24,
+        "price": 9.33,
+        "previousClose": 9.17,
         "currency": "USD",
         "marketCap": 5374000000,
         "marketCapDisplay": "5.374B",
@@ -697,19 +713,19 @@
         "beta": 1.55,
         "fiftyTwoWeekHigh": 10.34,
         "fiftyTwoWeekLow": 3.15,
-        "return1d": -0.76,
-        "return5d": 3.73,
-        "return20d": 43.73,
-        "returnYtd": 141.32,
-        "relativeToQQQ1d": 1.14,
-        "relativeToQQQ5d": 0.62,
-        "relativeToQQQ20d": 40.33,
-        "relativeToMAG71d": -0.95,
-        "relativeToMAG75d": 2.74,
+        "return1d": 1.74,
+        "return5d": 5.78,
+        "return20d": 50.24,
+        "returnYtd": 145.53,
+        "relativeToQQQ1d": 1.47,
+        "relativeToQQQ5d": 0.28,
+        "relativeToQQQ20d": 45.92,
+        "relativeToMAG71d": 2.8,
+        "relativeToMAG75d": 3.87,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.BB: empty realtime data",
+          "eastmoney_push2: 105.BB: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -717,15 +733,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "BB",
         "portfolioTicker": "BB.N",
         "role": "holding"
       },
       "CIEN": {
         "symbol": "CIEN",
-        "price": 430.3,
-        "previousClose": 463.41,
+        "price": 434.62,
+        "previousClose": 430.3,
         "currency": "USD",
         "marketCap": 60910000000,
         "marketCapDisplay": "60.91B",
@@ -735,19 +751,19 @@
         "beta": 1.24,
         "fiftyTwoWeekHigh": 627,
         "fiftyTwoWeekLow": 73.45,
-        "return1d": -7.14,
-        "return5d": -2.06,
-        "return20d": -17.96,
-        "returnYtd": 74.88,
-        "relativeToQQQ1d": -5.24,
-        "relativeToQQQ5d": -5.17,
-        "relativeToQQQ20d": -21.36,
-        "relativeToMAG71d": -7.33,
-        "relativeToMAG75d": -3.05,
+        "return1d": 1,
+        "return5d": -0.01,
+        "return20d": -19.8,
+        "returnYtd": 76.63,
+        "relativeToQQQ1d": 0.73,
+        "relativeToQQQ5d": -5.51,
+        "relativeToQQQ20d": -24.12,
+        "relativeToMAG71d": 2.06,
+        "relativeToMAG75d": -1.92,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.CIEN: empty realtime data",
+          "eastmoney_push2: 105.CIEN: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -755,15 +771,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "CIEN",
         "portfolioTicker": "CIEN.N",
         "role": "holding"
       },
       "CIEN.N": {
         "symbol": "CIEN",
-        "price": 430.3,
-        "previousClose": 463.41,
+        "price": 434.62,
+        "previousClose": 430.3,
         "currency": "USD",
         "marketCap": 60910000000,
         "marketCapDisplay": "60.91B",
@@ -773,19 +789,19 @@
         "beta": 1.24,
         "fiftyTwoWeekHigh": 627,
         "fiftyTwoWeekLow": 73.45,
-        "return1d": -7.14,
-        "return5d": -2.06,
-        "return20d": -17.96,
-        "returnYtd": 74.88,
-        "relativeToQQQ1d": -5.24,
-        "relativeToQQQ5d": -5.17,
-        "relativeToQQQ20d": -21.36,
-        "relativeToMAG71d": -7.33,
-        "relativeToMAG75d": -3.05,
+        "return1d": 1,
+        "return5d": -0.01,
+        "return20d": -19.8,
+        "returnYtd": 76.63,
+        "relativeToQQQ1d": 0.73,
+        "relativeToQQQ5d": -5.51,
+        "relativeToQQQ20d": -24.12,
+        "relativeToMAG71d": 2.06,
+        "relativeToMAG75d": -1.92,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.CIEN: empty realtime data",
+          "eastmoney_push2: 105.CIEN: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -793,151 +809,167 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "CIEN",
         "portfolioTicker": "CIEN.N",
         "role": "holding"
       },
       "GFS": {
         "symbol": "GFS",
-        "eastmoneySecid": "105.GFS",
-        "price": 79.92,
+        "price": 81.26,
         "previousClose": 83.98,
-        "currency": null,
-        "marketCap": 43852170573.36,
-        "marketCapDisplay": "43.85B",
-        "peTrailing": 0,
+        "currency": "USD",
+        "marketCap": 46056000000,
+        "marketCapDisplay": "46.056B",
+        "peTrailing": 52.49,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.77,
         "fiftyTwoWeekHigh": 89.96,
-        "fiftyTwoWeekLow": 30.37,
-        "return1d": -4.83,
-        "return5d": 6.19,
-        "return20d": 17.81,
-        "returnYtd": 116.76,
-        "relativeToQQQ1d": -2.93,
-        "relativeToQQQ5d": 3.08,
-        "relativeToQQQ20d": 14.41,
-        "relativeToMAG71d": -5.02,
-        "relativeToMAG75d": 5.2,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 31.62,
+        "return1d": -3.24,
+        "return5d": 7.97,
+        "return20d": 19.78,
+        "returnYtd": 120.4,
+        "relativeToQQQ1d": -3.51,
+        "relativeToQQQ5d": 2.47,
+        "relativeToQQQ20d": 15.46,
+        "relativeToMAG71d": -2.18,
+        "relativeToMAG75d": 6.06,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.GFS: ok"
+          "eastmoney_push2: 105.GFS: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "GFS",
         "portfolioTicker": "GFS.O",
         "role": "holding"
       },
       "GFS.O": {
         "symbol": "GFS",
-        "eastmoneySecid": "105.GFS",
-        "price": 79.92,
+        "price": 81.26,
         "previousClose": 83.98,
-        "currency": null,
-        "marketCap": 43852170573.36,
-        "marketCapDisplay": "43.85B",
-        "peTrailing": 0,
+        "currency": "USD",
+        "marketCap": 46056000000,
+        "marketCapDisplay": "46.056B",
+        "peTrailing": 52.49,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.77,
         "fiftyTwoWeekHigh": 89.96,
-        "fiftyTwoWeekLow": 30.37,
-        "return1d": -4.83,
-        "return5d": 6.19,
-        "return20d": 17.81,
-        "returnYtd": 116.76,
-        "relativeToQQQ1d": -2.93,
-        "relativeToQQQ5d": 3.08,
-        "relativeToQQQ20d": 14.41,
-        "relativeToMAG71d": -5.02,
-        "relativeToMAG75d": 5.2,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 31.62,
+        "return1d": -3.24,
+        "return5d": 7.97,
+        "return20d": 19.78,
+        "returnYtd": 120.4,
+        "relativeToQQQ1d": -3.51,
+        "relativeToQQQ5d": 2.47,
+        "relativeToQQQ20d": 15.46,
+        "relativeToMAG71d": -2.18,
+        "relativeToMAG75d": 6.06,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.GFS: ok"
+          "eastmoney_push2: 105.GFS: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "GFS",
         "portfolioTicker": "GFS.O",
         "role": "holding"
       },
       "GOOGL": {
         "symbol": "GOOGL",
-        "eastmoneySecid": "105.GOOGL",
-        "price": 373.25,
-        "previousClose": 369.35,
-        "currency": null,
-        "marketCap": 4540959500000,
-        "marketCapDisplay": "4.54T",
-        "peTrailing": 0,
+        "price": 366.92,
+        "previousClose": 373.25,
+        "currency": "USD",
+        "marketCap": 4460000000000,
+        "marketCapDisplay": "4.46T",
+        "peTrailing": 27.9,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
-        "fiftyTwoWeekHigh": 402.4,
-        "fiftyTwoWeekLow": 143.64,
-        "return1d": 1.06,
-        "return5d": 2.47,
-        "return20d": -5.92,
-        "returnYtd": 18.6,
-        "relativeToQQQ1d": 2.96,
-        "relativeToQQQ5d": -0.64,
-        "relativeToQQQ20d": -9.32,
-        "relativeToMAG71d": 0.87,
-        "relativeToMAG75d": 1.48,
-        "source": "eastmoney_push2",
+        "beta": 1.24,
+        "fiftyTwoWeekHigh": 402.38,
+        "fiftyTwoWeekLow": 164.72,
+        "return1d": -1.7,
+        "return5d": 2.96,
+        "return20d": -5.29,
+        "returnYtd": 16.58,
+        "relativeToQQQ1d": -1.97,
+        "relativeToQQQ5d": -2.54,
+        "relativeToQQQ20d": -9.61,
+        "relativeToMAG71d": -0.64,
+        "relativeToMAG75d": 1.05,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.GOOGL: ok"
+          "eastmoney_push2: 105.GOOGL: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "GOOGL",
         "portfolioTicker": "GOOGL",
         "role": "mag7"
       },
       "GOOGL.O": {
         "symbol": "GOOGL",
-        "eastmoneySecid": "105.GOOGL",
-        "price": 373.25,
-        "previousClose": 369.35,
-        "currency": null,
-        "marketCap": 4540959500000,
-        "marketCapDisplay": "4.54T",
-        "peTrailing": 0,
+        "price": 366.92,
+        "previousClose": 373.25,
+        "currency": "USD",
+        "marketCap": 4460000000000,
+        "marketCapDisplay": "4.46T",
+        "peTrailing": 27.9,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
-        "fiftyTwoWeekHigh": 402.4,
-        "fiftyTwoWeekLow": 143.64,
-        "return1d": 1.06,
-        "return5d": 2.47,
-        "return20d": -5.92,
-        "returnYtd": 18.6,
-        "relativeToQQQ1d": 2.96,
-        "relativeToQQQ5d": -0.64,
-        "relativeToQQQ20d": -9.32,
-        "relativeToMAG71d": 0.87,
-        "relativeToMAG75d": 1.48,
-        "source": "eastmoney_push2",
+        "beta": 1.24,
+        "fiftyTwoWeekHigh": 402.38,
+        "fiftyTwoWeekLow": 164.72,
+        "return1d": -1.7,
+        "return5d": 2.96,
+        "return20d": -5.29,
+        "returnYtd": 16.58,
+        "relativeToQQQ1d": -1.97,
+        "relativeToQQQ5d": -2.54,
+        "relativeToQQQ20d": -9.61,
+        "relativeToMAG71d": -0.64,
+        "relativeToMAG75d": 1.05,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.GOOGL: ok"
+          "eastmoney_push2: 105.GOOGL: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "GOOGL",
         "portfolioTicker": "GOOGL.O",
         "role": "holding"
       },
       "IBM": {
         "symbol": "IBM",
-        "price": 270.81,
-        "previousClose": 268.71,
+        "price": 266.2,
+        "previousClose": 270.81,
         "currency": "USD",
         "marketCap": 254530000000,
         "marketCapDisplay": "254.53B",
@@ -947,19 +979,19 @@
         "beta": 0.67,
         "fiftyTwoWeekHigh": 329.23,
         "fiftyTwoWeekLow": 214.64,
-        "return1d": 0.78,
-        "return5d": -2.41,
-        "return20d": 21.58,
-        "returnYtd": -5.88,
-        "relativeToQQQ1d": 2.68,
-        "relativeToQQQ5d": -5.52,
-        "relativeToQQQ20d": 18.18,
-        "relativeToMAG71d": 0.59,
-        "relativeToMAG75d": -3.4,
+        "return1d": -1.7,
+        "return5d": -2.26,
+        "return20d": 19.73,
+        "returnYtd": -7.48,
+        "relativeToQQQ1d": -1.97,
+        "relativeToQQQ5d": -7.76,
+        "relativeToQQQ20d": 15.41,
+        "relativeToMAG71d": -0.64,
+        "relativeToMAG75d": -4.17,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.IBM: empty realtime data",
+          "eastmoney_push2: 105.IBM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -967,15 +999,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "IBM",
         "portfolioTicker": "IBM.N",
         "role": "holding"
       },
       "IBM.N": {
         "symbol": "IBM",
-        "price": 270.81,
-        "previousClose": 268.71,
+        "price": 266.2,
+        "previousClose": 270.81,
         "currency": "USD",
         "marketCap": 254530000000,
         "marketCapDisplay": "254.53B",
@@ -985,19 +1017,19 @@
         "beta": 0.67,
         "fiftyTwoWeekHigh": 329.23,
         "fiftyTwoWeekLow": 214.64,
-        "return1d": 0.78,
-        "return5d": -2.41,
-        "return20d": 21.58,
-        "returnYtd": -5.88,
-        "relativeToQQQ1d": 2.68,
-        "relativeToQQQ5d": -5.52,
-        "relativeToQQQ20d": 18.18,
-        "relativeToMAG71d": 0.59,
-        "relativeToMAG75d": -3.4,
+        "return1d": -1.7,
+        "return5d": -2.26,
+        "return20d": 19.73,
+        "returnYtd": -7.48,
+        "relativeToQQQ1d": -1.97,
+        "relativeToQQQ5d": -7.76,
+        "relativeToQQQ20d": 15.41,
+        "relativeToMAG71d": -0.64,
+        "relativeToMAG75d": -4.17,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.IBM: empty realtime data",
+          "eastmoney_push2: 105.IBM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1005,15 +1037,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "IBM",
         "portfolioTicker": "IBM.N",
         "role": "holding"
       },
       "IFX.DE": {
         "symbol": "IFX.DE",
-        "price": 79.28,
-        "previousClose": 80.75,
+        "price": 76.8,
+        "previousClose": 79.28,
         "currency": "EUR",
         "marketCap": 104038000000,
         "marketCapDisplay": "104.038B",
@@ -1023,15 +1055,15 @@
         "beta": 1.98,
         "fiftyTwoWeekHigh": 88,
         "fiftyTwoWeekLow": 31.04,
-        "return1d": -1.82,
-        "return5d": 4.78,
-        "return20d": 22.65,
-        "returnYtd": 108.78,
-        "relativeToQQQ1d": 0.08,
-        "relativeToQQQ5d": 1.67,
-        "relativeToQQQ20d": 19.25,
-        "relativeToMAG71d": -2.01,
-        "relativeToMAG75d": 3.79,
+        "return1d": -3.13,
+        "return5d": 2.26,
+        "return20d": 13.04,
+        "returnYtd": 102.25,
+        "relativeToQQQ1d": -3.4,
+        "relativeToQQQ5d": -3.24,
+        "relativeToQQQ20d": 8.72,
+        "relativeToMAG71d": -2.07,
+        "relativeToMAG75d": 0.35,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
@@ -1043,15 +1075,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "IFX",
         "portfolioTicker": "IFX.DF",
         "role": "holding"
       },
       "IFX": {
         "symbol": "IFX.DE",
-        "price": 79.28,
-        "previousClose": 80.75,
+        "price": 76.8,
+        "previousClose": 79.28,
         "currency": "EUR",
         "marketCap": 104038000000,
         "marketCapDisplay": "104.038B",
@@ -1061,15 +1093,15 @@
         "beta": 1.98,
         "fiftyTwoWeekHigh": 88,
         "fiftyTwoWeekLow": 31.04,
-        "return1d": -1.82,
-        "return5d": 4.78,
-        "return20d": 22.65,
-        "returnYtd": 108.78,
-        "relativeToQQQ1d": 0.08,
-        "relativeToQQQ5d": 1.67,
-        "relativeToQQQ20d": 19.25,
-        "relativeToMAG71d": -2.01,
-        "relativeToMAG75d": 3.79,
+        "return1d": -3.13,
+        "return5d": 2.26,
+        "return20d": 13.04,
+        "returnYtd": 102.25,
+        "relativeToQQQ1d": -3.4,
+        "relativeToQQQ5d": -3.24,
+        "relativeToQQQ20d": 8.72,
+        "relativeToMAG71d": -2.07,
+        "relativeToMAG75d": 0.35,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
@@ -1081,15 +1113,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "IFX",
         "portfolioTicker": "IFX.DF",
         "role": "holding"
       },
       "IFX.DF": {
         "symbol": "IFX.DE",
-        "price": 79.28,
-        "previousClose": 80.75,
+        "price": 76.8,
+        "previousClose": 79.28,
         "currency": "EUR",
         "marketCap": 104038000000,
         "marketCapDisplay": "104.038B",
@@ -1099,15 +1131,15 @@
         "beta": 1.98,
         "fiftyTwoWeekHigh": 88,
         "fiftyTwoWeekLow": 31.04,
-        "return1d": -1.82,
-        "return5d": 4.78,
-        "return20d": 22.65,
-        "returnYtd": 108.78,
-        "relativeToQQQ1d": 0.08,
-        "relativeToQQQ5d": 1.67,
-        "relativeToQQQ20d": 19.25,
-        "relativeToMAG71d": -2.01,
-        "relativeToMAG75d": 3.79,
+        "return1d": -3.13,
+        "return5d": 2.26,
+        "return20d": 13.04,
+        "returnYtd": 102.25,
+        "relativeToQQQ1d": -3.4,
+        "relativeToQQQ5d": -3.24,
+        "relativeToQQQ20d": 8.72,
+        "relativeToMAG71d": -2.07,
+        "relativeToMAG75d": 0.35,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
@@ -1119,37 +1151,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "IFX",
         "portfolioTicker": "IFX.DF",
         "role": "holding"
       },
       "NBIS": {
         "symbol": "NBIS",
-        "price": 265.1,
-        "previousClose": 260.07,
+        "price": 275.58,
+        "previousClose": 265.1,
         "currency": "USD",
-        "marketCap": 67308000000,
-        "marketCapDisplay": "67.308B",
-        "peTrailing": 101.96,
+        "marketCap": 69588000000,
+        "marketCapDisplay": "69.588B",
+        "peTrailing": 105.42,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.43,
-        "fiftyTwoWeekHigh": 265.1,
+        "fiftyTwoWeekHigh": 275.58,
         "fiftyTwoWeekLow": 44.3,
-        "return1d": 1.93,
-        "return5d": 20.43,
-        "return20d": 32.64,
-        "returnYtd": 194.72,
-        "relativeToQQQ1d": 3.83,
-        "relativeToQQQ5d": 17.32,
-        "relativeToQQQ20d": 29.24,
-        "relativeToMAG71d": 1.74,
-        "relativeToMAG75d": 19.44,
+        "return1d": 3.95,
+        "return5d": 30.18,
+        "return20d": 39.37,
+        "returnYtd": 206.37,
+        "relativeToQQQ1d": 3.68,
+        "relativeToQQQ5d": 24.68,
+        "relativeToQQQ20d": 35.05,
+        "relativeToMAG71d": 5.01,
+        "relativeToMAG75d": 28.27,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.NBIS: fetch failed",
+          "eastmoney_push2: 105.NBIS: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1157,37 +1189,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "NBIS",
         "portfolioTicker": "NBIS.O",
         "role": "holding"
       },
       "NBIS.O": {
         "symbol": "NBIS",
-        "price": 265.1,
-        "previousClose": 260.07,
+        "price": 275.58,
+        "previousClose": 265.1,
         "currency": "USD",
-        "marketCap": 67308000000,
-        "marketCapDisplay": "67.308B",
-        "peTrailing": 101.96,
+        "marketCap": 69588000000,
+        "marketCapDisplay": "69.588B",
+        "peTrailing": 105.42,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.43,
-        "fiftyTwoWeekHigh": 265.1,
+        "fiftyTwoWeekHigh": 275.58,
         "fiftyTwoWeekLow": 44.3,
-        "return1d": 1.93,
-        "return5d": 20.43,
-        "return20d": 32.64,
-        "returnYtd": 194.72,
-        "relativeToQQQ1d": 3.83,
-        "relativeToQQQ5d": 17.32,
-        "relativeToQQQ20d": 29.24,
-        "relativeToMAG71d": 1.74,
-        "relativeToMAG75d": 19.44,
+        "return1d": 3.95,
+        "return5d": 30.18,
+        "return20d": 39.37,
+        "returnYtd": 206.37,
+        "relativeToQQQ1d": 3.68,
+        "relativeToQQQ5d": 24.68,
+        "relativeToQQQ20d": 35.05,
+        "relativeToMAG71d": 5.01,
+        "relativeToMAG75d": 28.27,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.NBIS: fetch failed",
+          "eastmoney_push2: 105.NBIS: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1195,37 +1227,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "NBIS",
         "portfolioTicker": "NBIS.O",
         "role": "holding"
       },
       "NOK": {
         "symbol": "NOK",
-        "price": 13.98,
-        "previousClose": 14.82,
+        "price": 13.83,
+        "previousClose": 13.98,
         "currency": "USD",
-        "marketCap": 78044000000,
-        "marketCapDisplay": "78.044B",
-        "peTrailing": 87.38,
+        "marketCap": 77597000000,
+        "marketCapDisplay": "77.597B",
+        "peTrailing": 86.88,
         "peForward": null,
         "psTrailing": null,
         "beta": 0.78,
         "fiftyTwoWeekHigh": 16.85,
         "fiftyTwoWeekLow": 4.05,
-        "return1d": -5.67,
-        "return5d": 0.94,
-        "return20d": 1.75,
-        "returnYtd": 114.75,
-        "relativeToQQQ1d": -3.77,
-        "relativeToQQQ5d": -2.17,
-        "relativeToQQQ20d": -1.65,
-        "relativeToMAG71d": -5.86,
-        "relativeToMAG75d": -0.05,
+        "return1d": -1.07,
+        "return5d": 3.21,
+        "return20d": 1.18,
+        "returnYtd": 112.45,
+        "relativeToQQQ1d": -1.34,
+        "relativeToQQQ5d": -2.29,
+        "relativeToQQQ20d": -3.14,
+        "relativeToMAG71d": -0.01,
+        "relativeToMAG75d": 1.3,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.NOK: empty realtime data",
+          "eastmoney_push2: 105.NOK: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1233,37 +1265,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "NOK",
         "portfolioTicker": "NOK.N",
         "role": "holding"
       },
       "NOK.N": {
         "symbol": "NOK",
-        "price": 13.98,
-        "previousClose": 14.82,
+        "price": 13.83,
+        "previousClose": 13.98,
         "currency": "USD",
-        "marketCap": 78044000000,
-        "marketCapDisplay": "78.044B",
-        "peTrailing": 87.38,
+        "marketCap": 77597000000,
+        "marketCapDisplay": "77.597B",
+        "peTrailing": 86.88,
         "peForward": null,
         "psTrailing": null,
         "beta": 0.78,
         "fiftyTwoWeekHigh": 16.85,
         "fiftyTwoWeekLow": 4.05,
-        "return1d": -5.67,
-        "return5d": 0.94,
-        "return20d": 1.75,
-        "returnYtd": 114.75,
-        "relativeToQQQ1d": -3.77,
-        "relativeToQQQ5d": -2.17,
-        "relativeToQQQ20d": -1.65,
-        "relativeToMAG71d": -5.86,
-        "relativeToMAG75d": -0.05,
+        "return1d": -1.07,
+        "return5d": 3.21,
+        "return20d": 1.18,
+        "returnYtd": 112.45,
+        "relativeToQQQ1d": -1.34,
+        "relativeToQQQ5d": -2.29,
+        "relativeToQQQ20d": -3.14,
+        "relativeToMAG71d": -0.01,
+        "relativeToMAG75d": 1.3,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.NOK: empty realtime data",
+          "eastmoney_push2: 105.NOK: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1271,37 +1303,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "NOK",
         "portfolioTicker": "NOK.N",
         "role": "holding"
       },
       "QCOM": {
         "symbol": "QCOM",
-        "price": 214.07,
-        "previousClose": 220.81,
+        "price": 218.09,
+        "previousClose": 214.07,
         "currency": "USD",
-        "marketCap": 225630000000,
-        "marketCapDisplay": "225.63B",
-        "peTrailing": 23.04,
+        "marketCap": 230731000000,
+        "marketCapDisplay": "230.731B",
+        "peTrailing": 23.56,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.6,
         "fiftyTwoWeekHigh": 250.1,
         "fiftyTwoWeekLow": 123.61,
-        "return1d": -3.05,
-        "return5d": 4.21,
-        "return20d": 5.51,
-        "returnYtd": 25.01,
-        "relativeToQQQ1d": -1.15,
-        "relativeToQQQ5d": 1.1,
-        "relativeToQQQ20d": 2.11,
-        "relativeToMAG71d": -3.24,
-        "relativeToMAG75d": 3.22,
+        "return1d": 1.88,
+        "return5d": 14.06,
+        "return20d": 11.9,
+        "returnYtd": 27.36,
+        "relativeToQQQ1d": 1.61,
+        "relativeToQQQ5d": 8.56,
+        "relativeToQQQ20d": 7.58,
+        "relativeToMAG71d": 2.94,
+        "relativeToMAG75d": 12.15,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.QCOM: fetch failed",
+          "eastmoney_push2: 105.QCOM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1309,37 +1341,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "QCOM",
         "portfolioTicker": "QCOM.O",
         "role": "holding"
       },
       "QCOM.O": {
         "symbol": "QCOM",
-        "price": 214.07,
-        "previousClose": 220.81,
+        "price": 218.09,
+        "previousClose": 214.07,
         "currency": "USD",
-        "marketCap": 225630000000,
-        "marketCapDisplay": "225.63B",
-        "peTrailing": 23.04,
+        "marketCap": 230731000000,
+        "marketCapDisplay": "230.731B",
+        "peTrailing": 23.56,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.6,
         "fiftyTwoWeekHigh": 250.1,
         "fiftyTwoWeekLow": 123.61,
-        "return1d": -3.05,
-        "return5d": 4.21,
-        "return20d": 5.51,
-        "returnYtd": 25.01,
-        "relativeToQQQ1d": -1.15,
-        "relativeToQQQ5d": 1.1,
-        "relativeToQQQ20d": 2.11,
-        "relativeToMAG71d": -3.24,
-        "relativeToMAG75d": 3.22,
+        "return1d": 1.88,
+        "return5d": 14.06,
+        "return20d": 11.9,
+        "returnYtd": 27.36,
+        "relativeToQQQ1d": 1.61,
+        "relativeToQQQ5d": 8.56,
+        "relativeToQQQ20d": 7.58,
+        "relativeToMAG71d": 2.94,
+        "relativeToMAG75d": 12.15,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.QCOM: fetch failed",
+          "eastmoney_push2: 105.QCOM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1347,33 +1379,33 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "QCOM",
         "portfolioTicker": "QCOM.O",
         "role": "holding"
       },
       "005930.KS": {
         "symbol": "005930.KS",
-        "price": 340750,
+        "price": 346500,
         "previousClose": 343000,
         "currency": "KRW",
-        "marketCap": 1993581000000000,
-        "marketCapDisplay": "1993.58T KRW",
+        "marketCap": 2025735500000000,
+        "marketCapDisplay": "2025.74T KRW",
         "peTrailing": null,
         "peForward": null,
         "psTrailing": null,
         "beta": null,
         "fiftyTwoWeekHigh": 360500,
-        "fiftyTwoWeekLow": 56994.75,
-        "return1d": -0.66,
-        "return5d": 12.64,
-        "return20d": 21.26,
-        "returnYtd": 147.25,
-        "relativeToQQQ1d": 1.24,
-        "relativeToQQQ5d": 9.53,
-        "relativeToQQQ20d": 17.86,
-        "relativeToMAG71d": -0.85,
-        "relativeToMAG75d": 11.65,
+        "fiftyTwoWeekLow": 56994.76,
+        "return1d": 1.02,
+        "return5d": 14.55,
+        "return20d": 23.31,
+        "returnYtd": 151.42,
+        "relativeToQQQ1d": 0.75,
+        "relativeToQQQ5d": 9.05,
+        "relativeToQQQ20d": 18.99,
+        "relativeToMAG71d": 2.08,
+        "relativeToMAG75d": 12.64,
         "source": "yahoo_chart+yahoo_quote_page+naver_stock",
         "dataQuality": "ok",
         "source_attempts": [
@@ -1386,33 +1418,33 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "Yahoo quote page HTTP 404"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "Samsung",
         "portfolioTicker": "Samsung",
         "role": "holding"
       },
       "Samsung": {
         "symbol": "005930.KS",
-        "price": 340750,
+        "price": 346500,
         "previousClose": 343000,
         "currency": "KRW",
-        "marketCap": 1993581000000000,
-        "marketCapDisplay": "1993.58T KRW",
+        "marketCap": 2025735500000000,
+        "marketCapDisplay": "2025.74T KRW",
         "peTrailing": null,
         "peForward": null,
         "psTrailing": null,
         "beta": null,
         "fiftyTwoWeekHigh": 360500,
-        "fiftyTwoWeekLow": 56994.75,
-        "return1d": -0.66,
-        "return5d": 12.64,
-        "return20d": 21.26,
-        "returnYtd": 147.25,
-        "relativeToQQQ1d": 1.24,
-        "relativeToQQQ5d": 9.53,
-        "relativeToQQQ20d": 17.86,
-        "relativeToMAG71d": -0.85,
-        "relativeToMAG75d": 11.65,
+        "fiftyTwoWeekLow": 56994.76,
+        "return1d": 1.02,
+        "return5d": 14.55,
+        "return20d": 23.31,
+        "returnYtd": 151.42,
+        "relativeToQQQ1d": 0.75,
+        "relativeToQQQ5d": 9.05,
+        "relativeToQQQ20d": 18.99,
+        "relativeToMAG71d": 2.08,
+        "relativeToMAG75d": 12.64,
         "source": "yahoo_chart+yahoo_quote_page+naver_stock",
         "dataQuality": "ok",
         "source_attempts": [
@@ -1425,15 +1457,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "Yahoo quote page HTTP 404"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "Samsung",
         "portfolioTicker": "Samsung",
         "role": "holding"
       },
       "SKM": {
         "symbol": "SKM",
-        "price": 36.91,
-        "previousClose": 38.52,
+        "price": 36.25,
+        "previousClose": 36.91,
         "currency": "USD",
         "marketCap": 14906000000,
         "marketCapDisplay": "14.906B",
@@ -1443,19 +1475,19 @@
         "beta": 0.67,
         "fiftyTwoWeekHigh": 46,
         "fiftyTwoWeekLow": 19.68,
-        "return1d": -4.18,
-        "return5d": -10.43,
-        "return20d": -0.27,
-        "returnYtd": 79.61,
-        "relativeToQQQ1d": -2.28,
-        "relativeToQQQ5d": -13.54,
-        "relativeToQQQ20d": -3.67,
-        "relativeToMAG71d": -4.37,
-        "relativeToMAG75d": -11.42,
+        "return1d": -1.79,
+        "return5d": -4.13,
+        "return20d": -2.4,
+        "returnYtd": 76.4,
+        "relativeToQQQ1d": -2.06,
+        "relativeToQQQ5d": -9.63,
+        "relativeToQQQ20d": -6.72,
+        "relativeToMAG71d": -0.73,
+        "relativeToMAG75d": -6.04,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.SKM: empty realtime data",
+          "eastmoney_push2: 105.SKM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1463,15 +1495,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "SKM",
         "portfolioTicker": "SKM.N",
         "role": "holding"
       },
       "SKM.N": {
         "symbol": "SKM",
-        "price": 36.91,
-        "previousClose": 38.52,
+        "price": 36.25,
+        "previousClose": 36.91,
         "currency": "USD",
         "marketCap": 14906000000,
         "marketCapDisplay": "14.906B",
@@ -1481,19 +1513,19 @@
         "beta": 0.67,
         "fiftyTwoWeekHigh": 46,
         "fiftyTwoWeekLow": 19.68,
-        "return1d": -4.18,
-        "return5d": -10.43,
-        "return20d": -0.27,
-        "returnYtd": 79.61,
-        "relativeToQQQ1d": -2.28,
-        "relativeToQQQ5d": -13.54,
-        "relativeToQQQ20d": -3.67,
-        "relativeToMAG71d": -4.37,
-        "relativeToMAG75d": -11.42,
+        "return1d": -1.79,
+        "return5d": -4.13,
+        "return20d": -2.4,
+        "returnYtd": 76.4,
+        "relativeToQQQ1d": -2.06,
+        "relativeToQQQ5d": -9.63,
+        "relativeToQQQ20d": -6.72,
+        "relativeToMAG71d": -0.73,
+        "relativeToMAG75d": -6.04,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.SKM: empty realtime data",
+          "eastmoney_push2: 105.SKM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1501,15 +1533,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "SKM",
         "portfolioTicker": "SKM.N",
         "role": "holding"
       },
       "TSM": {
         "symbol": "TSM",
-        "price": 425.83,
-        "previousClose": 441.4,
+        "price": 434.35,
+        "previousClose": 425.83,
         "currency": "USD",
         "marketCap": 2209000000000,
         "marketCapDisplay": "2.209T",
@@ -1519,19 +1551,19 @@
         "beta": 1.25,
         "fiftyTwoWeekHigh": 445.65,
         "fiftyTwoWeekLow": 207.22,
-        "return1d": -3.53,
-        "return5d": -0.26,
-        "return20d": 7.8,
-        "returnYtd": 33.92,
-        "relativeToQQQ1d": -1.63,
-        "relativeToQQQ5d": -3.37,
-        "relativeToQQQ20d": 4.4,
-        "relativeToMAG71d": -3.72,
-        "relativeToMAG75d": -1.25,
+        "return1d": 2,
+        "return5d": 6.51,
+        "return20d": 10.89,
+        "returnYtd": 36.6,
+        "relativeToQQQ1d": 1.73,
+        "relativeToQQQ5d": 1.01,
+        "relativeToQQQ20d": 6.57,
+        "relativeToMAG71d": 3.06,
+        "relativeToMAG75d": 4.6,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.TSM: empty realtime data",
+          "eastmoney_push2: 105.TSM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1539,15 +1571,15 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "TSM",
         "portfolioTicker": "TSM.N",
         "role": "holding"
       },
       "TSM.N": {
         "symbol": "TSM",
-        "price": 425.83,
-        "previousClose": 441.4,
+        "price": 434.35,
+        "previousClose": 425.83,
         "currency": "USD",
         "marketCap": 2209000000000,
         "marketCapDisplay": "2.209T",
@@ -1557,19 +1589,19 @@
         "beta": 1.25,
         "fiftyTwoWeekHigh": 445.65,
         "fiftyTwoWeekLow": 207.22,
-        "return1d": -3.53,
-        "return5d": -0.26,
-        "return20d": 7.8,
-        "returnYtd": 33.92,
-        "relativeToQQQ1d": -1.63,
-        "relativeToQQQ5d": -3.37,
-        "relativeToQQQ20d": 4.4,
-        "relativeToMAG71d": -3.72,
-        "relativeToMAG75d": -1.25,
+        "return1d": 2,
+        "return5d": 6.51,
+        "return20d": 10.89,
+        "returnYtd": 36.6,
+        "relativeToQQQ1d": 1.73,
+        "relativeToQQQ5d": 1.01,
+        "relativeToQQQ20d": 6.57,
+        "relativeToMAG71d": 3.06,
+        "relativeToMAG75d": 4.6,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.TSM: empty realtime data",
+          "eastmoney_push2: 105.TSM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1577,37 +1609,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "TSM",
         "portfolioTicker": "TSM.N",
         "role": "holding"
       },
       "QQQ": {
         "symbol": "QQQ",
-        "price": 729.86,
-        "previousClose": 744,
+        "price": 731.83,
+        "previousClose": 729.86,
         "currency": "USD",
         "marketCap": null,
         "marketCapDisplay": null,
-        "peTrailing": 33.51,
+        "peTrailing": 33.69,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.23,
         "fiftyTwoWeekHigh": 746.16,
         "fiftyTwoWeekLow": 524.29,
-        "return1d": -1.9,
-        "return5d": 3.11,
-        "return20d": 3.4,
-        "returnYtd": 19.19,
+        "return1d": 0.27,
+        "return5d": 5.5,
+        "return20d": 4.32,
+        "returnYtd": 19.51,
         "relativeToQQQ1d": 0,
         "relativeToQQQ5d": 0,
         "relativeToQQQ20d": 0,
-        "relativeToMAG71d": -2.09,
-        "relativeToMAG75d": 2.12,
+        "relativeToMAG71d": 1.33,
+        "relativeToMAG75d": 3.59,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "partial",
         "source_attempts": [
-          "eastmoney_push2: 105.QQQ: fetch failed",
+          "eastmoney_push2: 105.QQQ: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1616,37 +1648,37 @@
           "marketCap missing from Yahoo quote page",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "QQQ",
         "portfolioTicker": "QQQ",
         "role": "benchmark"
       },
       "AAPL": {
         "symbol": "AAPL",
-        "price": 299.24,
-        "previousClose": 296.42,
+        "price": 300.25,
+        "previousClose": 299.24,
         "currency": "USD",
-        "marketCap": 4395000000000,
-        "marketCapDisplay": "4.395T",
-        "peTrailing": 36.23,
+        "marketCap": 4405000000000,
+        "marketCapDisplay": "4.405T",
+        "peTrailing": 36.31,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.09,
         "fiftyTwoWeekHigh": 315.2,
         "fiftyTwoWeekLow": 194.87,
-        "return1d": 0.95,
-        "return5d": 2.99,
-        "return20d": 0.47,
-        "returnYtd": 10.62,
-        "relativeToQQQ1d": 2.85,
-        "relativeToQQQ5d": -0.12,
-        "relativeToQQQ20d": -2.93,
-        "relativeToMAG71d": 0.76,
-        "relativeToMAG75d": 2,
+        "return1d": 0.34,
+        "return5d": 2.97,
+        "return20d": 0.43,
+        "returnYtd": 11,
+        "relativeToQQQ1d": 0.07,
+        "relativeToQQQ5d": -2.53,
+        "relativeToQQQ20d": -3.89,
+        "relativeToMAG71d": 1.4,
+        "relativeToMAG75d": 1.06,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.AAPL: fetch failed",
+          "eastmoney_push2: 105.AAPL: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1654,37 +1686,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "AAPL",
         "portfolioTicker": "AAPL",
         "role": "mag7"
       },
       "MSFT": {
         "symbol": "MSFT",
-        "price": 393.83,
-        "previousClose": 399.76,
+        "price": 387.92,
+        "previousClose": 393.83,
         "currency": "USD",
-        "marketCap": 2926000000000,
-        "marketCapDisplay": "2.926T",
-        "peTrailing": 23.47,
+        "marketCap": 2883000000000,
+        "marketCapDisplay": "2.883T",
+        "peTrailing": 23.13,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.1,
         "fiftyTwoWeekHigh": 538.66,
         "fiftyTwoWeekLow": 356,
-        "return1d": -1.48,
-        "return5d": -2.37,
-        "return20d": -6.81,
-        "returnYtd": -16.36,
-        "relativeToQQQ1d": 0.42,
-        "relativeToQQQ5d": -5.48,
-        "relativeToQQQ20d": -10.21,
-        "relativeToMAG71d": -1.67,
-        "relativeToMAG75d": -3.36,
+        "return1d": -1.5,
+        "return5d": -2.38,
+        "return20d": -6.87,
+        "returnYtd": -17.61,
+        "relativeToQQQ1d": -1.77,
+        "relativeToQQQ5d": -7.88,
+        "relativeToQQQ20d": -11.19,
+        "relativeToMAG71d": -0.44,
+        "relativeToMAG75d": -4.29,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.MSFT: fetch failed",
+          "eastmoney_push2: 105.MSFT: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1692,37 +1724,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "MSFT",
         "portfolioTicker": "MSFT",
         "role": "mag7"
       },
       "NVDA": {
         "symbol": "NVDA",
-        "price": 207.41,
-        "previousClose": 212.45,
+        "price": 207.09,
+        "previousClose": 207.41,
         "currency": "USD",
-        "marketCap": 5024000000000,
-        "marketCapDisplay": "5.024T",
-        "peTrailing": 31.76,
+        "marketCap": 5019000000000,
+        "marketCapDisplay": "5.019T",
+        "peTrailing": 31.74,
         "peForward": null,
         "psTrailing": null,
         "beta": 2.2,
         "fiftyTwoWeekHigh": 235.47,
         "fiftyTwoWeekLow": 143.66,
-        "return1d": -2.37,
-        "return5d": -0.37,
-        "return20d": -6.6,
-        "returnYtd": 9.96,
-        "relativeToQQQ1d": -0.47,
-        "relativeToQQQ5d": -3.48,
-        "relativeToQQQ20d": -10,
-        "relativeToMAG71d": -2.56,
-        "relativeToMAG75d": -1.36,
+        "return1d": -0.15,
+        "return5d": 3.33,
+        "return20d": -6.02,
+        "returnYtd": 9.79,
+        "relativeToQQQ1d": -0.42,
+        "relativeToQQQ5d": -2.17,
+        "relativeToQQQ20d": -10.34,
+        "relativeToMAG71d": 0.91,
+        "relativeToMAG75d": 1.42,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.NVDA: fetch failed",
+          "eastmoney_push2: 105.NVDA: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1730,37 +1762,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "NVDA",
         "portfolioTicker": "NVDA",
         "role": "mag7"
       },
       "AMZN": {
         "symbol": "AMZN",
-        "price": 246,
-        "previousClose": 246.02,
+        "price": 241.92,
+        "previousClose": 246,
         "currency": "USD",
-        "marketCap": 2646000000000,
-        "marketCapDisplay": "2.646T",
-        "peTrailing": 31.66,
+        "marketCap": 2605000000000,
+        "marketCapDisplay": "2.605T",
+        "peTrailing": 31.16,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.44,
         "fiftyTwoWeekHigh": 274.99,
         "fiftyTwoWeekLow": 198.79,
-        "return1d": -0.01,
-        "return5d": 0.74,
-        "return20d": -7.12,
-        "returnYtd": 8.61,
-        "relativeToQQQ1d": 1.89,
-        "relativeToQQQ5d": -2.37,
-        "relativeToQQQ20d": -10.52,
-        "relativeToMAG71d": -0.2,
-        "relativeToMAG75d": -0.25,
+        "return1d": -1.66,
+        "return5d": 1.65,
+        "return20d": -6.72,
+        "returnYtd": 6.81,
+        "relativeToQQQ1d": -1.93,
+        "relativeToQQQ5d": -3.85,
+        "relativeToQQQ20d": -11.04,
+        "relativeToMAG71d": -0.6,
+        "relativeToMAG75d": -0.26,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.AMZN: fetch failed",
+          "eastmoney_push2: 105.AMZN: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1768,37 +1800,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "AMZN",
         "portfolioTicker": "AMZN",
         "role": "mag7"
       },
       "META": {
         "symbol": "META",
-        "price": 600.21,
-        "previousClose": 566.45,
+        "price": 585.8,
+        "previousClose": 593.48,
         "currency": "USD",
-        "marketCap": 1524000000000,
-        "marketCapDisplay": "1.524T",
-        "peTrailing": 21.83,
+        "marketCap": 1487000000000,
+        "marketCapDisplay": "1.487T",
+        "peTrailing": 21.31,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.23,
         "fiftyTwoWeekHigh": 787.42,
         "fiftyTwoWeekLow": 525.23,
-        "return1d": 4.77,
-        "return5d": 1.48,
-        "return20d": -3.29,
-        "returnYtd": -8.59,
-        "relativeToQQQ1d": 6.67,
-        "relativeToQQQ5d": -1.63,
-        "relativeToQQQ20d": -6.69,
-        "relativeToMAG71d": 4.58,
-        "relativeToMAG75d": 0.49,
+        "return1d": -1.29,
+        "return5d": 0.3,
+        "return20d": -4.07,
+        "returnYtd": -9.77,
+        "relativeToQQQ1d": -1.56,
+        "relativeToQQQ5d": -5.2,
+        "relativeToQQQ20d": -8.39,
+        "relativeToMAG71d": -0.23,
+        "relativeToMAG75d": -1.61,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.META: fetch failed",
+          "eastmoney_push2: 105.META: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1806,37 +1838,37 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "META",
         "portfolioTicker": "META",
         "role": "mag7"
       },
       "TSLA": {
         "symbol": "TSLA",
-        "price": 404.66,
-        "previousClose": 411.15,
+        "price": 398.81,
+        "previousClose": 404.66,
         "currency": "USD",
-        "marketCap": 1520000000000,
-        "marketCapDisplay": "1.52T",
-        "peTrailing": 371.25,
+        "marketCap": 1498000000000,
+        "marketCapDisplay": "1.498T",
+        "peTrailing": 365.95,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.8,
         "fiftyTwoWeekHigh": 489.88,
         "fiftyTwoWeekLow": 293.94,
-        "return1d": -1.58,
-        "return5d": 2.01,
-        "return20d": -1.3,
-        "returnYtd": -7.63,
-        "relativeToQQQ1d": 0.32,
-        "relativeToQQQ5d": -1.1,
-        "relativeToQQQ20d": -4.7,
-        "relativeToMAG71d": -1.77,
-        "relativeToMAG75d": 1.02,
+        "return1d": -1.45,
+        "return5d": 4.51,
+        "return20d": -1.31,
+        "returnYtd": -8.96,
+        "relativeToQQQ1d": -1.72,
+        "relativeToQQQ5d": -0.99,
+        "relativeToQQQ20d": -5.63,
+        "relativeToMAG71d": -0.39,
+        "relativeToMAG75d": 2.6,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.TSLA: fetch failed",
+          "eastmoney_push2: 105.TSLA: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -1844,7 +1876,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "TSLA",
         "portfolioTicker": "TSLA",
         "role": "mag7"
@@ -2229,8 +2261,8 @@
         "initial/ASML_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [],
       "missing_info_prompt": [
         {
@@ -2250,34 +2282,38 @@
       "display_name": "ASML.O · 阿斯麦",
       "market_data": {
         "symbol": "ASML",
-        "eastmoneySecid": "105.ASML",
-        "price": 1803.89,
-        "previousClose": 1892.66,
-        "currency": null,
-        "marketCap": 695251071716.85,
-        "marketCapDisplay": "695.25B",
-        "peTrailing": 0,
+        "price": 1890.56,
+        "previousClose": 1803.89,
+        "currency": "USD",
+        "marketCap": 695251000000,
+        "marketCapDisplay": "695.251B",
+        "peTrailing": 63.29,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.4,
         "fiftyTwoWeekHigh": 1899.48,
-        "fiftyTwoWeekLow": 584.51,
-        "return1d": -4.69,
-        "return5d": 1.47,
-        "return20d": 22.51,
-        "returnYtd": 55.68,
-        "relativeToQQQ1d": -2.79,
-        "relativeToQQQ5d": -1.64,
-        "relativeToQQQ20d": 19.11,
-        "relativeToMAG71d": -4.88,
-        "relativeToMAG75d": 0.48,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 686,
+        "return1d": 4.8,
+        "return5d": 9.02,
+        "return20d": 29.54,
+        "returnYtd": 63.02,
+        "relativeToQQQ1d": 4.53,
+        "relativeToQQQ5d": 3.52,
+        "relativeToQQQ20d": 25.22,
+        "relativeToMAG71d": 5.86,
+        "relativeToMAG75d": 7.11,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.ASML: ok"
+          "eastmoney_push2: 105.ASML: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "ASML",
         "portfolioTicker": "ASML.O",
         "role": "holding"
@@ -4239,8 +4275,8 @@
         "initial/ASX_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/ASX_profile.md"
       ],
@@ -4262,8 +4298,8 @@
       "display_name": "ASX · 日月光半导体",
       "market_data": {
         "symbol": "ASX",
-        "price": 36.84,
-        "previousClose": 38.5,
+        "price": 37.74,
+        "previousClose": 36.84,
         "currency": "USD",
         "marketCap": 80825000000,
         "marketCapDisplay": "80.825B",
@@ -4273,19 +4309,19 @@
         "beta": 1.48,
         "fiftyTwoWeekHigh": 40.6,
         "fiftyTwoWeekLow": 9.5,
-        "return1d": -4.31,
-        "return5d": 5.02,
-        "return20d": 16.4,
-        "returnYtd": 118.51,
-        "relativeToQQQ1d": -2.41,
-        "relativeToQQQ5d": 1.91,
-        "relativeToQQQ20d": 13,
-        "relativeToMAG71d": -4.5,
-        "relativeToMAG75d": 4.03,
+        "return1d": 2.44,
+        "return5d": 10.03,
+        "return20d": 22.18,
+        "returnYtd": 123.84,
+        "relativeToQQQ1d": 2.17,
+        "relativeToQQQ5d": 4.53,
+        "relativeToQQQ20d": 17.86,
+        "relativeToMAG71d": 3.5,
+        "relativeToMAG75d": 8.12,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.ASX: empty realtime data",
+          "eastmoney_push2: 105.ASX: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -4293,7 +4329,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "ASX",
         "portfolioTicker": "ASX",
         "role": "holding"
@@ -4918,7 +4954,7 @@
           "FCF Yield"
         ],
         "context": {
-          "price": "36.84",
+          "price": "37.74",
           "market_cap": "80.825B",
           "revenue_latest": "—",
           "net_income_latest": "—",
@@ -5299,8 +5335,8 @@
         "initial/AVGO_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/AVGO_profile.md"
       ],
@@ -5322,34 +5358,38 @@
       "display_name": "AVGO.O · 博通",
       "market_data": {
         "symbol": "AVGO",
-        "eastmoneySecid": "105.AVGO",
-        "price": 376.71,
-        "previousClose": 393.94,
-        "currency": null,
-        "marketCap": 1792228036388.58,
-        "marketCapDisplay": "1.79T",
-        "peTrailing": 0,
+        "price": 391.75,
+        "previousClose": 376.71,
+        "currency": "USD",
+        "marketCap": 1869000000000,
+        "marketCapDisplay": "1.869T",
+        "peTrailing": 65.17,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.43,
         "fiftyTwoWeekHigh": 481.57,
-        "fiftyTwoWeekLow": 143.81,
-        "return1d": -4.37,
-        "return5d": -3.94,
-        "return20d": -10.46,
-        "returnYtd": 8.57,
-        "relativeToQQQ1d": -2.47,
-        "relativeToQQQ5d": -7.05,
-        "relativeToQQQ20d": -13.86,
-        "relativeToMAG71d": -4.56,
-        "relativeToMAG75d": -4.93,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 247.37,
+        "return1d": 3.99,
+        "return5d": 5.28,
+        "return20d": -4.7,
+        "returnYtd": 12.93,
+        "relativeToQQQ1d": 3.72,
+        "relativeToQQQ5d": -0.22,
+        "relativeToQQQ20d": -9.02,
+        "relativeToMAG71d": 5.05,
+        "relativeToMAG75d": 3.37,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.AVGO: ok"
+          "eastmoney_push2: 105.AVGO: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "AVGO",
         "portfolioTicker": "AVGO.O",
         "role": "holding"
@@ -6898,8 +6938,8 @@
         "initial/BABA_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/BABA_profile.md"
       ],
@@ -6921,30 +6961,30 @@
       "display_name": "BABA.N · Alibaba Group Holding Limited",
       "market_data": {
         "symbol": "BABA",
-        "price": 110.97,
-        "previousClose": 112.82,
+        "price": 109.77,
+        "previousClose": 112.55,
         "currency": "USD",
-        "marketCap": 266232000000,
-        "marketCapDisplay": "266.232B",
-        "peTrailing": 17.1,
+        "marketCap": 263233000000,
+        "marketCapDisplay": "263.233B",
+        "peTrailing": 16.91,
         "peForward": null,
         "psTrailing": null,
         "beta": 0.46,
         "fiftyTwoWeekHigh": 187.62,
         "fiftyTwoWeekLow": 102.89,
-        "return1d": -0.24,
-        "return5d": -5.4,
-        "return20d": -14.33,
-        "returnYtd": -27.07,
-        "relativeToQQQ1d": 1.66,
-        "relativeToQQQ5d": -8.51,
-        "relativeToQQQ20d": -17.73,
-        "relativeToMAG71d": -0.43,
-        "relativeToMAG75d": -6.39,
+        "return1d": -2.47,
+        "return5d": -7.46,
+        "return20d": -16.87,
+        "returnYtd": -28.87,
+        "relativeToQQQ1d": -2.74,
+        "relativeToQQQ5d": -12.96,
+        "relativeToQQQ20d": -21.19,
+        "relativeToMAG71d": -1.41,
+        "relativeToMAG75d": -9.37,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.BABA: empty realtime data",
+          "eastmoney_push2: 105.BABA: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -6952,7 +6992,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "BABA",
         "portfolioTicker": "BABA.N",
         "role": "holding"
@@ -7723,8 +7763,8 @@
           "FCF Yield"
         ],
         "context": {
-          "price": "110.97",
-          "market_cap": "266.232B",
+          "price": "109.77",
+          "market_cap": "263.233B",
           "revenue_latest": "10236.7亿元人民币",
           "net_income_latest": "1035.9亿元人民币",
           "fcf_latest": "—"
@@ -7998,8 +8038,8 @@
         "initial/BB_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/BB_profile.md"
       ],
@@ -8021,8 +8061,8 @@
       "display_name": "BB.N · BlackBerry Limited",
       "market_data": {
         "symbol": "BB",
-        "price": 9.17,
-        "previousClose": 9.24,
+        "price": 9.33,
+        "previousClose": 9.17,
         "currency": "USD",
         "marketCap": 5374000000,
         "marketCapDisplay": "5.374B",
@@ -8032,19 +8072,19 @@
         "beta": 1.55,
         "fiftyTwoWeekHigh": 10.34,
         "fiftyTwoWeekLow": 3.15,
-        "return1d": -0.76,
-        "return5d": 3.73,
-        "return20d": 43.73,
-        "returnYtd": 141.32,
-        "relativeToQQQ1d": 1.14,
-        "relativeToQQQ5d": 0.62,
-        "relativeToQQQ20d": 40.33,
-        "relativeToMAG71d": -0.95,
-        "relativeToMAG75d": 2.74,
+        "return1d": 1.74,
+        "return5d": 5.78,
+        "return20d": 50.24,
+        "returnYtd": 145.53,
+        "relativeToQQQ1d": 1.47,
+        "relativeToQQQ5d": 0.28,
+        "relativeToQQQ20d": 45.92,
+        "relativeToMAG71d": 2.8,
+        "relativeToMAG75d": 3.87,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.BB: empty realtime data",
+          "eastmoney_push2: 105.BB: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -8052,7 +8092,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "BB",
         "portfolioTicker": "BB.N",
         "role": "holding"
@@ -9833,8 +9873,8 @@
         "initial/CIEN_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [],
       "missing_info_prompt": [
         {
@@ -9854,8 +9894,8 @@
       "display_name": "CIEN.N · Ciena Corporation",
       "market_data": {
         "symbol": "CIEN",
-        "price": 430.3,
-        "previousClose": 463.41,
+        "price": 434.62,
+        "previousClose": 430.3,
         "currency": "USD",
         "marketCap": 60910000000,
         "marketCapDisplay": "60.91B",
@@ -9865,19 +9905,19 @@
         "beta": 1.24,
         "fiftyTwoWeekHigh": 627,
         "fiftyTwoWeekLow": 73.45,
-        "return1d": -7.14,
-        "return5d": -2.06,
-        "return20d": -17.96,
-        "returnYtd": 74.88,
-        "relativeToQQQ1d": -5.24,
-        "relativeToQQQ5d": -5.17,
-        "relativeToQQQ20d": -21.36,
-        "relativeToMAG71d": -7.33,
-        "relativeToMAG75d": -3.05,
+        "return1d": 1,
+        "return5d": -0.01,
+        "return20d": -19.8,
+        "returnYtd": 76.63,
+        "relativeToQQQ1d": 0.73,
+        "relativeToQQQ5d": -5.51,
+        "relativeToQQQ20d": -24.12,
+        "relativeToMAG71d": 2.06,
+        "relativeToMAG75d": -1.92,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.CIEN: empty realtime data",
+          "eastmoney_push2: 105.CIEN: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -9885,7 +9925,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "CIEN",
         "portfolioTicker": "CIEN.N",
         "role": "holding"
@@ -12379,8 +12419,8 @@
         "initial/GFS_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [],
       "missing_info_prompt": [
         {
@@ -12400,34 +12440,38 @@
       "display_name": "GFS.O · GLOBALFOUNDRIES Inc.",
       "market_data": {
         "symbol": "GFS",
-        "eastmoneySecid": "105.GFS",
-        "price": 79.92,
+        "price": 81.26,
         "previousClose": 83.98,
-        "currency": null,
-        "marketCap": 43852170573.36,
-        "marketCapDisplay": "43.85B",
-        "peTrailing": 0,
+        "currency": "USD",
+        "marketCap": 46056000000,
+        "marketCapDisplay": "46.056B",
+        "peTrailing": 52.49,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
+        "beta": 1.77,
         "fiftyTwoWeekHigh": 89.96,
-        "fiftyTwoWeekLow": 30.37,
-        "return1d": -4.83,
-        "return5d": 6.19,
-        "return20d": 17.81,
-        "returnYtd": 116.76,
-        "relativeToQQQ1d": -2.93,
-        "relativeToQQQ5d": 3.08,
-        "relativeToQQQ20d": 14.41,
-        "relativeToMAG71d": -5.02,
-        "relativeToMAG75d": 5.2,
-        "source": "eastmoney_push2",
+        "fiftyTwoWeekLow": 31.62,
+        "return1d": -3.24,
+        "return5d": 7.97,
+        "return20d": 19.78,
+        "returnYtd": 120.4,
+        "relativeToQQQ1d": -3.51,
+        "relativeToQQQ5d": 2.47,
+        "relativeToQQQ20d": 15.46,
+        "relativeToMAG71d": -2.18,
+        "relativeToMAG75d": 6.06,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.GFS: ok"
+          "eastmoney_push2: 105.GFS: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "GFS",
         "portfolioTicker": "GFS.O",
         "role": "holding"
@@ -14369,8 +14413,8 @@
         "initial/GOOGL_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/GOOGL_profile.md"
       ],
@@ -14392,34 +14436,38 @@
       "display_name": "GOOGL.O · 谷歌",
       "market_data": {
         "symbol": "GOOGL",
-        "eastmoneySecid": "105.GOOGL",
-        "price": 373.25,
-        "previousClose": 369.35,
-        "currency": null,
-        "marketCap": 4540959500000,
-        "marketCapDisplay": "4.54T",
-        "peTrailing": 0,
+        "price": 366.92,
+        "previousClose": 373.25,
+        "currency": "USD",
+        "marketCap": 4460000000000,
+        "marketCapDisplay": "4.46T",
+        "peTrailing": 27.9,
         "peForward": null,
         "psTrailing": null,
-        "beta": null,
-        "fiftyTwoWeekHigh": 402.4,
-        "fiftyTwoWeekLow": 143.64,
-        "return1d": 1.06,
-        "return5d": 2.47,
-        "return20d": -5.92,
-        "returnYtd": 18.6,
-        "relativeToQQQ1d": 2.96,
-        "relativeToQQQ5d": -0.64,
-        "relativeToQQQ20d": -9.32,
-        "relativeToMAG71d": 0.87,
-        "relativeToMAG75d": 1.48,
-        "source": "eastmoney_push2",
+        "beta": 1.24,
+        "fiftyTwoWeekHigh": 402.38,
+        "fiftyTwoWeekLow": 164.72,
+        "return1d": -1.7,
+        "return5d": 2.96,
+        "return20d": -5.29,
+        "returnYtd": 16.58,
+        "relativeToQQQ1d": -1.97,
+        "relativeToQQQ5d": -2.54,
+        "relativeToQQQ20d": -9.61,
+        "relativeToMAG71d": -0.64,
+        "relativeToMAG75d": 1.05,
+        "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2 105.GOOGL: ok"
+          "eastmoney_push2: 105.GOOGL: HTTP 502",
+          "yahoo_chart: ok",
+          "yahoo_quote_page: ok"
         ],
-        "warnings": [],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "warnings": [
+          "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
+          "forward PE and PS unavailable from public quote page"
+        ],
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "GOOGL",
         "portfolioTicker": "GOOGL",
         "role": "mag7"
@@ -16451,8 +16499,8 @@
         "initial/IBM_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/IBM_profile.md"
       ],
@@ -16474,8 +16522,8 @@
       "display_name": "IBM.N · International Business Machines Corporation",
       "market_data": {
         "symbol": "IBM",
-        "price": 270.81,
-        "previousClose": 268.71,
+        "price": 266.2,
+        "previousClose": 270.81,
         "currency": "USD",
         "marketCap": 254530000000,
         "marketCapDisplay": "254.53B",
@@ -16485,19 +16533,19 @@
         "beta": 0.67,
         "fiftyTwoWeekHigh": 329.23,
         "fiftyTwoWeekLow": 214.64,
-        "return1d": 0.78,
-        "return5d": -2.41,
-        "return20d": 21.58,
-        "returnYtd": -5.88,
-        "relativeToQQQ1d": 2.68,
-        "relativeToQQQ5d": -5.52,
-        "relativeToQQQ20d": 18.18,
-        "relativeToMAG71d": 0.59,
-        "relativeToMAG75d": -3.4,
+        "return1d": -1.7,
+        "return5d": -2.26,
+        "return20d": 19.73,
+        "returnYtd": -7.48,
+        "relativeToQQQ1d": -1.97,
+        "relativeToQQQ5d": -7.76,
+        "relativeToQQQ20d": 15.41,
+        "relativeToMAG71d": -0.64,
+        "relativeToMAG75d": -4.17,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.IBM: empty realtime data",
+          "eastmoney_push2: 105.IBM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -16505,7 +16553,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "IBM",
         "portfolioTicker": "IBM.N",
         "role": "holding"
@@ -18185,7 +18233,7 @@
           "FY2026E EPS"
         ],
         "context": {
-          "price": "270.81",
+          "price": "266.2",
           "market_cap": "254.53B",
           "revenue_latest": "675.4亿美元",
           "net_income_latest": "105.9亿美元",
@@ -18579,8 +18627,8 @@
         "initial/IFX_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/IFX_profile.md"
       ],
@@ -18602,8 +18650,8 @@
       "display_name": "IFX.DF · Infineon Technologies AG",
       "market_data": {
         "symbol": "IFX.DE",
-        "price": 79.28,
-        "previousClose": 80.75,
+        "price": 76.8,
+        "previousClose": 79.28,
         "currency": "EUR",
         "marketCap": 104038000000,
         "marketCapDisplay": "104.038B",
@@ -18613,15 +18661,15 @@
         "beta": 1.98,
         "fiftyTwoWeekHigh": 88,
         "fiftyTwoWeekLow": 31.04,
-        "return1d": -1.82,
-        "return5d": 4.78,
-        "return20d": 22.65,
-        "returnYtd": 108.78,
-        "relativeToQQQ1d": 0.08,
-        "relativeToQQQ5d": 1.67,
-        "relativeToQQQ20d": 19.25,
-        "relativeToMAG71d": -2.01,
-        "relativeToMAG75d": 3.79,
+        "return1d": -3.13,
+        "return5d": 2.26,
+        "return20d": 13.04,
+        "returnYtd": 102.25,
+        "relativeToQQQ1d": -3.4,
+        "relativeToQQQ5d": -3.24,
+        "relativeToQQQ20d": 8.72,
+        "relativeToMAG71d": -2.07,
+        "relativeToMAG75d": 0.35,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
@@ -18633,7 +18681,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "IFX",
         "portfolioTicker": "IFX.DF",
         "role": "holding"
@@ -19970,8 +20018,8 @@
         "initial/NBIS_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [],
       "missing_info_prompt": [
         {
@@ -19991,30 +20039,30 @@
       "display_name": "NBIS.O · Nebius Group N.V.",
       "market_data": {
         "symbol": "NBIS",
-        "price": 265.1,
-        "previousClose": 260.07,
+        "price": 275.58,
+        "previousClose": 265.1,
         "currency": "USD",
-        "marketCap": 67308000000,
-        "marketCapDisplay": "67.308B",
-        "peTrailing": 101.96,
+        "marketCap": 69588000000,
+        "marketCapDisplay": "69.588B",
+        "peTrailing": 105.42,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.43,
-        "fiftyTwoWeekHigh": 265.1,
+        "fiftyTwoWeekHigh": 275.58,
         "fiftyTwoWeekLow": 44.3,
-        "return1d": 1.93,
-        "return5d": 20.43,
-        "return20d": 32.64,
-        "returnYtd": 194.72,
-        "relativeToQQQ1d": 3.83,
-        "relativeToQQQ5d": 17.32,
-        "relativeToQQQ20d": 29.24,
-        "relativeToMAG71d": 1.74,
-        "relativeToMAG75d": 19.44,
+        "return1d": 3.95,
+        "return5d": 30.18,
+        "return20d": 39.37,
+        "returnYtd": 206.37,
+        "relativeToQQQ1d": 3.68,
+        "relativeToQQQ5d": 24.68,
+        "relativeToQQQ20d": 35.05,
+        "relativeToMAG71d": 5.01,
+        "relativeToMAG75d": 28.27,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.NBIS: fetch failed",
+          "eastmoney_push2: 105.NBIS: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -20022,7 +20070,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "NBIS",
         "portfolioTicker": "NBIS.O",
         "role": "holding"
@@ -21837,8 +21885,8 @@
         "initial/NOK_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/NOK_profile.md"
       ],
@@ -21860,30 +21908,30 @@
       "display_name": "NOK.N · 诺基亚",
       "market_data": {
         "symbol": "NOK",
-        "price": 13.98,
-        "previousClose": 14.82,
+        "price": 13.83,
+        "previousClose": 13.98,
         "currency": "USD",
-        "marketCap": 78044000000,
-        "marketCapDisplay": "78.044B",
-        "peTrailing": 87.38,
+        "marketCap": 77597000000,
+        "marketCapDisplay": "77.597B",
+        "peTrailing": 86.88,
         "peForward": null,
         "psTrailing": null,
         "beta": 0.78,
         "fiftyTwoWeekHigh": 16.85,
         "fiftyTwoWeekLow": 4.05,
-        "return1d": -5.67,
-        "return5d": 0.94,
-        "return20d": 1.75,
-        "returnYtd": 114.75,
-        "relativeToQQQ1d": -3.77,
-        "relativeToQQQ5d": -2.17,
-        "relativeToQQQ20d": -1.65,
-        "relativeToMAG71d": -5.86,
-        "relativeToMAG75d": -0.05,
+        "return1d": -1.07,
+        "return5d": 3.21,
+        "return20d": 1.18,
+        "returnYtd": 112.45,
+        "relativeToQQQ1d": -1.34,
+        "relativeToQQQ5d": -2.29,
+        "relativeToQQQ20d": -3.14,
+        "relativeToMAG71d": -0.01,
+        "relativeToMAG75d": 1.3,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.NOK: empty realtime data",
+          "eastmoney_push2: 105.NOK: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -21891,7 +21939,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "NOK",
         "portfolioTicker": "NOK.N",
         "role": "holding"
@@ -23097,8 +23145,8 @@
         "initial/QCOM_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/QCOM_profile.md"
       ],
@@ -23120,30 +23168,30 @@
       "display_name": "QCOM.O · 高通",
       "market_data": {
         "symbol": "QCOM",
-        "price": 214.07,
-        "previousClose": 220.81,
+        "price": 218.09,
+        "previousClose": 214.07,
         "currency": "USD",
-        "marketCap": 225630000000,
-        "marketCapDisplay": "225.63B",
-        "peTrailing": 23.04,
+        "marketCap": 230731000000,
+        "marketCapDisplay": "230.731B",
+        "peTrailing": 23.56,
         "peForward": null,
         "psTrailing": null,
         "beta": 1.6,
         "fiftyTwoWeekHigh": 250.1,
         "fiftyTwoWeekLow": 123.61,
-        "return1d": -3.05,
-        "return5d": 4.21,
-        "return20d": 5.51,
-        "returnYtd": 25.01,
-        "relativeToQQQ1d": -1.15,
-        "relativeToQQQ5d": 1.1,
-        "relativeToQQQ20d": 2.11,
-        "relativeToMAG71d": -3.24,
-        "relativeToMAG75d": 3.22,
+        "return1d": 1.88,
+        "return5d": 14.06,
+        "return20d": 11.9,
+        "returnYtd": 27.36,
+        "relativeToQQQ1d": 1.61,
+        "relativeToQQQ5d": 8.56,
+        "relativeToQQQ20d": 7.58,
+        "relativeToMAG71d": 2.94,
+        "relativeToMAG75d": 12.15,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.QCOM: fetch failed",
+          "eastmoney_push2: 105.QCOM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -23151,7 +23199,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "QCOM",
         "portfolioTicker": "QCOM.O",
         "role": "holding"
@@ -24413,8 +24461,8 @@
         "initial/Samsung_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/Samsung_profile.md"
       ],
@@ -24436,26 +24484,26 @@
       "display_name": "005930.KS · 三星电子",
       "market_data": {
         "symbol": "005930.KS",
-        "price": 340750,
+        "price": 346500,
         "previousClose": 343000,
         "currency": "KRW",
-        "marketCap": 1993581000000000,
-        "marketCapDisplay": "1993.58T KRW",
+        "marketCap": 2025735500000000,
+        "marketCapDisplay": "2025.74T KRW",
         "peTrailing": null,
         "peForward": null,
         "psTrailing": null,
         "beta": null,
         "fiftyTwoWeekHigh": 360500,
-        "fiftyTwoWeekLow": 56994.75,
-        "return1d": -0.66,
-        "return5d": 12.64,
-        "return20d": 21.26,
-        "returnYtd": 147.25,
-        "relativeToQQQ1d": 1.24,
-        "relativeToQQQ5d": 9.53,
-        "relativeToQQQ20d": 17.86,
-        "relativeToMAG71d": -0.85,
-        "relativeToMAG75d": 11.65,
+        "fiftyTwoWeekLow": 56994.76,
+        "return1d": 1.02,
+        "return5d": 14.55,
+        "return20d": 23.31,
+        "returnYtd": 151.42,
+        "relativeToQQQ1d": 0.75,
+        "relativeToQQQ5d": 9.05,
+        "relativeToQQQ20d": 18.99,
+        "relativeToMAG71d": 2.08,
+        "relativeToMAG75d": 12.64,
         "source": "yahoo_chart+yahoo_quote_page+naver_stock",
         "dataQuality": "ok",
         "source_attempts": [
@@ -24468,7 +24516,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "Yahoo quote page HTTP 404"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "Samsung",
         "portfolioTicker": "Samsung",
         "role": "holding"
@@ -26577,8 +26625,8 @@
           "FY2027E EPS"
         ],
         "context": {
-          "price": "340750",
-          "market_cap": "1993.58T KRW",
+          "price": "346500",
+          "market_cap": "2025.74T KRW",
           "revenue_latest": "333.61万亿韩元",
           "net_income_latest": "44.26万亿韩元",
           "fcf_latest": "37.79万亿韩元"
@@ -26908,8 +26956,8 @@
         "initial/SKM_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/SKM_profile.md"
       ],
@@ -26931,8 +26979,8 @@
       "display_name": "SKM.N · SK电讯",
       "market_data": {
         "symbol": "SKM",
-        "price": 36.91,
-        "previousClose": 38.52,
+        "price": 36.25,
+        "previousClose": 36.91,
         "currency": "USD",
         "marketCap": 14906000000,
         "marketCapDisplay": "14.906B",
@@ -26942,19 +26990,19 @@
         "beta": 0.67,
         "fiftyTwoWeekHigh": 46,
         "fiftyTwoWeekLow": 19.68,
-        "return1d": -4.18,
-        "return5d": -10.43,
-        "return20d": -0.27,
-        "returnYtd": 79.61,
-        "relativeToQQQ1d": -2.28,
-        "relativeToQQQ5d": -13.54,
-        "relativeToQQQ20d": -3.67,
-        "relativeToMAG71d": -4.37,
-        "relativeToMAG75d": -11.42,
+        "return1d": -1.79,
+        "return5d": -4.13,
+        "return20d": -2.4,
+        "returnYtd": 76.4,
+        "relativeToQQQ1d": -2.06,
+        "relativeToQQQ5d": -9.63,
+        "relativeToQQQ20d": -6.72,
+        "relativeToMAG71d": -0.73,
+        "relativeToMAG75d": -6.04,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.SKM: empty realtime data",
+          "eastmoney_push2: 105.SKM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -26962,7 +27010,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "SKM",
         "portfolioTicker": "SKM.N",
         "role": "holding"
@@ -29067,7 +29115,7 @@
           "FY2027E EPS"
         ],
         "context": {
-          "price": "36.91",
+          "price": "36.25",
           "market_cap": "14.906B",
           "revenue_latest": "17.10万亿韩元",
           "net_income_latest": "4084.1亿韩元",
@@ -29711,8 +29759,8 @@
         "initial/TSM_profile.md"
       ],
       "source_type": "initial_profile",
-      "imported_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "imported_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "extraction_warnings": [
         "存在未披露/待补字段：initial/TSM_profile.md"
       ],
@@ -29734,8 +29782,8 @@
       "display_name": "TSM.N · 台积电",
       "market_data": {
         "symbol": "TSM",
-        "price": 425.83,
-        "previousClose": 441.4,
+        "price": 434.35,
+        "previousClose": 425.83,
         "currency": "USD",
         "marketCap": 2209000000000,
         "marketCapDisplay": "2.209T",
@@ -29745,19 +29793,19 @@
         "beta": 1.25,
         "fiftyTwoWeekHigh": 445.65,
         "fiftyTwoWeekLow": 207.22,
-        "return1d": -3.53,
-        "return5d": -0.26,
-        "return20d": 7.8,
-        "returnYtd": 33.92,
-        "relativeToQQQ1d": -1.63,
-        "relativeToQQQ5d": -3.37,
-        "relativeToQQQ20d": 4.4,
-        "relativeToMAG71d": -3.72,
-        "relativeToMAG75d": -1.25,
+        "return1d": 2,
+        "return5d": 6.51,
+        "return20d": 10.89,
+        "returnYtd": 36.6,
+        "relativeToQQQ1d": 1.73,
+        "relativeToQQQ5d": 1.01,
+        "relativeToQQQ20d": 6.57,
+        "relativeToMAG71d": 3.06,
+        "relativeToMAG75d": 4.6,
         "source": "yahoo_chart+yahoo_quote_page",
         "dataQuality": "ok",
         "source_attempts": [
-          "eastmoney_push2: 105.TSM: empty realtime data",
+          "eastmoney_push2: 105.TSM: HTTP 502",
           "yahoo_chart: ok",
           "yahoo_quote_page: ok"
         ],
@@ -29765,7 +29813,7 @@
           "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
           "forward PE and PS unavailable from public quote page"
         ],
-        "updatedAt": "2026-06-17T05:10:44.553Z",
+        "updatedAt": "2026-06-17T14:09:41.675Z",
         "displayTicker": "TSM",
         "portfolioTicker": "TSM.N",
         "role": "holding"
@@ -30837,7 +30885,7 @@
       "report_date": "2026-06-17",
       "window_start": "2026-06-11",
       "window_end": "2026-06-17",
-      "generated_at": "2026-06-17T05:11:22.331Z",
+      "generated_at": "2026-06-17T14:10:06.818Z",
       "rule": "仅展示 report_date - 6 days 至 report_date 且匹配股票池的事件。",
       "filtered": {
         "outside_7_day_window": 31,
@@ -30864,8 +30912,8 @@
       "source": "initial/ASML_profile.md",
       "source_file": "initial/ASML_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_ce97926da02a",
@@ -30878,8 +30926,8 @@
       "source": "initial/ASML_profile.md",
       "source_file": "initial/ASML_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_bb8dbdac37dc",
@@ -30892,8 +30940,8 @@
       "source": "initial/ASML_profile.md",
       "source_file": "initial/ASML_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_db3d4b69733f",
@@ -30906,8 +30954,8 @@
       "source": "initial/ASML_profile.md",
       "source_file": "initial/ASML_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_e4afe632f387",
@@ -30920,8 +30968,8 @@
       "source": "initial/ASML_profile.md",
       "source_file": "initial/ASML_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_ca12208e949f",
@@ -30934,8 +30982,8 @@
       "source": "initial/ASX_profile.md",
       "source_file": "initial/ASX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_042f67d0c17e",
@@ -30948,8 +30996,8 @@
       "source": "initial/ASX_profile.md",
       "source_file": "initial/ASX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_04fc01b2f347",
@@ -30962,8 +31010,8 @@
       "source": "initial/ASX_profile.md",
       "source_file": "initial/ASX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_cda69f74fc6b",
@@ -30976,8 +31024,8 @@
       "source": "initial/ASX_profile.md",
       "source_file": "initial/ASX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_5e6e7cfac7c6",
@@ -30990,8 +31038,8 @@
       "source": "initial/ASX_profile.md",
       "source_file": "initial/ASX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_9dc2a8d12dd0",
@@ -31004,8 +31052,8 @@
       "source": "initial/ASX_profile.md",
       "source_file": "initial/ASX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_623f296560ff",
@@ -31018,8 +31066,8 @@
       "source": "initial/BABA_profile.md",
       "source_file": "initial/BABA_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_171ba6fe9824",
@@ -31032,8 +31080,8 @@
       "source": "initial/BABA_profile.md",
       "source_file": "initial/BABA_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_9bc2e20680d5",
@@ -31046,8 +31094,8 @@
       "source": "initial/BABA_profile.md",
       "source_file": "initial/BABA_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_8d44035beda0",
@@ -31060,8 +31108,8 @@
       "source": "initial/BABA_profile.md",
       "source_file": "initial/BABA_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_097b5f914d79",
@@ -31074,8 +31122,8 @@
       "source": "initial/BABA_profile.md",
       "source_file": "initial/BABA_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_4d4e1debe404",
@@ -31088,8 +31136,8 @@
       "source": "initial/BABA_profile.md",
       "source_file": "initial/BABA_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_4f816bdd275d",
@@ -31102,8 +31150,8 @@
       "source": "initial/BB_profile.md",
       "source_file": "initial/BB_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_0830f99055a6",
@@ -31116,8 +31164,8 @@
       "source": "initial/BB_profile.md",
       "source_file": "initial/BB_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_8bd62fb8cf24",
@@ -31130,8 +31178,8 @@
       "source": "initial/BB_profile.md",
       "source_file": "initial/BB_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_550cab82b467",
@@ -31144,8 +31192,8 @@
       "source": "initial/BB_profile.md",
       "source_file": "initial/BB_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_cc61a7bad497",
@@ -31158,8 +31206,8 @@
       "source": "initial/BB_profile.md",
       "source_file": "initial/BB_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_24934ec81888",
@@ -31172,8 +31220,8 @@
       "source": "initial/IBM_profile.md",
       "source_file": "initial/IBM_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_502cc6615f08",
@@ -31186,8 +31234,8 @@
       "source": "initial/IBM_profile.md",
       "source_file": "initial/IBM_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_3be62825a640",
@@ -31200,8 +31248,8 @@
       "source": "initial/IBM_profile.md",
       "source_file": "initial/IBM_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_91be46884a2b",
@@ -31214,8 +31262,8 @@
       "source": "initial/IBM_profile.md",
       "source_file": "initial/IBM_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_0c28e8686bca",
@@ -31228,8 +31276,8 @@
       "source": "initial/IBM_profile.md",
       "source_file": "initial/IBM_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_177f992b4a1e",
@@ -31242,8 +31290,8 @@
       "source": "initial/IFX_profile.md",
       "source_file": "initial/IFX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_e26ae4d8a16a",
@@ -31256,8 +31304,8 @@
       "source": "initial/IFX_profile.md",
       "source_file": "initial/IFX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_dda0fa140c7e",
@@ -31270,8 +31318,8 @@
       "source": "initial/IFX_profile.md",
       "source_file": "initial/IFX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_addb6c2f2edb",
@@ -31284,8 +31332,8 @@
       "source": "initial/IFX_profile.md",
       "source_file": "initial/IFX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "rem_a06ee270a7e3",
@@ -31298,8 +31346,8 @@
       "source": "initial/IFX_profile.md",
       "source_file": "initial/IFX_profile.md",
       "status": "open",
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     }
   ],
   "ai_capex": [
@@ -35905,8 +35953,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/ASML_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "capex_3daa2450e0a3",
@@ -35932,8 +35980,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/ASML_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": [
         "ASML"
       ]
@@ -35954,8 +36002,8 @@
       "confidence_level": "profile",
       "validation_status": "profile",
       "missing_info_prompt": null,
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": []
     },
     {
@@ -35974,8 +36022,8 @@
       "confidence_level": "profile",
       "validation_status": "profile",
       "missing_info_prompt": null,
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": []
     },
     {
@@ -36002,8 +36050,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": []
     },
     {
@@ -36030,8 +36078,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": []
     },
     {
@@ -36050,8 +36098,8 @@
       "confidence_level": "profile",
       "validation_status": "profile",
       "missing_info_prompt": null,
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": []
     },
     {
@@ -36070,8 +36118,8 @@
       "confidence_level": "profile",
       "validation_status": "profile",
       "missing_info_prompt": null,
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": []
     },
     {
@@ -36098,8 +36146,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": []
     },
     {
@@ -36126,8 +36174,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": []
     },
     {
@@ -36154,8 +36202,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/QCOM_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z",
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z",
       "supply_chain_mapping": [
         "QCOM"
       ]
@@ -36524,8 +36572,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_5b0a24209ad2",
@@ -36548,8 +36596,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_9bf8f5120ce2",
@@ -36572,8 +36620,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_ca9ccc13c772",
@@ -36596,8 +36644,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_5a6d5e4e4fb9",
@@ -36620,8 +36668,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_e129dd9533e1",
@@ -36644,8 +36692,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_68f32e79610e",
@@ -36668,8 +36716,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_b405e0a8ead7",
@@ -36692,8 +36740,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_b9ff7f743689",
@@ -36716,8 +36764,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/BABA_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_0af388a2ce95",
@@ -36740,8 +36788,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/BABA_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_9189af77dde8",
@@ -36764,8 +36812,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/BABA_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_6998195fab3b",
@@ -36788,8 +36836,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/BABA_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_fc5524f779f6",
@@ -36812,8 +36860,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_3005c610975a",
@@ -36836,8 +36884,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_9dce237fafd7",
@@ -36860,8 +36908,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_bcfd85de3a06",
@@ -36884,8 +36932,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_6b9ad347a0a0",
@@ -36908,8 +36956,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_e7adcd4f4e60",
@@ -36932,8 +36980,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_bbcd1ab23793",
@@ -36956,8 +37004,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_cae884fa03bc",
@@ -36980,8 +37028,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_aa057f517f07",
@@ -37004,8 +37052,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_d4f79b612070",
@@ -37028,8 +37076,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_eeb713332a03",
@@ -37052,8 +37100,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/NOK_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_f26967d7d0ac",
@@ -37081,8 +37129,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/Samsung_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_cce42ac03d84",
@@ -37110,8 +37158,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/Samsung_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_ad7c2a3bfe04",
@@ -37134,8 +37182,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/Samsung_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_c09d0142ecc4",
@@ -37158,8 +37206,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/Samsung_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_df98519ee319",
@@ -37187,8 +37235,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/Samsung_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_07e3ea42697a",
@@ -37211,8 +37259,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/Samsung_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_797b6cdfdb68",
@@ -37235,8 +37283,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/Samsung_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_608c650c50c1",
@@ -37259,8 +37307,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/Samsung_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_4813a14d2fa6",
@@ -37283,8 +37331,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/TSM_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     },
     {
       "id": "model_e97e8ce3dd2e",
@@ -37307,8 +37355,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/TSM_profile.md"
       },
-      "created_at": "2026-06-17T05:10:44.035Z",
-      "updated_at": "2026-06-17T05:10:44.035Z"
+      "created_at": "2026-06-17T14:09:41.037Z",
+      "updated_at": "2026-06-17T14:09:41.037Z"
     }
   ],
   "renderable_models": [
@@ -37679,7 +37727,7 @@
         "FCF Yield"
       ],
       "context": {
-        "price": "36.84",
+        "price": "37.74",
         "market_cap": "80.825B",
         "revenue_latest": "—",
         "net_income_latest": "—",
@@ -37710,8 +37758,8 @@
         "FCF Yield"
       ],
       "context": {
-        "price": "110.97",
-        "market_cap": "266.232B",
+        "price": "109.77",
+        "market_cap": "263.233B",
         "revenue_latest": "10236.7亿元人民币",
         "net_income_latest": "1035.9亿元人民币",
         "fcf_latest": "—"
@@ -37740,7 +37788,7 @@
         "FY2026E EPS"
       ],
       "context": {
-        "price": "270.81",
+        "price": "266.2",
         "market_cap": "254.53B",
         "revenue_latest": "675.4亿美元",
         "net_income_latest": "105.9亿美元",
@@ -37774,8 +37822,8 @@
         "FY2027E EPS"
       ],
       "context": {
-        "price": "340750",
-        "market_cap": "1993.58T KRW",
+        "price": "346500",
+        "market_cap": "2025.74T KRW",
         "revenue_latest": "333.61万亿韩元",
         "net_income_latest": "44.26万亿韩元",
         "fcf_latest": "37.79万亿韩元"
@@ -37806,7 +37854,7 @@
         "FY2027E EPS"
       ],
       "context": {
-        "price": "36.91",
+        "price": "36.25",
         "market_cap": "14.906B",
         "revenue_latest": "17.10万亿韩元",
         "net_income_latest": "4084.1亿韩元",
@@ -37834,112 +37882,112 @@
       {
         "source_file": "initial/ASML_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/ASX_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/AVGO_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/BABA_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/BB_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/CIEN_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/GFS_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/GOOGL_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/IBM_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/IFX_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/NBIS_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/NOK_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/QCOM_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/Samsung_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/SKM_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       },
       {
         "source_file": "initial/TSM_profile.md",
         "source_type": "initial_profile",
-        "imported_at": "2026-06-17T05:10:44.035Z",
+        "imported_at": "2026-06-17T14:09:41.037Z",
         "status": "imported",
         "message": null
       }
@@ -37967,7 +38015,7 @@
       "report_date": "2026-06-17",
       "window_start": "2026-06-11",
       "window_end": "2026-06-17",
-      "generated_at": "2026-06-17T05:11:22.331Z",
+      "generated_at": "2026-06-17T14:10:06.818Z",
       "rule": "仅展示 report_date - 6 days 至 report_date 且匹配股票池的事件。",
       "filtered": {
         "outside_7_day_window": 31,
@@ -37982,7 +38030,7 @@
     "missing_info_prompt_path": "data/data_quality/missing_info_prompt_2026-06-17.md"
   },
   "data_health": {
-    "generated_at": "2026-06-17T05:11:22.575Z",
+    "generated_at": "2026-06-17T14:10:07.103Z",
     "financial_coverage_pct": 0.55,
     "low_financial_coverage": [
       {
@@ -38430,10 +38478,10 @@
     }
   ],
   "snapshots": {
-    "latest_file": "snapshots/2026-06-17T05-10-44-035Z.json",
+    "latest_file": "snapshots/2026-06-17T14-09-41-037Z.json",
     "latest": {
       "meta": {
-        "generated_at": "2026-06-17T05:10:44.035Z",
+        "generated_at": "2026-06-17T14:09:41.037Z",
         "report_date": "2026-06-17",
         "source_note": "本地 profile 导入，尚未补齐原始链接；不得自动升为 L1。"
       },
@@ -38732,112 +38780,112 @@
         {
           "source_file": "initial/ASML_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/ASX_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/AVGO_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/BABA_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/BB_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/CIEN_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/GFS_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/GOOGL_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/IBM_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/IFX_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/NBIS_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/NOK_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/QCOM_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/Samsung_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/SKM_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         },
         {
           "source_file": "initial/TSM_profile.md",
           "source_type": "initial_profile",
-          "imported_at": "2026-06-17T05:10:44.035Z",
+          "imported_at": "2026-06-17T14:09:41.037Z",
           "status": "imported",
           "message": null
         }
