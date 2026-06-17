@@ -152,8 +152,8 @@ async function loadValuationCandidates() {
 function buildReport({ config, reportDate, data, snapshots, webMode }) {
   const factsByTicker = groupBy(data.supplementalFacts, (fact) => tickerKey(fact.ticker));
   const gapsByTicker = new Map((data.companyGaps || []).map((gap) => [tickerKey(gap.ticker), gap]));
-  const valuationByTicker = groupBy(data.valuationVerified || [], (row) => tickerKey(row.ticker));
-  const valuationCandidatesByTicker = groupBy(data.valuationCandidates || [], (row) => tickerKey(row.ticker));
+  const valuationByTicker = groupBy(data.valuationVerified || [], (row) => valuationTickerKey(row.ticker));
+  const valuationCandidatesByTicker = groupBy(data.valuationCandidates || [], (row) => valuationTickerKey(row.ticker));
   const financialHistoryByTicker = groupBy(data.financialHistory || [], (row) => tickerKey(row.ticker));
   const financialCoverageByTicker = new Map((data.financialCoverageSummary || []).map((row) => [tickerKey(row.ticker), row]));
   const enrichedCompanies = data.companies
@@ -164,8 +164,8 @@ function buildReport({ config, reportDate, data, snapshots, webMode }) {
       display_name: displayNameForCompany(company, data.aliases),
       market_data: marketForCompany(company, data.market),
       supplemental_facts: factsByTicker[tickerKey(company.ticker)] || [],
-      valuation_verified: valuationByTicker[tickerKey(company.ticker)] || [],
-      valuation_candidates: valuationCandidatesByTicker[tickerKey(company.ticker)] || [],
+      valuation_verified: valuationByTicker[valuationTickerKey(company.ticker)] || [],
+      valuation_candidates: valuationCandidatesByTicker[valuationTickerKey(company.ticker)] || [],
       financial_history_verified: financialHistoryByTicker[tickerKey(company.ticker)] || [],
       financial_coverage: financialCoverageByTicker.get(tickerKey(company.ticker)) || null,
       gap_summary: gapsByTicker.get(tickerKey(company.ticker))?.summary || null,
@@ -2927,22 +2927,25 @@ function hasNumber(value) {
 
 function isCapexActualRow(row) {
   const field = String(row.field || '');
-  return /(AI_CAPEX_ACTUAL|quarterly_CAPEX|annual_CAPEX|capital_expenditure_actual)$/i.test(field) && hasNumber(row.value);
+  return /(AI_CAPEX_ACTUAL|quarterly_CAPEX|annual_CAPEX|quarterly_capex|annual_capex|capital_expenditure_actual|(?:FY)?20\d{2}\s+Capex|q[1-4][_\s-].*capex)$/i.test(field) && hasNumber(row.value);
 }
 
 function isCapexGuidanceRow(row) {
   const field = String(row.field || '');
-  return /(AI_CAPEX_GUIDANCE|AI_CAPEX_guidance|AI_CAPEX_GUIDANCE_REVISION|AI_CAPEX_revision|capital_expenditure_guidance|CAPEX Plans|HYPERSCALER_CAPEX_OUTLOOK)$/i.test(field) && hasNumber(row.value);
+  return /(AI_CAPEX_GUIDANCE|AI_CAPEX_guidance|AI_CAPEX_GUIDANCE_REVISION|AI_CAPEX_revision|capital_expenditure_guidance|CAPEX Plans|HYPERSCALER_CAPEX_OUTLOOK|annual_capex_guidance|quarterly_capex_guidance|capex_guidance|capex_revision)$/i.test(field) && hasNumber(row.value);
 }
 
 function isAccountingCapexGuidance(row = {}) {
   if (!isCapexGuidanceRow(row)) return false;
   const text = cleanVisibleText(`${row.field || ''} ${row.value || ''} ${row.notes || ''}`);
+  const valueText = cleanVisibleText(row.value || row.capex_guidance || '');
+  const moneyOrCapexUnit = /[$€¥₩]|USD|EUR|RMB|CNY|KRW|TWD|美元|欧元|人民币|韩元|新台币|亿|万亿|\bB\b|\bM\b|billion|million/i;
+  if (!moneyOrCapexUnit.test(valueText)) return false;
   if (/PRIVATE|private company|internal planning|media reports/i.test(`${row.ticker || ''} ${row.source_title || ''} ${text}`)) return false;
   if (/AI infrastructure budget|AI-related investment|GPU|H20|Ascend|chip procurement|chips in 20\d{2}|targeting AI-related revenue|total facilities and R&D|over next five years/i.test(text)) return false;
   if (/GW|MW|capacity|产能|data center|数据中心|campus|supercluster|electricity load/i.test(text)) return false;
   if (/\b15\s*[-–—至]\s*20\s*%|of revenue|收入占比/i.test(text) && !/capex intensity|资本开支强度/i.test(text)) return false;
-  return /[$€¥₩]|USD|EUR|RMB|CNY|KRW|TWD|美元|欧元|人民币|韩元|新台币|亿|万亿|B|M|billion|million/i.test(text);
+  return moneyOrCapexUnit.test(text);
 }
 
 function shortCapexValue(value) {
@@ -2952,8 +2955,44 @@ function shortCapexValue(value) {
   const normalized = standardizeCapexText(clean);
   const latestCombined = latestCombinedQuarterCapexValue(clean) || latestCombinedQuarterCapexValue(normalized);
   if (latestCombined) return latestCombined;
+  const friendlyAmount = friendlyCapexAmount(normalized) || friendlyCapexAmount(clean);
+  if (friendlyAmount) return friendlyAmount;
   if (looksLikeLongEnglish(normalized)) return capexNumericSummary(normalized);
   return visibleShortText(normalized, 78);
+}
+
+function friendlyCapexAmount(value = '') {
+  const text = cleanVisibleText(value);
+  const trailing = text.match(/(-?[\d,.]+)\s*(KRW|TWD|USD|EUR|RMB|CNY)\b/i);
+  const leading = trailing ? null : text.match(/\b(KRW|TWD|USD|EUR|RMB|CNY)\s*(-?[\d,.]+)/i);
+  if (!trailing && !leading) return null;
+  const currency = (trailing ? trailing[2] : leading[1]).toUpperCase();
+  const numberText = trailing ? trailing[1] : leading[2];
+  const amount = Math.abs(Number(String(numberText || '').replace(/,/g, '')));
+  if (!Number.isFinite(amount) || amount <= 0) return null;
+  if (currency === 'KRW') {
+    if (amount >= 1e12) return `${shortAmount(amount / 1e12)}万亿韩元`;
+    if (amount >= 1e9) return `${shortAmount(amount / 1e9)}十亿韩元`;
+  }
+  if (currency === 'TWD') {
+    if (amount >= 1e8) return `${shortAmount(amount / 1e8)}亿新台币`;
+  }
+  if (currency === 'RMB' || currency === 'CNY') {
+    if (amount >= 1e8) return `人民币 ${shortAmount(amount / 1e8)} 亿元`;
+  }
+  if (currency === 'USD') {
+    if (amount >= 1e9) return `$${shortAmount(amount / 1e9)}B`;
+    if (amount >= 1e6) return `$${shortAmount(amount / 1e6)}M`;
+  }
+  if (currency === 'EUR') {
+    if (amount >= 1e9) return `€${shortAmount(amount / 1e9)}B`;
+    if (amount >= 1e6) return `€${shortAmount(amount / 1e6)}M`;
+  }
+  return null;
+}
+
+function shortAmount(value) {
+  return Number(value).toLocaleString('zh-CN', { maximumFractionDigits: value >= 100 ? 0 : 1 });
 }
 
 function shortCapexPlanText(value) {
@@ -3192,6 +3231,12 @@ function tickerSortKey(company) {
 
 function tickerKey(value = '') {
   return String(value || '').toUpperCase().replace(/\.(O|N|US|DF)$/i, '').replace(/[^A-Z0-9]/g, '');
+}
+
+function valuationTickerKey(value = '') {
+  const key = tickerKey(value);
+  if (key === '005930KS' || key === '005930') return 'SAMSUNG';
+  return key;
 }
 
 function groupBy(items, getKey) {

@@ -8,7 +8,7 @@ import {
   MODEL_TIMELINE_SEEDS,
 } from './model-official-seeds.mjs';
 
-const RANGE_START = '2025-06-06';
+const RANGE_START = shiftYear(MODEL_REPORT_DATE, -1);
 const RANGE_END = MODEL_REPORT_DATE;
 
 async function main() {
@@ -76,6 +76,13 @@ function dateFromLabel(label = '') {
 function inRange(date = '') {
   if (!date) return false;
   return date >= RANGE_START && date <= RANGE_END;
+}
+
+function shiftYear(dateIso = '', delta = 0) {
+  const date = new Date(`${dateIso}T00:00:00Z`);
+  if (Number.isNaN(date.getTime())) return '2025-06-06';
+  date.setUTCFullYear(date.getUTCFullYear() + delta);
+  return date.toISOString().slice(0, 10);
 }
 
 async function writeModelDocs(rows, candidates) {

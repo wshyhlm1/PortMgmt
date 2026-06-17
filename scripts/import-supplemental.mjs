@@ -30,7 +30,9 @@ async function main() {
   const importedAt = nowIso();
   const reportDate = todayInZone(config.report_timezone || process.env.REPORT_TZ || 'Asia/Shanghai');
   const companiesData = await readJson(path.join(PATHS.data, 'companies.json'), { companies: [] });
+  const valuationVerifiedData = await readJson(path.join(PATHS.data, 'valuation_verified.json'), { rows: [] });
   const tracked = companiesData.companies || [];
+  const valuationByTicker = groupBy(valuationVerifiedData.rows || valuationVerifiedData.verified || [], (row) => valuationTickerKey(row.ticker));
   const trackedByTicker = new Map(tracked.flatMap((company) => [
     [tickerKey(company.ticker), company],
     [tickerKey(company.display_ticker), company],
@@ -76,7 +78,7 @@ async function main() {
     .filter(Boolean);
   const aiCapex = dedupeBy([...supplementalCapex, ...(existingCapex.ai_capex || [])], (item) => `${item.category}|${item.ticker || item.company}|${item.field}|${item.value}|${item.period}`);
 
-  const gaps = buildCompanyGaps(tracked, facts);
+  const gaps = buildCompanyGaps(tracked, facts, valuationByTicker);
   const meta = {
     generated_at: importedAt,
     report_date: reportDate,
@@ -218,15 +220,18 @@ function normalizeCapexEntry(fact, trackedByTicker) {
   };
 }
 
-function buildCompanyGaps(companies, facts) {
+function buildCompanyGaps(companies, facts, valuationByTicker = {}) {
   const byTicker = groupBy(facts, (fact) => tickerKey(fact.ticker));
   return companies.map((company) => {
     const ticker = company.ticker;
     const companyFacts = byTicker[tickerKey(ticker)] || [];
+    const valuationRows = valuationByTicker[valuationTickerKey(ticker)] || [];
+    const valuationFields = new Set(valuationRows.map((row) => row.field || row.metric).filter(Boolean));
     const missing = [];
-    if (!company.market_data || company.market_data?.peForward == null) missing.push('Forward PE');
-    if (!company.market_data || company.market_data?.psTrailing == null) missing.push('PS TTM');
-    if (!companyFacts.some((fact) => /valuation|PE|PS|EV\/?EBITDA|FCF Yield/i.test(fact.field))) missing.push('可靠公开估值数据');
+    for (const field of ['Forward PE', 'EV/EBITDA', 'FCF Yield']) {
+      if (!valuationFields.has(field)) missing.push(field);
+    }
+    if (!valuationRows.length && !companyFacts.some((fact) => /valuation|PE|EV\/?EBITDA|FCF Yield/i.test(fact.field))) missing.push('可靠公开估值数据');
     if (!companyFacts.some((fact) => /quarter|latest|Q[1-4]|CAPEX|capital_expenditure/i.test(`${fact.field} ${fact.period}`))) missing.push('最近季度分项数据');
     if (!companyFacts.some((fact) => /guidance|outlook|指引/i.test(fact.field))) missing.push('管理层最新指引');
     const clean = [...new Set(missing)].slice(0, 5);
@@ -374,6 +379,12 @@ function cleanDash(value) {
 
 function tickerKey(value = '') {
   return String(value || '').toUpperCase().replace(/\.(O|N|US|DF)$/i, '').replace(/[^A-Z0-9]/g, '');
+}
+
+function valuationTickerKey(value = '') {
+  const key = tickerKey(value);
+  if (key === '005930KS' || key === '005930') return 'SAMSUNG';
+  return key;
 }
 
 function relativeOrAbsolute(file) {

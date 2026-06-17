@@ -6,7 +6,7 @@ async function main() {
   const timeline = await readJson(path.join(PATHS.data, 'enrichment', 'verified', 'model_release_timeline.json'), { rows: [] });
   const errors = [];
   validateVerifiedModels(verified.rows || [], errors);
-  validateTimeline(timeline.rows || [], errors);
+  validateTimeline(timeline.rows || [], errors, timeline.range || {});
   if (errors.length) {
     for (const error of errors) console.error(`- ${error}`);
     process.exit(1);
@@ -44,8 +44,10 @@ function validateVerifiedModels(rows, errors) {
   }
 }
 
-function validateTimeline(rows, errors) {
+function validateTimeline(rows, errors, range = {}) {
   const renderable = rows.filter((row) => ['high', 'medium'].includes(row.confidence));
+  const rangeStart = range.start || '2025-06-06';
+  const rangeEnd = range.end || '2026-06-06';
   if (renderable.length < 5) errors.push(`Timeline has fewer than 5 high/medium rows: ${renderable.length}`);
   if (rows.length > 12) errors.push(`Timeline exceeds 12 rows: ${rows.length}`);
   const seen = new Set();
@@ -59,7 +61,7 @@ function validateTimeline(rows, errors) {
     if (!row.release_type && !row.type) errors.push(`Timeline row missing release_type: ${label}`);
     if ((row.release_type || row.type) && !allowedTypes.has(row.release_type || row.type)) errors.push(`Timeline invalid release_type: ${label} ${row.release_type || row.type}`);
     if (!row.date && !row.date_label) errors.push(`Timeline row missing date/date_label: ${label}`);
-    if (row.date && (row.date < '2025-06-06' || row.date > '2026-06-06')) errors.push(`Timeline date outside range: ${label} ${row.date}`);
+    if (row.date && (row.date < rangeStart || row.date > rangeEnd)) errors.push(`Timeline date outside range: ${label} ${row.date}`);
     if (!row.api_pricing) errors.push(`Timeline missing api_pricing: ${label}`);
     if (/见官方定价页/.test(JSON.stringify(row.api_pricing || {}))) errors.push(`Timeline pricing uses forbidden phrase: ${label}`);
     if (!row.api_pricing?.input_per_1m && !['official_page_found_unparsed', 'official_text_unparsed'].includes(row.api_pricing?.pricing_status)) {

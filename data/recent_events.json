@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "generated_at": "2026-06-17T00:00:00+08:00",
+    "source_note": "Curated recent events from official public pages and local Obsidian notes. The build script still applies the 7-day report window and quality filters."
+  },
+  "events": [
+    {
+      "date": "2026-06-17",
+      "ticker": "IBM.N",
+      "type": "公司新闻",
+      "event": "IBM研究显示企业AI控制与数据主权压力上升，混合云安全需求增强",
+      "direction": "中性",
+      "importance": "中",
+      "source_kind": "IBM Newsroom",
+      "source_url": "https://newsroom.ibm.com/2026-06-17-ibm-study-limited-control-and-rising-dependencies-leave-enterprises-exposed-in-the-age-of-ai"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "IBM.N",
+      "type": "公司新闻",
+      "event": "Apptio发布对话式洞察预览，强化技术支出AI分析能力",
+      "direction": "利好",
+      "importance": "中",
+      "source_kind": "IBM Newsroom",
+      "source_url": "https://newsroom.ibm.com/2026-06-16-apptio-unveils-conversational-insights-and-new-suite-of-ai-powered-capabilities-to-translate-complex-technology-spend-into-measurable-business-outcomes"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "IBM.N",
+      "type": "公司公告",
+      "event": "IBM扩大与服务管理平台合作，推动企业数据接入AI工作流",
+      "direction": "利好",
+      "importance": "中",
+      "commentary": "企业AI合作加深，咨询与软件收入机会增加。",
+      "source_kind": "IBM Newsroom",
+      "source_url": "https://newsroom.ibm.com/2026-06-11-ibm-and-servicenow-expand-collaboration-to-unlock-enterprise-data-for-ai-at-scale"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "ASML.O",
+      "type": "行业背景",
+      "event": "半导体设备链出现涨价预期，ASML产品升级与交付溢价受关注",
+      "direction": "利好",
+      "importance": "中",
+      "source_kind": "obsidian_wechat",
+      "source_url": "https://mp.weixin.qq.com/s/urNmwdcQmWjIimmwrIpU3g"
+    },
+    {
+      "date": "2026-06-12",
+      "ticker": "AVGO.O",
+      "type": "市场/板块因素",
+      "event": "外资观点认为推理需求驱动前端网络刷新，博通芯片供给仍是约束",
+      "direction": "中性",
+      "importance": "中",
+      "source_kind": "obsidian_wechat",
+      "source_url": "https://mp.weixin.qq.com/s/o33BIf0TjfjrZJh2lJVIEQ"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CIEN.N",
+      "type": "行业背景",
+      "event": "谷歌2.4T相干Lite讨论升温，光通信链2027年订单能见度提升",
+      "direction": "利好",
+      "importance": "中",
+      "source_kind": "obsidian_wechat",
+      "source_url": "https://mp.weixin.qq.com/s/22D6_IAbCFgRwMvYPf1Bqg"
+    },
+    {
+      "date": "2026-06-13",
+      "ticker": "GOOGL.O",
+      "type": "市场/板块因素",
+      "event": "代码模型推理算力占比提升，国内算力供给继续偏紧",
+      "direction": "中性",
+      "importance": "中",
+      "source_kind": "obsidian_wechat",
+      "source_url": "https://mp.weixin.qq.com/s/dCgTtJRWpZWNb0cb_6PNqg"
+    }
+  ]
+}

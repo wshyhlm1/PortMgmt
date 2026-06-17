@@ -1,6 +1,7 @@
 import path from 'node:path';
 import {
   PATHS,
+  asArray,
   compactWhitespace,
   hashId,
   normalizeExactDate,
@@ -15,6 +16,7 @@ async function main() {
   const reportDate = process.argv[2] || todayInZone(config.report_timezone || process.env.REPORT_TZ || 'Asia/Shanghai');
   const companiesData = await readJson(path.join(PATHS.data, 'companies.json'), { companies: [] });
   const factsData = await readJson(path.join(PATHS.data, 'supplemental_facts.json'), { facts: [] });
+  const recentEventsData = await readJson(path.join(PATHS.data, 'recent_events.json'), { events: [] });
   const profileEvents = await readJson(path.join(PATHS.data, 'events.json'), { events: [] });
   const obsidian = await readJson(path.join(PATHS.data, 'obsidian_hits.json'), { hits: [] });
   const aliases = await readJson(path.join(PATHS.data, 'company_aliases.json'), {});
@@ -32,6 +34,7 @@ async function main() {
 
   const candidates = [
     ...factsData.facts.map((fact) => eventFromFact(fact, companyByKey, reportDate)),
+    ...asArray(recentEventsData.events).map((event) => eventFromRecentEvent(event, companyByKey)),
     ...(obsidian.hits || []).map((hit) => eventFromObsidian(hit, companyByKey, reportDate)),
     ...(profileEvents.events || []).map((event) => eventFromProfile(event, companyByKey, reportDate)),
   ].filter(Boolean);
@@ -169,12 +172,42 @@ function eventFromProfile(event, companyByKey) {
   };
 }
 
+function eventFromRecentEvent(event, companyByKey) {
+  const company = companyByKey.get(tickerKey(event.ticker));
+  if (!company) return null;
+  const date = extractEventDate(event.date || event.date_iso || event.period);
+  if (!date) return null;
+  const type = allowedEventType(event.type) || '公司新闻';
+  const direction = ['利好', '利空', '中性', '待验证'].includes(event.direction) ? event.direction : directionFor(`${event.event || ''} ${event.summary || ''}`);
+  const importance = ['高', '中', '低'].includes(event.importance) ? event.importance : '中';
+  return {
+    id: event.id || `event_manual_${hashId(event.ticker, date, type, event.event)}`,
+    date_iso: date,
+    date: event.date_display || mmdd(date),
+    ticker: company.ticker,
+    display_ticker: company.display_ticker || event.display_ticker || company.ticker,
+    company: company.short_cn || company.chinese_name || company.company_name || event.company || company.ticker,
+    type,
+    event: cleanChineseEvent(event.event || event.summary || event.title || ''),
+    direction,
+    importance,
+    commentary: type === '公司公告' ? cleanEventText(event.commentary || announcementCommentary({ ...event, ticker: company.ticker })) : '',
+    origin: event.origin || 'recent_events',
+    source_kind: event.source_kind || event.source_type || 'curated',
+    raw_title: event.title || event.event || '',
+  };
+}
+
 function extractEventDate(value) {
   const exact = normalizeExactDate(value || '');
   if (exact) return exact;
   const text = String(value || '');
   const ymd = text.match(/\b(20\d{2})-(\d{2})-(\d{2})\b/);
   return ymd ? ymd[0] : null;
+}
+
+function allowedEventType(value = '') {
+  return ['公司新闻', '公司公告', '行业背景', '市场/板块因素'].includes(value) ? value : null;
 }
 
 function announcementLike(fact) {
@@ -433,6 +466,9 @@ function badEventReason(event) {
 
 function sanitizeEventForOutput(event) {
   const eventText = shortNoEllipsis(cleanEventText(event.event), 80);
+  const commentary = event.type === '公司公告'
+    ? shortNoEllipsis(cleanEventText(event.commentary || announcementCommentary({ ...event, event: eventText })), 45)
+    : '';
   return {
     id: event.id,
     date_iso: event.date_iso,
@@ -444,7 +480,7 @@ function sanitizeEventForOutput(event) {
     event: eventText,
     direction: event.direction,
     importance: event.importance,
-    commentary: event.type === '公司公告' ? shortNoEllipsis(cleanEventText(announcementCommentary({ ...event, event: eventText })), 45) : '',
+    commentary,
     emoji: event.emoji || '',
     origin: event.origin || 'unknown',
     source_kind: event.source_kind || 'unknown',

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T15:35:16.487Z",
-    "report_date": "2026-06-16",
+    "generated_at": "2026-06-17T14:34:58.469Z",
+    "report_date": "2026-06-17",
     "source_note": "补充 JSON 导入；页面默认不展示 source_url/source_type/confidence。",
     "inputs": [
       {
@@ -4615,8 +4615,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/ASML_profile.md"
       },
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z"
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z"
     },
     {
       "id": "capex_3daa2450e0a3",
@@ -4642,8 +4642,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/ASML_profile.md"
       },
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": [
         "ASML"
       ]
@@ -4664,8 +4664,8 @@
       "confidence_level": "profile",
       "validation_status": "profile",
       "missing_info_prompt": null,
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": []
     },
     {
@@ -4684,8 +4684,8 @@
       "confidence_level": "profile",
       "validation_status": "profile",
       "missing_info_prompt": null,
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": []
     },
     {
@@ -4712,8 +4712,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": []
     },
     {
@@ -4740,8 +4740,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": []
     },
     {
@@ -4760,8 +4760,8 @@
       "confidence_level": "profile",
       "validation_status": "profile",
       "missing_info_prompt": null,
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": []
     },
     {
@@ -4780,8 +4780,8 @@
       "confidence_level": "profile",
       "validation_status": "profile",
       "missing_info_prompt": null,
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": []
     },
     {
@@ -4808,8 +4808,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/AVGO_profile.md"
       },
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": []
     },
     {
@@ -4836,8 +4836,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/GOOGL_profile.md"
       },
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": []
     },
     {
@@ -4864,8 +4864,8 @@
         "confidence_level": "needs_source",
         "source_file": "initial/QCOM_profile.md"
       },
-      "created_at": "2026-06-16T15:35:16.313Z",
-      "updated_at": "2026-06-16T15:35:16.313Z",
+      "created_at": "2026-06-17T14:34:58.310Z",
+      "updated_at": "2026-06-17T14:34:58.310Z",
       "supply_chain_mapping": [
         "QCOM"
       ]
