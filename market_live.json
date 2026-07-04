@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-07-03T00:18:34.647Z",
-  "report_date": "2026-07-03",
+  "as_of": "2026-07-04T01:05:16.513Z",
+  "report_date": "2026-07-04",
   "source": "eastmoney_push2+yahoo_stooq_fallback",
   "portfolio": {
-    "return_1d_avg": -4.39,
-    "return_5d_avg": -5.16,
+    "return_1d_avg": -2.75,
+    "return_5d_avg": -4.23,
     "qqq_return_1d": -1.73,
     "qqq_return_5d": -0.53,
     "mag7_return_1d_avg": -1.04,
     "mag7_return_5d_avg": 6.61,
-    "relative_qqq_1d": -2.66,
-    "relative_qqq_5d": -4.63,
-    "relative_mag7_1d": -3.35,
-    "relative_mag7_5d": -11.77,
+    "relative_qqq_1d": -1.02,
+    "relative_qqq_5d": -3.7,
+    "relative_mag7_1d": -1.71,
+    "relative_mag7_5d": -10.84,
     "benchmark_tickers": [
       "QQQ"
     ],
@@ -42,7 +42,7 @@
       "vs_qqq_1d": -2.27,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -60,7 +60,7 @@
       "vs_qqq_1d": -0.88,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -78,7 +78,7 @@
       "vs_qqq_1d": -0.68,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -96,7 +96,7 @@
       "vs_qqq_1d": -0.16,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -105,8 +105,8 @@
       "symbol": "BB",
       "role": "holding",
       "price": 11.51,
-      "market_cap": "6.945B",
-      "market_cap_value": 6945000000,
+      "market_cap": "6.746B",
+      "market_cap_value": 6746000000,
       "return_1d": -10.15,
       "return_5d": 11.32,
       "return_20d": 13.06,
@@ -114,7 +114,7 @@
       "vs_qqq_1d": -8.42,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -123,8 +123,8 @@
       "symbol": "CIEN",
       "role": "holding",
       "price": 422.46,
-      "market_cap": "65.256B",
-      "market_cap_value": 65256000000,
+      "market_cap": "59.8B",
+      "market_cap_value": 59800000000,
       "return_1d": -8.65,
       "return_5d": -12.84,
       "return_20d": -31.9,
@@ -132,7 +132,7 @@
       "vs_qqq_1d": -6.92,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -141,8 +141,8 @@
       "symbol": "GFS",
       "role": "holding",
       "price": 69.84,
-      "market_cap": "38.648B",
-      "market_cap_value": 38648000000,
+      "market_cap": "38.321B",
+      "market_cap_value": 38321000000,
       "return_1d": -9.57,
       "return_5d": -18.9,
       "return_20d": -18.66,
@@ -150,7 +150,7 @@
       "vs_qqq_1d": -7.84,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -168,7 +168,7 @@
       "vs_qqq_1d": 1.37,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -186,7 +186,7 @@
       "vs_qqq_1d": 2.87,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -194,17 +194,17 @@
       "display_ticker": "IFX",
       "symbol": "IFX.DE",
       "role": "holding",
-      "price": 76.35,
+      "price": 77.38,
       "market_cap": "103.388B",
       "market_cap_value": 103388000000,
-      "return_1d": -4.62,
-      "return_5d": -2.09,
-      "return_20d": -11.48,
-      "return_ytd": 105.15,
-      "vs_qqq_1d": -2.89,
+      "return_1d": 4.38,
+      "return_5d": 1.38,
+      "return_20d": -7.19,
+      "return_ytd": 115.07,
+      "vs_qqq_1d": 6.11,
       "currency": "EUR",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -222,7 +222,7 @@
       "vs_qqq_1d": -4.19,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -240,7 +240,7 @@
       "vs_qqq_1d": -4.78,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -258,7 +258,7 @@
       "vs_qqq_1d": -1.39,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -266,17 +266,17 @@
       "display_ticker": "Samsung",
       "symbol": "005930.KS",
       "role": "holding",
-      "price": 286000,
-      "market_cap": "1721.73T KRW",
-      "market_cap_value": 1721729100000000,
-      "return_1d": -9.06,
-      "return_5d": -20.22,
-      "return_20d": -18.63,
-      "return_ytd": 107.52,
-      "vs_qqq_1d": -7.33,
+      "price": 309500,
+      "market_cap": "1809.42T KRW",
+      "market_cap_value": 1809423200000000,
+      "return_1d": 8.22,
+      "return_5d": -8.84,
+      "return_20d": -5.93,
+      "return_ytd": 124.58,
+      "vs_qqq_1d": 9.95,
       "currency": "KRW",
       "source": "yahoo_chart+yahoo_quote_page+naver_stock",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -294,7 +294,7 @@
       "vs_qqq_1d": 1.48,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -312,7 +312,7 @@
       "vs_qqq_1d": -0.54,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -330,7 +330,7 @@
       "vs_qqq_1d": 0,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -348,7 +348,7 @@
       "vs_qqq_1d": 6.57,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -366,7 +366,7 @@
       "vs_qqq_1d": 3.35,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -384,7 +384,7 @@
       "vs_qqq_1d": 0.34,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -402,7 +402,7 @@
       "vs_qqq_1d": 2.13,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -420,7 +420,7 @@
       "vs_qqq_1d": -3.17,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -438,7 +438,7 @@
       "vs_qqq_1d": 1.37,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     },
     {
@@ -456,7 +456,7 @@
       "vs_qqq_1d": -5.76,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-03T00:18:34.647Z",
+      "updated_at": "2026-07-04T01:05:16.513Z",
       "errors": []
     }
   ],
@@ -494,7 +494,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "ASML",
       "portfolioTicker": "ASML.O",
       "role": "holding"
@@ -532,7 +532,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "ASML",
       "portfolioTicker": "ASML.O",
       "role": "holding"
@@ -547,7 +547,7 @@
       "peTrailing": 65.42,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.48,
+      "beta": 1.46,
       "fiftyTwoWeekHigh": 45.12,
       "fiftyTwoWeekLow": 9.5,
       "return1d": -2.61,
@@ -570,7 +570,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "ASX",
       "portfolioTicker": "ASX",
       "role": "holding"
@@ -585,7 +585,7 @@
       "peTrailing": 59.88,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.43,
+      "beta": 1.46,
       "fiftyTwoWeekHigh": 480.81,
       "fiftyTwoWeekLow": 269.82,
       "return1d": -2.41,
@@ -608,7 +608,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "AVGO",
       "portfolioTicker": "AVGO.O",
       "role": "holding"
@@ -623,7 +623,7 @@
       "peTrailing": 59.88,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.43,
+      "beta": 1.46,
       "fiftyTwoWeekHigh": 480.81,
       "fiftyTwoWeekLow": 269.82,
       "return1d": -2.41,
@@ -646,7 +646,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "AVGO",
       "portfolioTicker": "AVGO.O",
       "role": "holding"
@@ -661,7 +661,7 @@
       "peTrailing": 14.86,
       "peForward": null,
       "psTrailing": null,
-      "beta": 0.46,
+      "beta": 0.5,
       "fiftyTwoWeekHigh": 187.62,
       "fiftyTwoWeekLow": 94.81,
       "return1d": -1.89,
@@ -684,7 +684,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "BABA",
       "portfolioTicker": "BABA.N",
       "role": "holding"
@@ -699,7 +699,7 @@
       "peTrailing": 14.86,
       "peForward": null,
       "psTrailing": null,
-      "beta": 0.46,
+      "beta": 0.5,
       "fiftyTwoWeekHigh": 187.62,
       "fiftyTwoWeekLow": 94.81,
       "return1d": -1.89,
@@ -722,7 +722,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "BABA",
       "portfolioTicker": "BABA.N",
       "role": "holding"
@@ -732,12 +732,12 @@
       "price": 11.51,
       "previousClose": 12.81,
       "currency": "USD",
-      "marketCap": 6945000000,
-      "marketCapDisplay": "6.945B",
-      "peTrailing": 118.5,
+      "marketCap": 6746000000,
+      "marketCapDisplay": "6.746B",
+      "peTrailing": 115.1,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.55,
+      "beta": 1.48,
       "fiftyTwoWeekHigh": 12.81,
       "fiftyTwoWeekLow": 3.15,
       "return1d": -10.15,
@@ -760,7 +760,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "BB",
       "portfolioTicker": "BB.N",
       "role": "holding"
@@ -770,12 +770,12 @@
       "price": 11.51,
       "previousClose": 12.81,
       "currency": "USD",
-      "marketCap": 6945000000,
-      "marketCapDisplay": "6.945B",
-      "peTrailing": 118.5,
+      "marketCap": 6746000000,
+      "marketCapDisplay": "6.746B",
+      "peTrailing": 115.1,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.55,
+      "beta": 1.48,
       "fiftyTwoWeekHigh": 12.81,
       "fiftyTwoWeekLow": 3.15,
       "return1d": -10.15,
@@ -798,7 +798,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "BB",
       "portfolioTicker": "BB.N",
       "role": "holding"
@@ -808,12 +808,12 @@
       "price": 422.46,
       "previousClose": 462.44,
       "currency": "USD",
-      "marketCap": 65256000000,
-      "marketCapDisplay": "65.256B",
-      "peTrailing": 154.18,
+      "marketCap": 59800000000,
+      "marketCapDisplay": "59.8B",
+      "peTrailing": 140.82,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.24,
+      "beta": 1.27,
       "fiftyTwoWeekHigh": 627,
       "fiftyTwoWeekLow": 77.75,
       "return1d": -8.65,
@@ -836,7 +836,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "CIEN",
       "portfolioTicker": "CIEN.N",
       "role": "holding"
@@ -846,12 +846,12 @@
       "price": 422.46,
       "previousClose": 462.44,
       "currency": "USD",
-      "marketCap": 65256000000,
-      "marketCapDisplay": "65.256B",
-      "peTrailing": 154.18,
+      "marketCap": 59800000000,
+      "marketCapDisplay": "59.8B",
+      "peTrailing": 140.82,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.24,
+      "beta": 1.27,
       "fiftyTwoWeekHigh": 627,
       "fiftyTwoWeekLow": 77.75,
       "return1d": -8.65,
@@ -874,7 +874,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "CIEN",
       "portfolioTicker": "CIEN.N",
       "role": "holding"
@@ -884,9 +884,9 @@
       "price": 69.84,
       "previousClose": 77.23,
       "currency": "USD",
-      "marketCap": 38648000000,
-      "marketCapDisplay": "38.648B",
-      "peTrailing": 46.65,
+      "marketCap": 38321000000,
+      "marketCapDisplay": "38.321B",
+      "peTrailing": 46.25,
       "peForward": null,
       "psTrailing": null,
       "beta": 1.77,
@@ -912,7 +912,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "GFS",
       "portfolioTicker": "GFS.O",
       "role": "holding"
@@ -922,9 +922,9 @@
       "price": 69.84,
       "previousClose": 77.23,
       "currency": "USD",
-      "marketCap": 38648000000,
-      "marketCapDisplay": "38.648B",
-      "peTrailing": 46.65,
+      "marketCap": 38321000000,
+      "marketCapDisplay": "38.321B",
+      "peTrailing": 46.25,
       "peForward": null,
       "psTrailing": null,
       "beta": 1.77,
@@ -950,7 +950,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "GFS",
       "portfolioTicker": "GFS.O",
       "role": "holding"
@@ -962,10 +962,10 @@
       "currency": "USD",
       "marketCap": 4392000000000,
       "marketCapDisplay": "4.392T",
-      "peTrailing": 27.45,
+      "peTrailing": 27.47,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.24,
+      "beta": 1.25,
       "fiftyTwoWeekHigh": 402.38,
       "fiftyTwoWeekLow": 173.86,
       "return1d": -0.36,
@@ -988,7 +988,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "GOOGL",
       "portfolioTicker": "GOOGL",
       "role": "mag7"
@@ -1000,10 +1000,10 @@
       "currency": "USD",
       "marketCap": 4392000000000,
       "marketCapDisplay": "4.392T",
-      "peTrailing": 27.45,
+      "peTrailing": 27.47,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.24,
+      "beta": 1.25,
       "fiftyTwoWeekHigh": 402.38,
       "fiftyTwoWeekLow": 173.86,
       "return1d": -0.36,
@@ -1026,7 +1026,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "GOOGL",
       "portfolioTicker": "GOOGL.O",
       "role": "holding"
@@ -1038,10 +1038,10 @@
       "currency": "USD",
       "marketCap": 272116000000,
       "marketCapDisplay": "272.116B",
-      "peTrailing": 25.6,
+      "peTrailing": 25.64,
       "peForward": null,
       "psTrailing": null,
-      "beta": 0.67,
+      "beta": 0.68,
       "fiftyTwoWeekHigh": 329.23,
       "fiftyTwoWeekLow": 214.64,
       "return1d": 1.14,
@@ -1064,7 +1064,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "IBM",
       "portfolioTicker": "IBM.N",
       "role": "holding"
@@ -1076,10 +1076,10 @@
       "currency": "USD",
       "marketCap": 272116000000,
       "marketCapDisplay": "272.116B",
-      "peTrailing": 25.6,
+      "peTrailing": 25.64,
       "peForward": null,
       "psTrailing": null,
-      "beta": 0.67,
+      "beta": 0.68,
       "fiftyTwoWeekHigh": 329.23,
       "fiftyTwoWeekLow": 214.64,
       "return1d": 1.14,
@@ -1102,15 +1102,15 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "IBM",
       "portfolioTicker": "IBM.N",
       "role": "holding"
     },
     "IFX.DE": {
       "symbol": "IFX.DE",
-      "price": 76.35,
-      "previousClose": 81.67,
+      "price": 77.38,
+      "previousClose": 78.24,
       "currency": "EUR",
       "marketCap": 103388000000,
       "marketCapDisplay": "103.388B",
@@ -1120,15 +1120,15 @@
       "beta": 1.98,
       "fiftyTwoWeekHigh": 88,
       "fiftyTwoWeekLow": 31.04,
-      "return1d": -4.62,
-      "return5d": -2.09,
-      "return20d": -11.48,
-      "returnYtd": 105.15,
-      "relativeToQQQ1d": -2.89,
-      "relativeToQQQ5d": -1.56,
-      "relativeToQQQ20d": -7.34,
-      "relativeToMAG71d": -3.58,
-      "relativeToMAG75d": -8.7,
+      "return1d": 4.38,
+      "return5d": 1.38,
+      "return20d": -7.19,
+      "returnYtd": 115.07,
+      "relativeToQQQ1d": 6.11,
+      "relativeToQQQ5d": 1.91,
+      "relativeToQQQ20d": -3.05,
+      "relativeToMAG71d": 5.42,
+      "relativeToMAG75d": -5.23,
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1140,15 +1140,15 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
     },
     "IFX": {
       "symbol": "IFX.DE",
-      "price": 76.35,
-      "previousClose": 81.67,
+      "price": 77.38,
+      "previousClose": 78.24,
       "currency": "EUR",
       "marketCap": 103388000000,
       "marketCapDisplay": "103.388B",
@@ -1158,15 +1158,15 @@
       "beta": 1.98,
       "fiftyTwoWeekHigh": 88,
       "fiftyTwoWeekLow": 31.04,
-      "return1d": -4.62,
-      "return5d": -2.09,
-      "return20d": -11.48,
-      "returnYtd": 105.15,
-      "relativeToQQQ1d": -2.89,
-      "relativeToQQQ5d": -1.56,
-      "relativeToQQQ20d": -7.34,
-      "relativeToMAG71d": -3.58,
-      "relativeToMAG75d": -8.7,
+      "return1d": 4.38,
+      "return5d": 1.38,
+      "return20d": -7.19,
+      "returnYtd": 115.07,
+      "relativeToQQQ1d": 6.11,
+      "relativeToQQQ5d": 1.91,
+      "relativeToQQQ20d": -3.05,
+      "relativeToMAG71d": 5.42,
+      "relativeToMAG75d": -5.23,
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1178,15 +1178,15 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
     },
     "IFX.DF": {
       "symbol": "IFX.DE",
-      "price": 76.35,
-      "previousClose": 81.67,
+      "price": 77.38,
+      "previousClose": 78.24,
       "currency": "EUR",
       "marketCap": 103388000000,
       "marketCapDisplay": "103.388B",
@@ -1196,15 +1196,15 @@
       "beta": 1.98,
       "fiftyTwoWeekHigh": 88,
       "fiftyTwoWeekLow": 31.04,
-      "return1d": -4.62,
-      "return5d": -2.09,
-      "return20d": -11.48,
-      "returnYtd": 105.15,
-      "relativeToQQQ1d": -2.89,
-      "relativeToQQQ5d": -1.56,
-      "relativeToQQQ20d": -7.34,
-      "relativeToMAG71d": -3.58,
-      "relativeToMAG75d": -8.7,
+      "return1d": 4.38,
+      "return5d": 1.38,
+      "return20d": -7.19,
+      "returnYtd": 115.07,
+      "relativeToQQQ1d": 6.11,
+      "relativeToQQQ5d": 1.91,
+      "relativeToQQQ20d": -3.05,
+      "relativeToMAG71d": 5.42,
+      "relativeToMAG75d": -5.23,
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1216,7 +1216,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
@@ -1231,7 +1231,7 @@
       "peTrailing": 83.25,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.43,
+      "beta": 1.4,
       "fiftyTwoWeekHigh": 286.69,
       "fiftyTwoWeekLow": 44.3,
       "return1d": -5.92,
@@ -1254,7 +1254,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "NBIS",
       "portfolioTicker": "NBIS.O",
       "role": "holding"
@@ -1269,7 +1269,7 @@
       "peTrailing": 83.25,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.43,
+      "beta": 1.4,
       "fiftyTwoWeekHigh": 286.69,
       "fiftyTwoWeekLow": 44.3,
       "return1d": -5.92,
@@ -1292,7 +1292,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "NBIS",
       "portfolioTicker": "NBIS.O",
       "role": "holding"
@@ -1307,7 +1307,7 @@
       "peTrailing": 75.44,
       "peForward": null,
       "psTrailing": null,
-      "beta": 0.78,
+      "beta": 0.79,
       "fiftyTwoWeekHigh": 16.85,
       "fiftyTwoWeekLow": 4.05,
       "return1d": -6.51,
@@ -1330,7 +1330,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "NOK",
       "portfolioTicker": "NOK.N",
       "role": "holding"
@@ -1345,7 +1345,7 @@
       "peTrailing": 75.44,
       "peForward": null,
       "psTrailing": null,
-      "beta": 0.78,
+      "beta": 0.79,
       "fiftyTwoWeekHigh": 16.85,
       "fiftyTwoWeekLow": 4.05,
       "return1d": -6.51,
@@ -1368,7 +1368,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "NOK",
       "portfolioTicker": "NOK.N",
       "role": "holding"
@@ -1380,10 +1380,10 @@
       "currency": "USD",
       "marketCap": 185767000000,
       "marketCapDisplay": "185.767B",
-      "peTrailing": 18.95,
+      "peTrailing": 18.93,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.6,
+      "beta": 1.64,
       "fiftyTwoWeekHigh": 250.1,
       "fiftyTwoWeekLow": 123.61,
       "return1d": -3.12,
@@ -1406,7 +1406,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "QCOM",
       "portfolioTicker": "QCOM.O",
       "role": "holding"
@@ -1418,10 +1418,10 @@
       "currency": "USD",
       "marketCap": 185767000000,
       "marketCapDisplay": "185.767B",
-      "peTrailing": 18.95,
+      "peTrailing": 18.93,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.6,
+      "beta": 1.64,
       "fiftyTwoWeekHigh": 250.1,
       "fiftyTwoWeekLow": 123.61,
       "return1d": -3.12,
@@ -1444,33 +1444,33 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "QCOM",
       "portfolioTicker": "QCOM.O",
       "role": "holding"
     },
     "005930.KS": {
       "symbol": "005930.KS",
-      "price": 286000,
-      "previousClose": 314500,
+      "price": 309500,
+      "previousClose": 286000,
       "currency": "KRW",
-      "marketCap": 1721729100000000,
-      "marketCapDisplay": "1721.73T KRW",
+      "marketCap": 1809423200000000,
+      "marketCapDisplay": "1809.42T KRW",
       "peTrailing": null,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
       "fiftyTwoWeekHigh": 362500,
       "fiftyTwoWeekLow": 59717.21,
-      "return1d": -9.06,
-      "return5d": -20.22,
-      "return20d": -18.63,
-      "returnYtd": 107.52,
-      "relativeToQQQ1d": -7.33,
-      "relativeToQQQ5d": -19.69,
-      "relativeToQQQ20d": -14.49,
-      "relativeToMAG71d": -8.02,
-      "relativeToMAG75d": -26.83,
+      "return1d": 8.22,
+      "return5d": -8.84,
+      "return20d": -5.93,
+      "returnYtd": 124.58,
+      "relativeToQQQ1d": 9.95,
+      "relativeToQQQ5d": -8.31,
+      "relativeToQQQ20d": -1.79,
+      "relativeToMAG71d": 9.26,
+      "relativeToMAG75d": -15.45,
       "source": "yahoo_chart+yahoo_quote_page+naver_stock",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1483,33 +1483,33 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "Samsung",
       "portfolioTicker": "Samsung",
       "role": "holding"
     },
     "Samsung": {
       "symbol": "005930.KS",
-      "price": 286000,
-      "previousClose": 314500,
+      "price": 309500,
+      "previousClose": 286000,
       "currency": "KRW",
-      "marketCap": 1721729100000000,
-      "marketCapDisplay": "1721.73T KRW",
+      "marketCap": 1809423200000000,
+      "marketCapDisplay": "1809.42T KRW",
       "peTrailing": null,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
       "fiftyTwoWeekHigh": 362500,
       "fiftyTwoWeekLow": 59717.21,
-      "return1d": -9.06,
-      "return5d": -20.22,
-      "return20d": -18.63,
-      "returnYtd": 107.52,
-      "relativeToQQQ1d": -7.33,
-      "relativeToQQQ5d": -19.69,
-      "relativeToQQQ20d": -14.49,
-      "relativeToMAG71d": -8.02,
-      "relativeToMAG75d": -26.83,
+      "return1d": 8.22,
+      "return5d": -8.84,
+      "return20d": -5.93,
+      "returnYtd": 124.58,
+      "relativeToQQQ1d": 9.95,
+      "relativeToQQQ5d": -8.31,
+      "relativeToQQQ20d": -1.79,
+      "relativeToMAG71d": 9.26,
+      "relativeToMAG75d": -15.45,
       "source": "yahoo_chart+yahoo_quote_page+naver_stock",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1522,7 +1522,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "Samsung",
       "portfolioTicker": "Samsung",
       "role": "holding"
@@ -1560,7 +1560,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "SKM",
       "portfolioTicker": "SKM.N",
       "role": "holding"
@@ -1598,7 +1598,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "SKM",
       "portfolioTicker": "SKM.N",
       "role": "holding"
@@ -1636,7 +1636,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "TSM",
       "portfolioTicker": "TSM.N",
       "role": "holding"
@@ -1674,7 +1674,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "TSM",
       "portfolioTicker": "TSM.N",
       "role": "holding"
@@ -1713,7 +1713,7 @@
         "marketCap missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "QQQ",
       "portfolioTicker": "QQQ",
       "role": "benchmark"
@@ -1728,7 +1728,7 @@
       "peTrailing": 37.32,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.09,
+      "beta": 1.1,
       "fiftyTwoWeekHigh": 315.2,
       "fiftyTwoWeekLow": 201.58,
       "return1d": 4.84,
@@ -1751,7 +1751,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "AAPL",
       "portfolioTicker": "AAPL",
       "role": "mag7"
@@ -1766,7 +1766,7 @@
       "peTrailing": 23.26,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.1,
+      "beta": 1.13,
       "fiftyTwoWeekHigh": 538.66,
       "fiftyTwoWeekLow": 352.83,
       "return1d": 1.62,
@@ -1789,7 +1789,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "MSFT",
       "portfolioTicker": "MSFT",
       "role": "mag7"
@@ -1801,10 +1801,10 @@
       "currency": "USD",
       "marketCap": 4719000000000,
       "marketCapDisplay": "4.719T",
-      "peTrailing": 29.88,
+      "peTrailing": 29.84,
       "peForward": null,
       "psTrailing": null,
-      "beta": 2.2,
+      "beta": 2.21,
       "fiftyTwoWeekHigh": 235.47,
       "fiftyTwoWeekLow": 158.03,
       "return1d": -1.39,
@@ -1827,7 +1827,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "NVDA",
       "portfolioTicker": "NVDA",
       "role": "mag7"
@@ -1839,10 +1839,10 @@
       "currency": "USD",
       "marketCap": 2610000000000,
       "marketCapDisplay": "2.61T",
-      "peTrailing": 31.76,
+      "peTrailing": 31.64,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.44,
+      "beta": 1.46,
       "fiftyTwoWeekHigh": 274.99,
       "fiftyTwoWeekLow": 198.79,
       "return1d": 0.4,
@@ -1865,7 +1865,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "AMZN",
       "portfolioTicker": "AMZN",
       "role": "mag7"
@@ -1877,10 +1877,10 @@
       "currency": "USD",
       "marketCap": 1480000000000,
       "marketCapDisplay": "1.48T",
-      "peTrailing": 21.18,
+      "peTrailing": 21.19,
       "peForward": null,
       "psTrailing": null,
-      "beta": 1.23,
+      "beta": 1.25,
       "fiftyTwoWeekHigh": 787.42,
       "fiftyTwoWeekLow": 525.23,
       "return1d": -4.9,
@@ -1903,7 +1903,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "META",
       "portfolioTicker": "META",
       "role": "mag7"
@@ -1915,7 +1915,7 @@
       "currency": "USD",
       "marketCap": 1478000000000,
       "marketCapDisplay": "1.478T",
-      "peTrailing": 354.46,
+      "peTrailing": 357.68,
       "peForward": null,
       "psTrailing": null,
       "beta": 1.8,
@@ -1941,7 +1941,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-03T00:18:34.647Z",
+      "updatedAt": "2026-07-04T01:05:16.513Z",
       "displayTicker": "TSLA",
       "portfolioTicker": "TSLA",
       "role": "mag7"
