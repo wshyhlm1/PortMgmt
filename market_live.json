@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-12T00:15:51.549Z",
-  "report_date": "2026-07-12",
+  "as_of": "2026-07-13T00:16:13.216Z",
+  "report_date": "2026-07-13",
   "source": "eastmoney_push2+yahoo_stooq_fallback",
   "portfolio": {
     "return_1d_avg": -0.65,
@@ -42,7 +42,7 @@
       "vs_qqq_1d": -0.69,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -60,7 +60,7 @@
       "vs_qqq_1d": -1.67,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -78,7 +78,7 @@
       "vs_qqq_1d": -0.59,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -96,7 +96,7 @@
       "vs_qqq_1d": 0.76,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -114,7 +114,7 @@
       "vs_qqq_1d": -4.33,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -132,7 +132,7 @@
       "vs_qqq_1d": -0.66,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -150,7 +150,7 @@
       "vs_qqq_1d": -1.37,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -168,7 +168,7 @@
       "vs_qqq_1d": -0.79,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -186,7 +186,7 @@
       "vs_qqq_1d": -2.93,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -204,7 +204,7 @@
       "vs_qqq_1d": -1.5,
       "currency": "EUR",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -222,7 +222,7 @@
       "vs_qqq_1d": 1.29,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -240,7 +240,7 @@
       "vs_qqq_1d": -3.88,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -258,7 +258,7 @@
       "vs_qqq_1d": -1.33,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -267,8 +267,8 @@
       "symbol": "005930.KS",
       "role": "holding",
       "price": 285000,
-      "market_cap": "1666.19T KRW",
-      "market_cap_value": 1666189400000000,
+      "market_cap": "1704.19T KRW",
+      "market_cap_value": 1704190200000000,
       "return_1d": 2.52,
       "return_5d": -7.92,
       "return_20d": -11.63,
@@ -276,7 +276,7 @@
       "vs_qqq_1d": 2.21,
       "currency": "KRW",
       "source": "yahoo_chart+yahoo_quote_page+naver_stock",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -294,7 +294,7 @@
       "vs_qqq_1d": 1.06,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -312,7 +312,7 @@
       "vs_qqq_1d": -0.96,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -330,7 +330,7 @@
       "vs_qqq_1d": 0,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -348,7 +348,7 @@
       "vs_qqq_1d": -0.59,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -366,7 +366,7 @@
       "vs_qqq_1d": -0.12,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -384,7 +384,7 @@
       "vs_qqq_1d": 3.72,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -402,7 +402,7 @@
       "vs_qqq_1d": -1,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -420,7 +420,7 @@
       "vs_qqq_1d": 5.66,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -438,7 +438,7 @@
       "vs_qqq_1d": -0.79,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     },
     {
@@ -456,7 +456,7 @@
       "vs_qqq_1d": -0.01,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-07-12T00:15:51.549Z",
+      "updated_at": "2026-07-13T00:16:13.216Z",
       "errors": []
     }
   ],
@@ -486,7 +486,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.ASML: HTTP 502",
+        "eastmoney_push2: 105.ASML: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -494,7 +494,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "ASML",
       "portfolioTicker": "ASML.O",
       "role": "holding"
@@ -524,7 +524,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.ASML: HTTP 502",
+        "eastmoney_push2: 105.ASML: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -532,7 +532,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "ASML",
       "portfolioTicker": "ASML.O",
       "role": "holding"
@@ -562,7 +562,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.ASX: HTTP 502",
+        "eastmoney_push2: 105.ASX: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -570,7 +570,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "ASX",
       "portfolioTicker": "ASX",
       "role": "holding"
@@ -600,7 +600,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.AVGO: HTTP 502",
+        "eastmoney_push2: 105.AVGO: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -608,7 +608,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "AVGO",
       "portfolioTicker": "AVGO.O",
       "role": "holding"
@@ -638,7 +638,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.AVGO: HTTP 502",
+        "eastmoney_push2: 105.AVGO: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -646,7 +646,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "AVGO",
       "portfolioTicker": "AVGO.O",
       "role": "holding"
@@ -676,7 +676,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.BABA: HTTP 502",
+        "eastmoney_push2: 105.BABA: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -684,7 +684,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "BABA",
       "portfolioTicker": "BABA.N",
       "role": "holding"
@@ -714,7 +714,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.BABA: HTTP 502",
+        "eastmoney_push2: 105.BABA: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -722,7 +722,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "BABA",
       "portfolioTicker": "BABA.N",
       "role": "holding"
@@ -752,7 +752,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.BB: HTTP 502",
+        "eastmoney_push2: 105.BB: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -760,7 +760,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "BB",
       "portfolioTicker": "BB.N",
       "role": "holding"
@@ -790,7 +790,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.BB: HTTP 502",
+        "eastmoney_push2: 105.BB: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -798,7 +798,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "BB",
       "portfolioTicker": "BB.N",
       "role": "holding"
@@ -828,7 +828,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.CIEN: HTTP 502",
+        "eastmoney_push2: 105.CIEN: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -836,7 +836,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "CIEN",
       "portfolioTicker": "CIEN.N",
       "role": "holding"
@@ -866,7 +866,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.CIEN: HTTP 502",
+        "eastmoney_push2: 105.CIEN: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -874,7 +874,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "CIEN",
       "portfolioTicker": "CIEN.N",
       "role": "holding"
@@ -904,7 +904,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.GFS: HTTP 502",
+        "eastmoney_push2: 105.GFS: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -912,7 +912,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "GFS",
       "portfolioTicker": "GFS.O",
       "role": "holding"
@@ -942,7 +942,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.GFS: HTTP 502",
+        "eastmoney_push2: 105.GFS: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -950,7 +950,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "GFS",
       "portfolioTicker": "GFS.O",
       "role": "holding"
@@ -980,7 +980,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.GOOGL: HTTP 502",
+        "eastmoney_push2: 105.GOOGL: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -988,7 +988,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "GOOGL",
       "portfolioTicker": "GOOGL",
       "role": "mag7"
@@ -1018,7 +1018,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.GOOGL: HTTP 502",
+        "eastmoney_push2: 105.GOOGL: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1026,7 +1026,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "GOOGL",
       "portfolioTicker": "GOOGL.O",
       "role": "holding"
@@ -1056,7 +1056,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.IBM: HTTP 502",
+        "eastmoney_push2: 105.IBM: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1064,7 +1064,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "IBM",
       "portfolioTicker": "IBM.N",
       "role": "holding"
@@ -1094,7 +1094,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.IBM: HTTP 502",
+        "eastmoney_push2: 105.IBM: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1102,7 +1102,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "IBM",
       "portfolioTicker": "IBM.N",
       "role": "holding"
@@ -1140,7 +1140,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
@@ -1178,7 +1178,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
@@ -1216,7 +1216,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
@@ -1246,7 +1246,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.NBIS: HTTP 502",
+        "eastmoney_push2: 105.NBIS: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1254,7 +1254,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "NBIS",
       "portfolioTicker": "NBIS.O",
       "role": "holding"
@@ -1284,7 +1284,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.NBIS: HTTP 502",
+        "eastmoney_push2: 105.NBIS: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1292,7 +1292,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "NBIS",
       "portfolioTicker": "NBIS.O",
       "role": "holding"
@@ -1322,7 +1322,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.NOK: HTTP 502",
+        "eastmoney_push2: 105.NOK: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1330,7 +1330,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "NOK",
       "portfolioTicker": "NOK.N",
       "role": "holding"
@@ -1360,7 +1360,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.NOK: HTTP 502",
+        "eastmoney_push2: 105.NOK: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1368,7 +1368,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "NOK",
       "portfolioTicker": "NOK.N",
       "role": "holding"
@@ -1398,7 +1398,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.QCOM: HTTP 502",
+        "eastmoney_push2: 105.QCOM: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1406,7 +1406,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "QCOM",
       "portfolioTicker": "QCOM.O",
       "role": "holding"
@@ -1436,7 +1436,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.QCOM: HTTP 502",
+        "eastmoney_push2: 105.QCOM: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1444,7 +1444,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "QCOM",
       "portfolioTicker": "QCOM.O",
       "role": "holding"
@@ -1454,14 +1454,14 @@
       "price": 285000,
       "previousClose": 278000,
       "currency": "KRW",
-      "marketCap": 1666189400000000,
-      "marketCapDisplay": "1666.19T KRW",
+      "marketCap": 1704190200000000,
+      "marketCapDisplay": "1704.19T KRW",
       "peTrailing": null,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
       "fiftyTwoWeekHigh": 362500,
-      "fiftyTwoWeekLow": 60310.44,
+      "fiftyTwoWeekLow": 61793.48,
       "return1d": 2.52,
       "return5d": -7.92,
       "return20d": -11.63,
@@ -1483,7 +1483,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "Samsung",
       "portfolioTicker": "Samsung",
       "role": "holding"
@@ -1493,14 +1493,14 @@
       "price": 285000,
       "previousClose": 278000,
       "currency": "KRW",
-      "marketCap": 1666189400000000,
-      "marketCapDisplay": "1666.19T KRW",
+      "marketCap": 1704190200000000,
+      "marketCapDisplay": "1704.19T KRW",
       "peTrailing": null,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
       "fiftyTwoWeekHigh": 362500,
-      "fiftyTwoWeekLow": 60310.44,
+      "fiftyTwoWeekLow": 61793.48,
       "return1d": 2.52,
       "return5d": -7.92,
       "return20d": -11.63,
@@ -1522,7 +1522,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "Samsung",
       "portfolioTicker": "Samsung",
       "role": "holding"
@@ -1552,7 +1552,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "partial",
       "source_attempts": [
-        "eastmoney_push2: 105.SKM: HTTP 502",
+        "eastmoney_push2: 105.SKM: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: HTTP 404"
       ],
@@ -1560,7 +1560,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "SKM",
       "portfolioTicker": "SKM.N",
       "role": "holding"
@@ -1590,7 +1590,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "partial",
       "source_attempts": [
-        "eastmoney_push2: 105.SKM: HTTP 502",
+        "eastmoney_push2: 105.SKM: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: HTTP 404"
       ],
@@ -1598,7 +1598,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "SKM",
       "portfolioTicker": "SKM.N",
       "role": "holding"
@@ -1628,7 +1628,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.TSM: HTTP 502",
+        "eastmoney_push2: 105.TSM: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1636,7 +1636,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "TSM",
       "portfolioTicker": "TSM.N",
       "role": "holding"
@@ -1666,7 +1666,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.TSM: HTTP 502",
+        "eastmoney_push2: 105.TSM: empty realtime data",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1674,7 +1674,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "TSM",
       "portfolioTicker": "TSM.N",
       "role": "holding"
@@ -1704,7 +1704,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "partial",
       "source_attempts": [
-        "eastmoney_push2: 105.QQQ: HTTP 502",
+        "eastmoney_push2: 105.QQQ: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1713,7 +1713,7 @@
         "marketCap missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "QQQ",
       "portfolioTicker": "QQQ",
       "role": "benchmark"
@@ -1743,7 +1743,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.AAPL: HTTP 502",
+        "eastmoney_push2: 105.AAPL: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1751,7 +1751,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "AAPL",
       "portfolioTicker": "AAPL",
       "role": "mag7"
@@ -1781,7 +1781,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.MSFT: HTTP 502",
+        "eastmoney_push2: 105.MSFT: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1789,7 +1789,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "MSFT",
       "portfolioTicker": "MSFT",
       "role": "mag7"
@@ -1819,7 +1819,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.NVDA: HTTP 502",
+        "eastmoney_push2: 105.NVDA: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1827,7 +1827,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "NVDA",
       "portfolioTicker": "NVDA",
       "role": "mag7"
@@ -1857,7 +1857,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.AMZN: HTTP 502",
+        "eastmoney_push2: 105.AMZN: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1865,7 +1865,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "AMZN",
       "portfolioTicker": "AMZN",
       "role": "mag7"
@@ -1895,7 +1895,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.META: HTTP 502",
+        "eastmoney_push2: 105.META: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1903,7 +1903,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "META",
       "portfolioTicker": "META",
       "role": "mag7"
@@ -1933,7 +1933,7 @@
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
-        "eastmoney_push2: 105.TSLA: HTTP 502",
+        "eastmoney_push2: 105.TSLA: fetch failed",
         "yahoo_chart: ok",
         "yahoo_quote_page: ok"
       ],
@@ -1941,7 +1941,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-07-12T00:15:51.549Z",
+      "updatedAt": "2026-07-13T00:16:13.216Z",
       "displayTicker": "TSLA",
       "portfolioTicker": "TSLA",
       "role": "mag7"
