@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-08-02T01:12:32.772Z",
-  "report_date": "2026-08-02",
+  "as_of": "2026-08-03T01:13:06.059Z",
+  "report_date": "2026-08-03",
   "source": "eastmoney_push2+yahoo_stooq_fallback",
   "portfolio": {
-    "return_1d_avg": 3.11,
-    "return_5d_avg": -1.28,
+    "return_1d_avg": 0.65,
+    "return_5d_avg": -1.54,
     "qqq_return_1d": 0.65,
     "qqq_return_5d": 0.55,
     "mag7_return_1d_avg": 3.53,
     "mag7_return_5d_avg": 4.7,
-    "relative_qqq_1d": 2.46,
-    "relative_qqq_5d": -1.83,
-    "relative_mag7_1d": -0.42,
-    "relative_mag7_5d": -5.98,
+    "relative_qqq_1d": 0,
+    "relative_qqq_5d": -2.09,
+    "relative_mag7_1d": -2.88,
+    "relative_mag7_5d": -6.24,
     "benchmark_tickers": [
       "QQQ"
     ],
@@ -42,7 +42,7 @@
       "vs_qqq_1d": -2.01,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -60,7 +60,7 @@
       "vs_qqq_1d": 0.5,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -78,7 +78,7 @@
       "vs_qqq_1d": -0.28,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -96,7 +96,7 @@
       "vs_qqq_1d": 4.45,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -114,7 +114,7 @@
       "vs_qqq_1d": 0.06,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -132,7 +132,7 @@
       "vs_qqq_1d": 0.69,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -150,7 +150,7 @@
       "vs_qqq_1d": -0.45,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -168,7 +168,7 @@
       "vs_qqq_1d": 6.08,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -186,7 +186,7 @@
       "vs_qqq_1d": 0.21,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -197,14 +197,14 @@
       "price": 61.67,
       "market_cap": "86.118B",
       "market_cap_value": 86118000000,
-      "return_1d": 9.16,
-      "return_5d": -9.19,
-      "return_20d": -22.11,
-      "return_ytd": 56.61,
-      "vs_qqq_1d": 8.51,
+      "return_1d": 3.7,
+      "return_5d": -4.25,
+      "return_20d": -20.3,
+      "return_ytd": 62.41,
+      "vs_qqq_1d": 3.05,
       "currency": "EUR",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -222,7 +222,7 @@
       "vs_qqq_1d": 0.4,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -240,7 +240,7 @@
       "vs_qqq_1d": -0.1,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -249,8 +249,8 @@
       "symbol": "QCOM",
       "role": "holding",
       "price": 147.61,
-      "market_cap": "159.18B",
-      "market_cap_value": 159180000000,
+      "market_cap": "154.99B",
+      "market_cap_value": 154990000000,
       "return_1d": -2.63,
       "return_5d": -11.59,
       "return_20d": -16.25,
@@ -258,7 +258,7 @@
       "vs_qqq_1d": -3.28,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -266,17 +266,17 @@
       "display_ticker": "Samsung",
       "symbol": "005930.KS",
       "role": "holding",
-      "price": 262500,
-      "market_cap": "1534.65T KRW",
-      "market_cap_value": 1534648100000000,
-      "return_1d": 26.81,
-      "return_5d": 5.21,
-      "return_20d": -8.22,
-      "return_ytd": 90.68,
-      "vs_qqq_1d": 26.16,
+      "price": 244000,
+      "market_cap": "1429.42T KRW",
+      "market_cap_value": 1429415100000000,
+      "return_1d": -7.05,
+      "return_5d": -3.94,
+      "return_20d": -21.16,
+      "return_ytd": 77.24,
+      "vs_qqq_1d": -7.7,
       "currency": "KRW",
       "source": "yahoo_chart+yahoo_quote_page+naver_stock",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -294,7 +294,7 @@
       "vs_qqq_1d": -1.15,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -312,7 +312,7 @@
       "vs_qqq_1d": -0.42,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -330,7 +330,7 @@
       "vs_qqq_1d": 0,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -348,7 +348,7 @@
       "vs_qqq_1d": -8,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -366,7 +366,7 @@
       "vs_qqq_1d": 2.37,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -384,7 +384,7 @@
       "vs_qqq_1d": 2.28,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -402,7 +402,7 @@
       "vs_qqq_1d": 14.67,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -420,7 +420,7 @@
       "vs_qqq_1d": 2.63,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -438,7 +438,7 @@
       "vs_qqq_1d": 6.08,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     },
     {
@@ -456,7 +456,7 @@
       "vs_qqq_1d": 0.11,
       "currency": "USD",
       "source": "yahoo_chart+yahoo_quote_page",
-      "updated_at": "2026-08-02T01:12:32.772Z",
+      "updated_at": "2026-08-03T01:13:06.059Z",
       "errors": []
     }
   ],
@@ -495,7 +495,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "ASML",
       "portfolioTicker": "ASML.O",
       "role": "holding"
@@ -534,7 +534,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "ASML",
       "portfolioTicker": "ASML.O",
       "role": "holding"
@@ -573,7 +573,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "ASX",
       "portfolioTicker": "ASX",
       "role": "holding"
@@ -612,7 +612,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "AVGO",
       "portfolioTicker": "AVGO.O",
       "role": "holding"
@@ -651,7 +651,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "AVGO",
       "portfolioTicker": "AVGO.O",
       "role": "holding"
@@ -690,7 +690,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "BABA",
       "portfolioTicker": "BABA.N",
       "role": "holding"
@@ -729,7 +729,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "BABA",
       "portfolioTicker": "BABA.N",
       "role": "holding"
@@ -768,7 +768,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "BB",
       "portfolioTicker": "BB.N",
       "role": "holding"
@@ -807,7 +807,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "BB",
       "portfolioTicker": "BB.N",
       "role": "holding"
@@ -846,7 +846,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "CIEN",
       "portfolioTicker": "CIEN.N",
       "role": "holding"
@@ -885,7 +885,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "CIEN",
       "portfolioTicker": "CIEN.N",
       "role": "holding"
@@ -924,7 +924,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "GFS",
       "portfolioTicker": "GFS.O",
       "role": "holding"
@@ -963,7 +963,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "GFS",
       "portfolioTicker": "GFS.O",
       "role": "holding"
@@ -1002,7 +1002,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "GOOGL",
       "portfolioTicker": "GOOGL",
       "role": "mag7"
@@ -1041,7 +1041,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "GOOGL",
       "portfolioTicker": "GOOGL.O",
       "role": "holding"
@@ -1080,7 +1080,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "IBM",
       "portfolioTicker": "IBM.N",
       "role": "holding"
@@ -1119,7 +1119,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "IBM",
       "portfolioTicker": "IBM.N",
       "role": "holding"
@@ -1127,7 +1127,7 @@
     "IFX.DE": {
       "symbol": "IFX.DE",
       "price": 61.67,
-      "previousClose": 54.48,
+      "previousClose": 59.47,
       "currency": "EUR",
       "marketCap": 86118000000,
       "marketCapDisplay": "86.118B",
@@ -1137,15 +1137,15 @@
       "beta": null,
       "fiftyTwoWeekHigh": 88,
       "fiftyTwoWeekLow": 31.04,
-      "return1d": 9.16,
-      "return5d": -9.19,
-      "return20d": -22.11,
-      "returnYtd": 56.61,
-      "relativeToQQQ1d": 8.51,
-      "relativeToQQQ5d": -9.74,
-      "relativeToQQQ20d": -18.66,
-      "relativeToMAG71d": 5.63,
-      "relativeToMAG75d": -13.89,
+      "return1d": 3.7,
+      "return5d": -4.25,
+      "return20d": -20.3,
+      "returnYtd": 62.41,
+      "relativeToQQQ1d": 3.05,
+      "relativeToQQQ5d": -4.8,
+      "relativeToQQQ20d": -16.85,
+      "relativeToMAG71d": 0.17,
+      "relativeToMAG75d": -8.95,
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1158,7 +1158,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
@@ -1166,7 +1166,7 @@
     "IFX": {
       "symbol": "IFX.DE",
       "price": 61.67,
-      "previousClose": 54.48,
+      "previousClose": 59.47,
       "currency": "EUR",
       "marketCap": 86118000000,
       "marketCapDisplay": "86.118B",
@@ -1176,15 +1176,15 @@
       "beta": null,
       "fiftyTwoWeekHigh": 88,
       "fiftyTwoWeekLow": 31.04,
-      "return1d": 9.16,
-      "return5d": -9.19,
-      "return20d": -22.11,
-      "returnYtd": 56.61,
-      "relativeToQQQ1d": 8.51,
-      "relativeToQQQ5d": -9.74,
-      "relativeToQQQ20d": -18.66,
-      "relativeToMAG71d": 5.63,
-      "relativeToMAG75d": -13.89,
+      "return1d": 3.7,
+      "return5d": -4.25,
+      "return20d": -20.3,
+      "returnYtd": 62.41,
+      "relativeToQQQ1d": 3.05,
+      "relativeToQQQ5d": -4.8,
+      "relativeToQQQ20d": -16.85,
+      "relativeToMAG71d": 0.17,
+      "relativeToMAG75d": -8.95,
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1197,7 +1197,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
@@ -1205,7 +1205,7 @@
     "IFX.DF": {
       "symbol": "IFX.DE",
       "price": 61.67,
-      "previousClose": 54.48,
+      "previousClose": 59.47,
       "currency": "EUR",
       "marketCap": 86118000000,
       "marketCapDisplay": "86.118B",
@@ -1215,15 +1215,15 @@
       "beta": null,
       "fiftyTwoWeekHigh": 88,
       "fiftyTwoWeekLow": 31.04,
-      "return1d": 9.16,
-      "return5d": -9.19,
-      "return20d": -22.11,
-      "returnYtd": 56.61,
-      "relativeToQQQ1d": 8.51,
-      "relativeToQQQ5d": -9.74,
-      "relativeToQQQ20d": -18.66,
-      "relativeToMAG71d": 5.63,
-      "relativeToMAG75d": -13.89,
+      "return1d": 3.7,
+      "return5d": -4.25,
+      "return20d": -20.3,
+      "returnYtd": 62.41,
+      "relativeToQQQ1d": 3.05,
+      "relativeToQQQ5d": -4.8,
+      "relativeToQQQ20d": -16.85,
+      "relativeToMAG71d": 0.17,
+      "relativeToMAG75d": -8.95,
       "source": "yahoo_chart+yahoo_quote_page",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1236,7 +1236,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "IFX",
       "portfolioTicker": "IFX.DF",
       "role": "holding"
@@ -1275,7 +1275,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "NBIS",
       "portfolioTicker": "NBIS.O",
       "role": "holding"
@@ -1314,7 +1314,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "NBIS",
       "portfolioTicker": "NBIS.O",
       "role": "holding"
@@ -1353,7 +1353,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "NOK",
       "portfolioTicker": "NOK.N",
       "role": "holding"
@@ -1392,7 +1392,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "NOK",
       "portfolioTicker": "NOK.N",
       "role": "holding"
@@ -1402,9 +1402,9 @@
       "price": 147.61,
       "previousClose": 151.6,
       "currency": "USD",
-      "marketCap": 159180000000,
-      "marketCapDisplay": "159.18B",
-      "peTrailing": 17.79,
+      "marketCap": 154990000000,
+      "marketCapDisplay": "154.99B",
+      "peTrailing": 16.87,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
@@ -1431,7 +1431,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "QCOM",
       "portfolioTicker": "QCOM.O",
       "role": "holding"
@@ -1441,9 +1441,9 @@
       "price": 147.61,
       "previousClose": 151.6,
       "currency": "USD",
-      "marketCap": 159180000000,
-      "marketCapDisplay": "159.18B",
-      "peTrailing": 17.79,
+      "marketCap": 154990000000,
+      "marketCapDisplay": "154.99B",
+      "peTrailing": 16.87,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
@@ -1470,33 +1470,33 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "QCOM",
       "portfolioTicker": "QCOM.O",
       "role": "holding"
     },
     "005930.KS": {
       "symbol": "005930.KS",
-      "price": 262500,
-      "previousClose": 207000,
+      "price": 244000,
+      "previousClose": 262500,
       "currency": "KRW",
-      "marketCap": 1534648100000000,
-      "marketCapDisplay": "1534.65T KRW",
+      "marketCap": 1429415100000000,
+      "marketCapDisplay": "1429.42T KRW",
       "peTrailing": null,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
       "fiftyTwoWeekHigh": 362100.66,
       "fiftyTwoWeekLow": 66762.2,
-      "return1d": 26.81,
-      "return5d": 5.21,
-      "return20d": -8.22,
-      "returnYtd": 90.68,
-      "relativeToQQQ1d": 26.16,
-      "relativeToQQQ5d": 4.66,
-      "relativeToQQQ20d": -4.77,
-      "relativeToMAG71d": 23.28,
-      "relativeToMAG75d": 0.51,
+      "return1d": -7.05,
+      "return5d": -3.94,
+      "return20d": -21.16,
+      "returnYtd": 77.24,
+      "relativeToQQQ1d": -7.7,
+      "relativeToQQQ5d": -4.49,
+      "relativeToQQQ20d": -17.71,
+      "relativeToMAG71d": -10.58,
+      "relativeToMAG75d": -8.64,
       "source": "yahoo_chart+yahoo_quote_page+naver_stock",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1509,33 +1509,33 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "Samsung",
       "portfolioTicker": "Samsung",
       "role": "holding"
     },
     "Samsung": {
       "symbol": "005930.KS",
-      "price": 262500,
-      "previousClose": 207000,
+      "price": 244000,
+      "previousClose": 262500,
       "currency": "KRW",
-      "marketCap": 1534648100000000,
-      "marketCapDisplay": "1534.65T KRW",
+      "marketCap": 1429415100000000,
+      "marketCapDisplay": "1429.42T KRW",
       "peTrailing": null,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
       "fiftyTwoWeekHigh": 362100.66,
       "fiftyTwoWeekLow": 66762.2,
-      "return1d": 26.81,
-      "return5d": 5.21,
-      "return20d": -8.22,
-      "returnYtd": 90.68,
-      "relativeToQQQ1d": 26.16,
-      "relativeToQQQ5d": 4.66,
-      "relativeToQQQ20d": -4.77,
-      "relativeToMAG71d": 23.28,
-      "relativeToMAG75d": 0.51,
+      "return1d": -7.05,
+      "return5d": -3.94,
+      "return20d": -21.16,
+      "returnYtd": 77.24,
+      "relativeToQQQ1d": -7.7,
+      "relativeToQQQ5d": -4.49,
+      "relativeToQQQ20d": -17.71,
+      "relativeToMAG71d": -10.58,
+      "relativeToMAG75d": -8.64,
       "source": "yahoo_chart+yahoo_quote_page+naver_stock",
       "dataQuality": "ok",
       "source_attempts": [
@@ -1548,7 +1548,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "Samsung",
       "portfolioTicker": "Samsung",
       "role": "holding"
@@ -1586,7 +1586,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "SKM",
       "portfolioTicker": "SKM.N",
       "role": "holding"
@@ -1624,7 +1624,7 @@
         "marketCap/PE/PS/beta unavailable from chart endpoint; quote page attempted separately",
         "Yahoo quote page HTTP 404"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "SKM",
       "portfolioTicker": "SKM.N",
       "role": "holding"
@@ -1663,7 +1663,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "TSM",
       "portfolioTicker": "TSM.N",
       "role": "holding"
@@ -1702,7 +1702,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "TSM",
       "portfolioTicker": "TSM.N",
       "role": "holding"
@@ -1743,7 +1743,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "QQQ",
       "portfolioTicker": "QQQ",
       "role": "benchmark"
@@ -1782,7 +1782,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "AAPL",
       "portfolioTicker": "AAPL",
       "role": "mag7"
@@ -1821,7 +1821,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "MSFT",
       "portfolioTicker": "MSFT",
       "role": "mag7"
@@ -1833,7 +1833,7 @@
       "currency": "USD",
       "marketCap": 4862000000000,
       "marketCapDisplay": "4.862T",
-      "peTrailing": 29.83,
+      "peTrailing": 30.79,
       "peForward": null,
       "psTrailing": null,
       "beta": null,
@@ -1860,7 +1860,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "NVDA",
       "portfolioTicker": "NVDA",
       "role": "mag7"
@@ -1899,7 +1899,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "AMZN",
       "portfolioTicker": "AMZN",
       "role": "mag7"
@@ -1938,7 +1938,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "META",
       "portfolioTicker": "META",
       "role": "mag7"
@@ -1977,7 +1977,7 @@
         "beta missing from Yahoo quote page",
         "forward PE and PS unavailable from public quote page"
       ],
-      "updatedAt": "2026-08-02T01:12:32.772Z",
+      "updatedAt": "2026-08-03T01:13:06.059Z",
       "displayTicker": "TSLA",
       "portfolioTicker": "TSLA",
       "role": "mag7"
